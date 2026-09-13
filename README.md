@@ -1,4 +1,4 @@
-# ATDF: active RF source localization
+# Robust Active RF Source Localization in Multipath Environments using Neural Ray Predictor
 
 ROS Noetic source localization with a Neural Ray Predictor, Isaac Sim robot
 navigation, and a Sionna RT worker in a separate Python environment.
