@@ -1,0 +1,11 @@
+base_global_planner: "global_planner/GlobalPlanner"
+
+GlobalPlanner:
+  use_dijkstra: true
+  allow_unknown: false
+  planner_window_x: 10.0
+  planner_window_y: 10.0
+  default_tolerance: 0.1
+  lethal_cost: 253               # Cost threshold for lethal obstacles
+  neutral_cost: 66               # Neutral cost to traverse cells
+  cost_factor: .1 #3.0              # Factor to scale the costmap values

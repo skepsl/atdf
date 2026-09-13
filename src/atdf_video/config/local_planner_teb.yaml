@@ -1,0 +1,53 @@
+TebLocalPlannerROS:
+  # navigator.launch runs the EKF with its default filtered odometry output.
+  # TEB needs measured velocity to plan acceleration and braking correctly.
+  odom_topic: /odometry/filtered
+
+  # Finer trajectory sampling for the higher cruise speed.
+  teb_autosize: True
+  dt_ref: 0.2
+  dt_hysteresis: 0.02
+
+  max_global_plan_lookahead_dist: 3.0
+  global_plan_prune_distance: 0.5
+
+  # Simulation cruise limits (m/s, rad/s), with slower reverse and turns.
+  # TEB has no min_vel_x/min_vel_theta; it can slow down to zero as needed.
+  max_vel_x: 1.0
+  max_vel_y: 0.0
+  max_vel_x_backwards: 0.2
+  max_vel_theta: 0.85
+
+  # Moderate acceleration increase for repeated stop-and-measure moves.
+  acc_lim_x: 0.75
+  acc_lim_theta: 0.75
+
+  # Keep arrival accuracy and plan a stop at each measurement goal.
+  xy_goal_tolerance: 0.1
+  yaw_goal_tolerance: 0.05
+  free_goal_vel: False
+
+  # Preserve existing clearance. With TEB's default point footprint these
+  # distances are measured from the robot center; costmaps check the body.
+  min_obstacle_dist: 0.40
+  inflation_dist: 0.6
+
+  include_costmap_obstacles: True
+  costmap_obstacles_behind_robot_dist: 1.0
+
+  # Optimization Weights
+  weight_max_vel_x: 2.0
+  weight_max_vel_theta: 1.0
+  weight_acc_lim_x: 1.0
+  weight_acc_lim_theta: 1.0
+  weight_kinematics_nh: 1000
+
+  # Preserve the global path adherence and obstacle penalties.
+  global_plan_viapoint_sep: 0.5
+  weight_viapoint: 20.0
+  weight_obstacle: 50.0
+
+  # Homotopy Class Planning
+  enable_homotopy_class_planning: False
+
+  # The command loop rate belongs to move_base; see move_base_params.yaml.

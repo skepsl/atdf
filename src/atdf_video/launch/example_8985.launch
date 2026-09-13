@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<launch>
+  <!-- Recorded run 8985 settings; physical motion and new PF samples may differ. -->
+  <arg name="map_file" default="21202.yaml"/>
+  <arg name="tx_true_x" default="4.0"/>
+  <arg name="tx_true_y" default="3.5"/>
+  <arg name="rx_init_x" default="-3.0"/>
+  <arg name="rx_init_y" default="3.0"/>
+  <arg name="rx_init_yaw_deg" default="90.0"/>
+  <arg name="rx_init_reference" default="base"/>
+  <arg name="gt_pose_topic" default="/robot_pose_gt"/>
+  <arg name="gt_pose_frame" default="map"/>
+  <arg name="sionna_database_dir" default="$(env HOME)/atdf_database"/>
+  <arg name="plot_every" default="1"/>
+  <arg name="plot_dir" default="$(env HOME)/atdf_results"/>
+  <arg name="show_rf_particles" default="true"/>
+  <arg name="show_measurement_headings" default="true"/>
+  <arg name="heading_length_m" default="0.35"/>
+  <arg name="goal_timeout" default="300.0"/>
+  <arg name="goal_timeout_clock" default="ros"/>
+  <arg name="clock_stall_timeout_s" default="120.0"/>
+  <arg name="measurement_settle_timeout_s" default="15.0"/>
+  <arg name="use_pf_bounds" default="true"/>
+  <arg name="x_min" default="-4.0"/>
+  <arg name="x_max" default="5.0"/>
+  <arg name="y_min" default="-1.5"/>
+  <arg name="y_max" default="8.0"/>
+  <include file="$(find atdf_video)/launch/atdf.launch">
+    <arg name="map_file" value="$(arg map_file)"/>
+    <arg name="tx_true_x" value="$(arg tx_true_x)"/>
+    <arg name="tx_true_y" value="$(arg tx_true_y)"/>
+    <arg name="rx_init_x" value="$(arg rx_init_x)"/>
+    <arg name="rx_init_y" value="$(arg rx_init_y)"/>
+    <arg name="rx_init_yaw_deg" value="$(arg rx_init_yaw_deg)"/>
+    <arg name="rx_init_reference" value="$(arg rx_init_reference)"/>
+    <arg name="gt_pose_topic" value="$(arg gt_pose_topic)"/>
+    <arg name="gt_pose_frame" value="$(arg gt_pose_frame)"/>
+    <arg name="sionna_database_dir" value="$(arg sionna_database_dir)"/>
+    <arg name="plot_every" value="$(arg plot_every)"/>
+    <arg name="plot_dir" value="$(arg plot_dir)"/>
+    <arg name="show_rf_particles" value="$(arg show_rf_particles)"/>
+    <arg name="show_measurement_headings" value="$(arg show_measurement_headings)"/>
+    <arg name="heading_length_m" value="$(arg heading_length_m)"/>
+    <arg name="goal_timeout" value="$(arg goal_timeout)"/>
+    <arg name="goal_timeout_clock" value="$(arg goal_timeout_clock)"/>
+    <arg name="clock_stall_timeout_s" value="$(arg clock_stall_timeout_s)"/>
+    <arg name="measurement_settle_timeout_s" value="$(arg measurement_settle_timeout_s)"/>
+    <arg name="use_pf_bounds" value="$(arg use_pf_bounds)"/>
+    <arg name="x_min" value="$(arg x_min)"/>
+    <arg name="x_max" value="$(arg x_max)"/>
+    <arg name="y_min" value="$(arg y_min)"/>
+    <arg name="y_max" value="$(arg y_max)"/>
+  </include>
+</launch>

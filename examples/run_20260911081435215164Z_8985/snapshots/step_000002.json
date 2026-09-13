@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-09-11T08:22:00.105385+00:00",
+  "metadata": {
+    "antenna_to_estimate_m": 4.194379806518555,
+    "kind": "measurement_posterior",
+    "move_stats": [
+      {
+        "blocked_len": 0.0,
+        "collision_free": true,
+        "dist": 1.725000023841858,
+        "end_clearance": 0.9986490607261658,
+        "end_free": 1.0,
+        "endpoint_clearance_shortfall": 0.0,
+        "free_len": 1.725000023841858,
+        "max_contig_occupied_len": 0.0,
+        "min_free_clearance": 0.8999999761581421,
+        "num_occupied_segments": 0.0,
+        "occupied_len": 0.0,
+        "start_free": 1.0,
+        "unknown_len": 0.0,
+        "wall_cost": 0.0
+      }
+    ],
+    "pf_stats": {
+      "ess": 851.5835571289062,
+      "ess_before_resample": 850.8282470703125,
+      "ll_max": 51.25804138183594,
+      "ll_min": 46.35804748535156,
+      "ll_std": 1.0643210411071777,
+      "resampled": 0.0,
+      "used_real_iq_cov": 0.0
+    }
+  },
+  "run_id": "8985",
+  "schema_version": 1,
+  "step": 2
+}

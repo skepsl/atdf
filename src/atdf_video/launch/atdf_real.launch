@@ -1,0 +1,86 @@
+<launch>
+  <param name="/use_sim_time" value="false"/>
+
+  <node pkg="atdf_video" type="atdf_video.py" name="atdf_video" output="screen" required="true">
+    <env name="MPLBACKEND" value="Agg"/>
+
+    <param name="config_path" value="$(find atdf_video)/config/config.yaml"/>
+    <param name="map_yaml_path" value="$(find atdf_video)/maps/21202.yaml"/>
+    <param name="checkpoint_path" value="$(find atdf_video)/checkpoints/epoch_0771.pth"/>
+
+    <!-- Real robot: NRP forward model, real BLE IQ measurement. -->
+    <param name="forward_model" value="nrp"/>
+    <param name="measurement_source" value="real_iq"/>
+    <param name="likelihood_mode" value="cov"/>
+    <param name="planning_mode" value="hybrid"/>
+
+    <!-- Save every step as PDF only; never show GUI windows. -->
+    <param name="plot_every" value="1"/>
+    <param name="plot_format" value="pdf"/>
+    <param name="show_plots" value="false"/>
+    <param name="plot_dir" value="$(find atdf_video)/plots"/>
+
+    <!-- Optional: plotted marker only. It is not used for measurement, planning, likelihood diagnostics, or stopping. -->
+    <param name="truth_indicator_only" value="true"/>
+    <param name="tx_true_x" value="4.0"/>
+    <param name="tx_true_y" value="6.0"/>
+    <param name="debug_truth_diagnostics" value="false"/>
+    <param name="use_truth_success_stop" value="false"/>
+
+    <!-- Navigation / localization. Do not use Isaac ground truth on the real robot. -->
+    <param name="robot_pose_source" value="auto"/>
+    <param name="robot_pose_parent_frame" value="map"/>
+    <param name="robot_pose_child_frame" value="base_link"/>
+    <param name="robot_pose_topic" value="/amcl_pose"/>
+    <param name="robot_pose_max_age_s" value="2.0"/>
+    <param name="gt_pose_topic" value=""/>
+    <param name="allow_goal_pose_fallback" value="false"/>
+
+    <param name="goal_topic" value="/move_base_simple/goal"/>
+    <param name="move_base_action" value="/move_base"/>
+    <param name="use_move_base_action" value="true"/>
+    <param name="goal_frame" value="map"/>
+    <param name="goal_timeout" value="5000.0"/>
+    <param name="goal_xy_tolerance" value="0.25"/>
+    <param name="goal_yaw_tolerance" value="0.30"/>
+
+    <rosparam param="rx_init">
+      x: -3.0
+      y: 2.0
+      yaw: 0.0
+    </rosparam>
+    <param name="rx_init_reference" value="base"/>
+
+    <!-- Side-mounted antenna on robot right side. -->
+    <param name="antenna_offset_x_m" value="0.0"/>
+    <param name="antenna_offset_y_m" value="-0.30"/>
+    <param name="antenna_yaw_offset_rad" value="-1.57079632679"/>
+
+    <!-- Real BLE ISP1907 IQ. sample_covariance is usually safer than mean_vector if packet-to-packet common phase drifts. -->
+    <param name="real_iq_topic" value="isp_ble/data"/>
+    <param name="real_iq_num_measurements" value="20"/>
+    <rosparam param="real_iq_selected_indices">[7, 8, 9, 10]</rosparam>
+    <param name="real_iq_negative_frequency" value="true"/>
+    <param name="real_iq_reverse_array" value="false"/>
+    <param name="real_iq_average_mode" value="sample_covariance"/>
+    <param name="real_iq_normalize_snapshots" value="true"/>
+    <param name="real_iq_covariance_comparison" value="correlation"/>
+    <param name="real_iq_cov_sigma" value="0.85"/>
+    <rosparam param="real_iq_phase_offsets_rad">[0.0, 0.0, 0.0, 0.0]</rosparam>
+
+    <!-- Particle filter / planner. -->
+    <param name="N_p" value="1000"/>
+    <param name="T_max" value="100"/>
+    <param name="sigma_init" value="2.5"/>
+    <param name="cand_num_pos" value="16"/>
+    <param name="cand_step" value="0.75"/>
+    <param name="cand_num_headings" value="5"/>
+    <param name="mi_particle_limit" value="96"/>
+    <param name="resample_threshold" value="0.50"/>
+    <param name="roughening_scale" value="0.10"/>
+    <param name="global_rejuvenation_frac" value="0.02"/>
+    <param name="stop_uncertainty" value="0.45"/>
+    <param name="stop_rx_to_est" value="0.60"/>
+    <param name="verbose" value="true"/>
+  </node>
+</launch>

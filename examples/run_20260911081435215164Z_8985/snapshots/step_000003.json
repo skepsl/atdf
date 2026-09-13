@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-09-11T08:26:45.495662+00:00",
+  "metadata": {
+    "antenna_to_estimate_m": 4.189828872680664,
+    "kind": "measurement_posterior",
+    "move_stats": [
+      {
+        "blocked_len": 0.0,
+        "collision_free": true,
+        "dist": 1.725000023841858,
+        "end_clearance": 0.9986490607261658,
+        "end_free": 1.0,
+        "endpoint_clearance_shortfall": 0.0,
+        "free_len": 1.725000023841858,
+        "max_contig_occupied_len": 0.0,
+        "min_free_clearance": 0.8999999761581421,
+        "num_occupied_segments": 0.0,
+        "occupied_len": 0.0,
+        "start_free": 1.0,
+        "unknown_len": 0.0,
+        "wall_cost": 0.0
+      },
+      {
+        "blocked_len": 0.05954827581133162,
+        "collision_free": false,
+        "dist": 2.5010275840759277,
+        "end_clearance": 0.47999998927116394,
+        "end_free": 1.0,
+        "endpoint_clearance_shortfall": 1.0728836041806744e-08,
+        "free_len": 2.4414793082645962,
+        "max_contig_occupied_len": 0.039698850540887745,
+        "min_free_clearance": 0.009999999776482582,
+        "num_occupied_segments": 1.0,
+        "occupied_len": 0.039698850540887745,
+        "start_free": 1.0,
+        "unknown_len": 0.039698850540887745,
+        "wall_cost": 0.20954827581133162
+      }
+    ],
+    "pf_stats": {
+      "ess": 721.6630249023438,
+      "ess_before_resample": 720.2206420898438,
+      "ll_max": 51.2580451965332,
+      "ll_min": 46.40831756591797,
+      "ll_std": 1.160631537437439,
+      "resampled": 0.0,
+      "used_real_iq_cov": 0.0
+    }
+  },
+  "run_id": "8985",
+  "schema_version": 1,
+  "step": 3
+}

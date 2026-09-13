@@ -1,0 +1,4209 @@
+{
+  "created_utc": "2026-09-13T08:19:42.498994+00:00",
+  "external_material_urls": [
+    "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Anodized.mdl",
+    "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Cast.mdl",
+    "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Plastic_ABS.mdl"
+  ],
+  "file_count": 418,
+  "files": [
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 64290,
+      "published_path": "assets/sionna/21202_building_full_room_shifted.xml",
+      "published_sha256": "a102014f1db61b27389717aad2ddfd00202675d14e9a3ae3f0709e53bbaeff5c",
+      "source_bytes": 64290,
+      "source_relative_path": "21202_building_full_room_shifted.xml",
+      "source_sha256": "a102014f1db61b27389717aad2ddfd00202675d14e9a3ae3f0709e53bbaeff5c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig.ply",
+      "published_sha256": "779eb48227401dffc4bd5713b03c11c777acb0585c15fe6c16e82adb44cd93ca",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig.ply",
+      "source_sha256": "779eb48227401dffc4bd5713b03c11c777acb0585c15fe6c16e82adb44cd93ca"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_001.ply",
+      "published_sha256": "8336f0c5d950acc8faaf210df0959ed8c29943f88032fab9b92ec7564410c98f",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_001.ply",
+      "source_sha256": "8336f0c5d950acc8faaf210df0959ed8c29943f88032fab9b92ec7564410c98f"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_002.ply",
+      "published_sha256": "51e5ce5b4f3f9e0ba4900eb92887f9d76069d3f8dd3e262e486780ec843d9dbc",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_002.ply",
+      "source_sha256": "51e5ce5b4f3f9e0ba4900eb92887f9d76069d3f8dd3e262e486780ec843d9dbc"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_003.ply",
+      "published_sha256": "45522d8ea8e3194f4ca854f36ceadcda3179d0d61f0472ead2cf70deec8a889a",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_003.ply",
+      "source_sha256": "45522d8ea8e3194f4ca854f36ceadcda3179d0d61f0472ead2cf70deec8a889a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_004.ply",
+      "published_sha256": "a2c3866a6636b0642ae4558ded0e6bc4b703766fdabd738ac96318edc1a06f52",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_004.ply",
+      "source_sha256": "a2c3866a6636b0642ae4558ded0e6bc4b703766fdabd738ac96318edc1a06f52"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_005.ply",
+      "published_sha256": "0c8e80b6e64e3950a9189257387efecb3e6dce73d5c61f78629d5faf1352301f",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_005.ply",
+      "source_sha256": "0c8e80b6e64e3950a9189257387efecb3e6dce73d5c61f78629d5faf1352301f"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_006.ply",
+      "published_sha256": "8f68a8a91b81b58868a966ef948b127cec189651e319e625f6d1edce1b2f3bd0",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_006.ply",
+      "source_sha256": "8f68a8a91b81b58868a966ef948b127cec189651e319e625f6d1edce1b2f3bd0"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_007.ply",
+      "published_sha256": "339182a9dc484d1435d801313e03de03d0888c922f7c8bac62f914c28bc2bfdf",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_007.ply",
+      "source_sha256": "339182a9dc484d1435d801313e03de03d0888c922f7c8bac62f914c28bc2bfdf"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_009.ply",
+      "published_sha256": "f54e718f9d561ccbc7fe1c33ef4fb899d2d158a7cc27853a194dd0aeb8cc4f42",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_009.ply",
+      "source_sha256": "f54e718f9d561ccbc7fe1c33ef4fb899d2d158a7cc27853a194dd0aeb8cc4f42"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_010.ply",
+      "published_sha256": "7e083f7121adfd3ea38b883ae25cd99f646465e21d68f37cd89c6eb545259cf8",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_010.ply",
+      "source_sha256": "7e083f7121adfd3ea38b883ae25cd99f646465e21d68f37cd89c6eb545259cf8"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_011.ply",
+      "published_sha256": "7a62a30f56152f21dbac38f1fa08195fcfc5ab3b5931d2d9ef6638b724588e15",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_011.ply",
+      "source_sha256": "7a62a30f56152f21dbac38f1fa08195fcfc5ab3b5931d2d9ef6638b724588e15"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_012.ply",
+      "published_sha256": "471f5f00a4c0aa6e34177e2d8ad9b03cb9fac3a4e3264bfe124b53dcddcf3c9e",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_012.ply",
+      "source_sha256": "471f5f00a4c0aa6e34177e2d8ad9b03cb9fac3a4e3264bfe124b53dcddcf3c9e"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_013.ply",
+      "published_sha256": "b9f53e074058a802fba792ef1418677d29c3f70d45f122c811507f3b15499142",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_013.ply",
+      "source_sha256": "b9f53e074058a802fba792ef1418677d29c3f70d45f122c811507f3b15499142"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_014.ply",
+      "published_sha256": "c53562cbcb2b01dac270c516d455c7b2539ecacdb5a2dd797b570f62b804bb2c",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_014.ply",
+      "source_sha256": "c53562cbcb2b01dac270c516d455c7b2539ecacdb5a2dd797b570f62b804bb2c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_015.ply",
+      "published_sha256": "bf7f15efb441723b0abd931536d3bc3bdf74b09692b6b82edd3d0b842c6e516c",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_015.ply",
+      "source_sha256": "bf7f15efb441723b0abd931536d3bc3bdf74b09692b6b82edd3d0b842c6e516c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_016.ply",
+      "published_sha256": "8259a093973589dc5c4996f2ebe618113d02a32d2c8530a40b0f598702a1ace8",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_016.ply",
+      "source_sha256": "8259a093973589dc5c4996f2ebe618113d02a32d2c8530a40b0f598702a1ace8"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_017.ply",
+      "published_sha256": "89d2320a8f6d1353373794dd18f948a5fd1e191211f6683879a3c400ddd7a644",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_017.ply",
+      "source_sha256": "89d2320a8f6d1353373794dd18f948a5fd1e191211f6683879a3c400ddd7a644"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_018.ply",
+      "published_sha256": "9f9cc84a400f56599d0e7c7de904b1db2545eb860992e9a70847af9ea0221920",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_018.ply",
+      "source_sha256": "9f9cc84a400f56599d0e7c7de904b1db2545eb860992e9a70847af9ea0221920"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_019.ply",
+      "published_sha256": "e8e0101752dcb6ba7e11779219760a80f9bd2f2c4a44b97bfefec08954ef07a8",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_019.ply",
+      "source_sha256": "e8e0101752dcb6ba7e11779219760a80f9bd2f2c4a44b97bfefec08954ef07a8"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/SM_BoxBig_020.ply",
+      "published_sha256": "8a2e73393d4ec4196c1de56307c61cc41ca52b21424b94bbe6768fcc2ef1596b",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/SM_BoxBig_020.ply",
+      "source_sha256": "8a2e73393d4ec4196c1de56307c61cc41ca52b21424b94bbe6768fcc2ef1596b"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m.ply",
+      "published_sha256": "78bdcc6dc448077cc37c59d3f18355cdcad8836607e7a794b6b51d01e1528c23",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m.ply",
+      "source_sha256": "78bdcc6dc448077cc37c59d3f18355cdcad8836607e7a794b6b51d01e1528c23"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_001.ply",
+      "published_sha256": "bf58045232ab2dc056156bb82775b1e929e5241449015f322a98a7c61fcde815",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_001.ply",
+      "source_sha256": "bf58045232ab2dc056156bb82775b1e929e5241449015f322a98a7c61fcde815"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_002.ply",
+      "published_sha256": "4e37f977fd3e8fa9b6815289fc6cb5722b881ff63861860efe2a391906769512",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_002.ply",
+      "source_sha256": "4e37f977fd3e8fa9b6815289fc6cb5722b881ff63861860efe2a391906769512"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_003.ply",
+      "published_sha256": "a00807f7870419f919f9dd681437790a604fe8b6e6d09c8bf04e1b3734302150",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_003.ply",
+      "source_sha256": "a00807f7870419f919f9dd681437790a604fe8b6e6d09c8bf04e1b3734302150"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_004.ply",
+      "published_sha256": "fb209bbf692db538e7269ec23fa89d2bb80ff122baf882912a21d00fc331b005",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_004.ply",
+      "source_sha256": "fb209bbf692db538e7269ec23fa89d2bb80ff122baf882912a21d00fc331b005"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_005.ply",
+      "published_sha256": "6d57d2f8ef93004bd45d0e0a8cf9108a336dd4aba8c46e164c401ebfbc4dc9d0",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_005.ply",
+      "source_sha256": "6d57d2f8ef93004bd45d0e0a8cf9108a336dd4aba8c46e164c401ebfbc4dc9d0"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_006.ply",
+      "published_sha256": "d956e378cb9ab8f91cac37b2e6fbfc925d579f398c8c2e9b529f3c0af5cf9f91",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_006.ply",
+      "source_sha256": "d956e378cb9ab8f91cac37b2e6fbfc925d579f398c8c2e9b529f3c0af5cf9f91"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_007.ply",
+      "published_sha256": "7000dc507d5a6cea3aaaea382b40e3d0276f99279340e2a7db85c5a38bc8fb12",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_007.ply",
+      "source_sha256": "7000dc507d5a6cea3aaaea382b40e3d0276f99279340e2a7db85c5a38bc8fb12"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_008.ply",
+      "published_sha256": "2e7f3fefca84f92c07bf082fb5982f9888204cff6e22c800f8f95b20abd1836a",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_008.ply",
+      "source_sha256": "2e7f3fefca84f92c07bf082fb5982f9888204cff6e22c800f8f95b20abd1836a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_009.ply",
+      "published_sha256": "b82a9deadbe6f927183d33ae138ac2357b5b5e66e8670561d3096c049401e4ec",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_009.ply",
+      "source_sha256": "b82a9deadbe6f927183d33ae138ac2357b5b5e66e8670561d3096c049401e4ec"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_010.ply",
+      "published_sha256": "1075e0cc3fa397c28c34c536a331528db9e0107f420705c41b1bef74929a9cf9",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_010.ply",
+      "source_sha256": "1075e0cc3fa397c28c34c536a331528db9e0107f420705c41b1bef74929a9cf9"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_011.ply",
+      "published_sha256": "e7b66d95250eabd0e541d5dc2909e7ffb7d56a50aca3064fcc18980c27d84484",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_011.ply",
+      "source_sha256": "e7b66d95250eabd0e541d5dc2909e7ffb7d56a50aca3064fcc18980c27d84484"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_012.ply",
+      "published_sha256": "99434f88d7a8cc0dc0a89f6972c8c2e90700601ab9b6eef9c1fcd4d9a6fb97a3",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_012.ply",
+      "source_sha256": "99434f88d7a8cc0dc0a89f6972c8c2e90700601ab9b6eef9c1fcd4d9a6fb97a3"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_013.ply",
+      "published_sha256": "38ae17665605f3bfa45f16d11d7e76172a6f296636c9e416f44e27413ebd13c0",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_013.ply",
+      "source_sha256": "38ae17665605f3bfa45f16d11d7e76172a6f296636c9e416f44e27413ebd13c0"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_014.ply",
+      "published_sha256": "2812ab738e8f3e8b2a5a6584fa5797c087fa3cf4fc50ba36e65863c425b9794a",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_014.ply",
+      "source_sha256": "2812ab738e8f3e8b2a5a6584fa5797c087fa3cf4fc50ba36e65863c425b9794a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_015.ply",
+      "published_sha256": "982bf93b39344afa9544cced40b27e16d4ac8e12c3fff3a56a19f4b6616774b8",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_015.ply",
+      "source_sha256": "982bf93b39344afa9544cced40b27e16d4ac8e12c3fff3a56a19f4b6616774b8"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_016.ply",
+      "published_sha256": "00a8fd96609fa71ae9d8da659c920dad98a6f0008a1b5538a3cd462bd892284e",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_016.ply",
+      "source_sha256": "00a8fd96609fa71ae9d8da659c920dad98a6f0008a1b5538a3cd462bd892284e"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_017.ply",
+      "published_sha256": "c31808b0da7b6fd61550c10c783d992535cf4798fa11295ebb651ff43fb9b236",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_017.ply",
+      "source_sha256": "c31808b0da7b6fd61550c10c783d992535cf4798fa11295ebb651ff43fb9b236"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_018.ply",
+      "published_sha256": "99318da8e3e9242be1acb346c0793eb955cd91b2a559327bcedbd92718a46aa3",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_018.ply",
+      "source_sha256": "99318da8e3e9242be1acb346c0793eb955cd91b2a559327bcedbd92718a46aa3"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_019.ply",
+      "published_sha256": "164591adf07f9ae5fb420d2d3ef699eb36506e034f764ba2418422f3ccdcdb78",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_019.ply",
+      "source_sha256": "164591adf07f9ae5fb420d2d3ef699eb36506e034f764ba2418422f3ccdcdb78"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_020.ply",
+      "published_sha256": "f89360a74d192df2e4ab19bfa867fcfe18cb7b6647773b47c31496d0aec93b51",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_020.ply",
+      "source_sha256": "f89360a74d192df2e4ab19bfa867fcfe18cb7b6647773b47c31496d0aec93b51"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_021.ply",
+      "published_sha256": "9b17f87d3c1a79f4a7c6a0910ae3f0d3882ca067392cde2ab39c60f907c25807",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_021.ply",
+      "source_sha256": "9b17f87d3c1a79f4a7c6a0910ae3f0d3882ca067392cde2ab39c60f907c25807"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_022.ply",
+      "published_sha256": "7cc2caade6c209532f2152826981ad9bba1309a24990782ad7fad65ddce6a907",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_022.ply",
+      "source_sha256": "7cc2caade6c209532f2152826981ad9bba1309a24990782ad7fad65ddce6a907"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_023.ply",
+      "published_sha256": "f0492af16e8e9b2a188b13724d348737119626b31ea59b3515278a1375fb7434",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_023.ply",
+      "source_sha256": "f0492af16e8e9b2a188b13724d348737119626b31ea59b3515278a1375fb7434"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_024.ply",
+      "published_sha256": "73a56d14ed68d280089e349ab29fe75ba35a924e4463a74c9c4adba1b5f85ca3",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_024.ply",
+      "source_sha256": "73a56d14ed68d280089e349ab29fe75ba35a924e4463a74c9c4adba1b5f85ca3"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_025.ply",
+      "published_sha256": "190c37e61080cb1da659c6c87e560a3bcd6d086379323456d73ffff0a5e713fb",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_025.ply",
+      "source_sha256": "190c37e61080cb1da659c6c87e560a3bcd6d086379323456d73ffff0a5e713fb"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_027.ply",
+      "published_sha256": "fd513049c19fce5d8efbaa280d55538a29a9f5842ca972af077678cef0c5835a",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_027.ply",
+      "source_sha256": "fd513049c19fce5d8efbaa280d55538a29a9f5842ca972af077678cef0c5835a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_028.ply",
+      "published_sha256": "dca9c1c5dfb81e3bd5ae5e0b624b9cf2efceab95cbb2d0f029d268fafc9658d7",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_028.ply",
+      "source_sha256": "dca9c1c5dfb81e3bd5ae5e0b624b9cf2efceab95cbb2d0f029d268fafc9658d7"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_029.ply",
+      "published_sha256": "3f3e7d74b7f6bff5075842610bdf69634d8348dc0260eaa0361d342f4f435ec1",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_029.ply",
+      "source_sha256": "3f3e7d74b7f6bff5075842610bdf69634d8348dc0260eaa0361d342f4f435ec1"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_030.ply",
+      "published_sha256": "c69efcd6427c0d3c6bb7fdcb5524197415f46b942b69ec8c216a179e414bbcff",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_030.ply",
+      "source_sha256": "c69efcd6427c0d3c6bb7fdcb5524197415f46b942b69ec8c216a179e414bbcff"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_031.ply",
+      "published_sha256": "488d0cc641a7ea1106e8917ed1585ff95c51b076292882743d3efa2f6563b6b1",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_031.ply",
+      "source_sha256": "488d0cc641a7ea1106e8917ed1585ff95c51b076292882743d3efa2f6563b6b1"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_032.ply",
+      "published_sha256": "24682bd0aaf1fcfe56eccc8ca7d7a9aad095902d145468bc6b545e018bda4872",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_032.ply",
+      "source_sha256": "24682bd0aaf1fcfe56eccc8ca7d7a9aad095902d145468bc6b545e018bda4872"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_033.ply",
+      "published_sha256": "109c850cf022d0ada75b2e5bc776dc6412bbe4a299f1c52e71c1f0028b5a6e1f",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_033.ply",
+      "source_sha256": "109c850cf022d0ada75b2e5bc776dc6412bbe4a299f1c52e71c1f0028b5a6e1f"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_034.ply",
+      "published_sha256": "115053cba74cb9eaf2b7148117570658af8e5ea5627c95be21c9a6fb3fd30c05",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_034.ply",
+      "source_sha256": "115053cba74cb9eaf2b7148117570658af8e5ea5627c95be21c9a6fb3fd30c05"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_035.ply",
+      "published_sha256": "e65c906a33bb1ccfa2382365e9060e3f02be6b9fa7354691993ced3446d20436",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_035.ply",
+      "source_sha256": "e65c906a33bb1ccfa2382365e9060e3f02be6b9fa7354691993ced3446d20436"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_036.ply",
+      "published_sha256": "f31a421b650a72fb8bb7b0acb524939a9e2f6a04bcd0b8f599196f26994e0d6a",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_036.ply",
+      "source_sha256": "f31a421b650a72fb8bb7b0acb524939a9e2f6a04bcd0b8f599196f26994e0d6a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_037.ply",
+      "published_sha256": "fd9fa07b1fe7f2079cf8f317f426f60afdbf1c61a6a8cd75ee73417c66717b98",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_037.ply",
+      "source_sha256": "fd9fa07b1fe7f2079cf8f317f426f60afdbf1c61a6a8cd75ee73417c66717b98"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_038.ply",
+      "published_sha256": "6043b8bda9f3e4b59325fb7dcc596524933b15f239ae4542b76174553e0cdfea",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_038.ply",
+      "source_sha256": "6043b8bda9f3e4b59325fb7dcc596524933b15f239ae4542b76174553e0cdfea"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Ceiling_3m_039.ply",
+      "published_sha256": "acb2809194676476bfab6e19de9dadaa1af5fd76f354911a0f19495654d652b2",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Ceiling_3m_039.ply",
+      "source_sha256": "acb2809194676476bfab6e19de9dadaa1af5fd76f354911a0f19495654d652b2"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 107701,
+      "published_path": "assets/sionna/meshes/SM_ChairOffice.ply",
+      "published_sha256": "bd29f0c93b704c7ca26a3752b4abdb111ee9d2da17e36e33a2b63f69b9974075",
+      "source_bytes": 107701,
+      "source_relative_path": "meshes/SM_ChairOffice.ply",
+      "source_sha256": "bd29f0c93b704c7ca26a3752b4abdb111ee9d2da17e36e33a2b63f69b9974075"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 107701,
+      "published_path": "assets/sionna/meshes/SM_ChairOffice_001.ply",
+      "published_sha256": "2d7cce3b3ac5a2b18dd8134af05c156bb027a3b8fb8f14b0fb8647697a6c42fc",
+      "source_bytes": 107701,
+      "source_relative_path": "meshes/SM_ChairOffice_001.ply",
+      "source_sha256": "2d7cce3b3ac5a2b18dd8134af05c156bb027a3b8fb8f14b0fb8647697a6c42fc"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 107701,
+      "published_path": "assets/sionna/meshes/SM_ChairOffice_003.ply",
+      "published_sha256": "69863d19e4f258293466a5b967d4cc9aa047438c809a5ef9b1bc68cf51c744fe",
+      "source_bytes": 107701,
+      "source_relative_path": "meshes/SM_ChairOffice_003.ply",
+      "source_sha256": "69863d19e4f258293466a5b967d4cc9aa047438c809a5ef9b1bc68cf51c744fe"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 107701,
+      "published_path": "assets/sionna/meshes/SM_ChairOffice_004.ply",
+      "published_sha256": "e074200f283999a43de5db9088eeb02bf82f2ca2d2ff01411ac2d1139ab2800f",
+      "source_bytes": 107701,
+      "source_relative_path": "meshes/SM_ChairOffice_004.ply",
+      "source_sha256": "e074200f283999a43de5db9088eeb02bf82f2ca2d2ff01411ac2d1139ab2800f"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 107701,
+      "published_path": "assets/sionna/meshes/SM_ChairOffice_005.ply",
+      "published_sha256": "1846dc8f5e0b3f5b54812f1ea09a69ae9f7c9b6642dc25232904a46876acdac9",
+      "source_bytes": 107701,
+      "source_relative_path": "meshes/SM_ChairOffice_005.ply",
+      "source_sha256": "1846dc8f5e0b3f5b54812f1ea09a69ae9f7c9b6642dc25232904a46876acdac9"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 107701,
+      "published_path": "assets/sionna/meshes/SM_ChairOffice_006.ply",
+      "published_sha256": "e0297b1593f730ce9e51607fac72c153aefbe84d7880021bf0427d44d9e7c28a",
+      "source_bytes": 107701,
+      "source_relative_path": "meshes/SM_ChairOffice_006.ply",
+      "source_sha256": "e0297b1593f730ce9e51607fac72c153aefbe84d7880021bf0427d44d9e7c28a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 107701,
+      "published_path": "assets/sionna/meshes/SM_ChairOffice_007.ply",
+      "published_sha256": "231e994b6b526b09102a68bd42895232bd232dd1773b1bbda1a678771900a4a8",
+      "source_bytes": 107701,
+      "source_relative_path": "meshes/SM_ChairOffice_007.ply",
+      "source_sha256": "231e994b6b526b09102a68bd42895232bd232dd1773b1bbda1a678771900a4a8"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 107701,
+      "published_path": "assets/sionna/meshes/SM_ChairOffice_008.ply",
+      "published_sha256": "ccc93f03ab01803dabf9bfb6d5c209f554af1a3ddf866b19cd3eb2b4033ed376",
+      "source_bytes": 107701,
+      "source_relative_path": "meshes/SM_ChairOffice_008.ply",
+      "source_sha256": "ccc93f03ab01803dabf9bfb6d5c209f554af1a3ddf866b19cd3eb2b4033ed376"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 107701,
+      "published_path": "assets/sionna/meshes/SM_ChairOffice_009.ply",
+      "published_sha256": "0bb0c8421f2cd76533aa67cd3787187e0330b02d7dffde8b265250494b555ff4",
+      "source_bytes": 107701,
+      "source_relative_path": "meshes/SM_ChairOffice_009.ply",
+      "source_sha256": "0bb0c8421f2cd76533aa67cd3787187e0330b02d7dffde8b265250494b555ff4"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 107701,
+      "published_path": "assets/sionna/meshes/SM_ChairOffice_010.ply",
+      "published_sha256": "47c09e663e756399fe2aa59a84a4aceec667231098d243690b035ae3ecc39500",
+      "source_bytes": 107701,
+      "source_relative_path": "meshes/SM_ChairOffice_010.ply",
+      "source_sha256": "47c09e663e756399fe2aa59a84a4aceec667231098d243690b035ae3ecc39500"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 107701,
+      "published_path": "assets/sionna/meshes/SM_ChairOffice_011.ply",
+      "published_sha256": "1e01a252efc7ba46cce5e544b9b2e18762cc961d1610031965226dfe9b621354",
+      "source_bytes": 107701,
+      "source_relative_path": "meshes/SM_ChairOffice_011.ply",
+      "source_sha256": "1e01a252efc7ba46cce5e544b9b2e18762cc961d1610031965226dfe9b621354"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 107701,
+      "published_path": "assets/sionna/meshes/SM_ChairOffice_012.ply",
+      "published_sha256": "132a622d2e5bfad4375b29f887a4d0c1b6d2b04adfd23900be5e16dee9aeb889",
+      "source_bytes": 107701,
+      "source_relative_path": "meshes/SM_ChairOffice_012.ply",
+      "source_sha256": "132a622d2e5bfad4375b29f887a4d0c1b6d2b04adfd23900be5e16dee9aeb889"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 107701,
+      "published_path": "assets/sionna/meshes/SM_ChairOffice_013.ply",
+      "published_sha256": "4cdf0dbd7aae25beb64faa9599465191a7eb9b5b8c8342caa8bb9d9783b97fb9",
+      "source_bytes": 107701,
+      "source_relative_path": "meshes/SM_ChairOffice_013.ply",
+      "source_sha256": "4cdf0dbd7aae25beb64faa9599465191a7eb9b5b8c8342caa8bb9d9783b97fb9"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 107701,
+      "published_path": "assets/sionna/meshes/SM_ChairOffice_014.ply",
+      "published_sha256": "6df68db16c22e5b324a429cb1ff15c1e5aad40fb8d57dd23e9a358107230a866",
+      "source_bytes": 107701,
+      "source_relative_path": "meshes/SM_ChairOffice_014.ply",
+      "source_sha256": "6df68db16c22e5b324a429cb1ff15c1e5aad40fb8d57dd23e9a358107230a866"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 107701,
+      "published_path": "assets/sionna/meshes/SM_ChairOffice_015.ply",
+      "published_sha256": "47a4b1577cb136d760840de7df5a58d71da04cead78f8b94b890172e7ee72b9f",
+      "source_bytes": 107701,
+      "source_relative_path": "meshes/SM_ChairOffice_015.ply",
+      "source_sha256": "47a4b1577cb136d760840de7df5a58d71da04cead78f8b94b890172e7ee72b9f"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 107701,
+      "published_path": "assets/sionna/meshes/SM_ChairOffice_016.ply",
+      "published_sha256": "ce9c9b92b43cacb41d54107dc55e771a40febca33c011b933a5a05ab641abc4b",
+      "source_bytes": 107701,
+      "source_relative_path": "meshes/SM_ChairOffice_016.ply",
+      "source_sha256": "ce9c9b92b43cacb41d54107dc55e771a40febca33c011b933a5a05ab641abc4b"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA.ply",
+      "published_sha256": "87396545155856ffa9384ff519eed5d92220c03d4140c861f8c84014e3e644e5",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA.ply",
+      "source_sha256": "87396545155856ffa9384ff519eed5d92220c03d4140c861f8c84014e3e644e5"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_001.ply",
+      "published_sha256": "e2404120a267ee8d084a925277315389f3f0fcbd91c8df8dacf00af3e2eee555",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_001.ply",
+      "source_sha256": "e2404120a267ee8d084a925277315389f3f0fcbd91c8df8dacf00af3e2eee555"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_002.ply",
+      "published_sha256": "339cda16d1b727750d76b6667b1cc1c4e1bf49e9c5ac8e2701cff24eeb52806d",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_002.ply",
+      "source_sha256": "339cda16d1b727750d76b6667b1cc1c4e1bf49e9c5ac8e2701cff24eeb52806d"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_003.ply",
+      "published_sha256": "12b679ccb654978879ed744ee5b4a57443c4cddffa813e9cb1575093d3f89bd7",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_003.ply",
+      "source_sha256": "12b679ccb654978879ed744ee5b4a57443c4cddffa813e9cb1575093d3f89bd7"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_004.ply",
+      "published_sha256": "523750b937a0b70906d7704e3a08cf8e5ec976cfc3624da4f1ffdce71a1c97fb",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_004.ply",
+      "source_sha256": "523750b937a0b70906d7704e3a08cf8e5ec976cfc3624da4f1ffdce71a1c97fb"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_005.ply",
+      "published_sha256": "c3bf976ae00b99c3b6188d8d098d783f5015cf85507878b5b37737250305f19a",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_005.ply",
+      "source_sha256": "c3bf976ae00b99c3b6188d8d098d783f5015cf85507878b5b37737250305f19a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_006.ply",
+      "published_sha256": "b46be98569f1bbe4f0990f06c961e7b6b92f0de32c5c3baed81fd181836ce218",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_006.ply",
+      "source_sha256": "b46be98569f1bbe4f0990f06c961e7b6b92f0de32c5c3baed81fd181836ce218"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_007.ply",
+      "published_sha256": "194adc70a774906a8d3fc376699538e265b2428f14bfee41bd79e26a29e616fc",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_007.ply",
+      "source_sha256": "194adc70a774906a8d3fc376699538e265b2428f14bfee41bd79e26a29e616fc"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_008.ply",
+      "published_sha256": "56ed6aa827953b22bf93f03f934ae7115e5104653406dbed437d598e2a155550",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_008.ply",
+      "source_sha256": "56ed6aa827953b22bf93f03f934ae7115e5104653406dbed437d598e2a155550"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_009.ply",
+      "published_sha256": "e23e951d795fbf8bd498b7a02180cce2e92ba4d5a112f0f6156a85bfbc221506",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_009.ply",
+      "source_sha256": "e23e951d795fbf8bd498b7a02180cce2e92ba4d5a112f0f6156a85bfbc221506"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_010.ply",
+      "published_sha256": "4ed85ceee5d16021a092405ab4d6fd1191052bc5c4f2820e0b45e332a446dc1f",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_010.ply",
+      "source_sha256": "4ed85ceee5d16021a092405ab4d6fd1191052bc5c4f2820e0b45e332a446dc1f"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_011.ply",
+      "published_sha256": "451891cdda6a2537940a2c972bb557d2878191ee3e7090d186574b903e804ed7",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_011.ply",
+      "source_sha256": "451891cdda6a2537940a2c972bb557d2878191ee3e7090d186574b903e804ed7"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_012.ply",
+      "published_sha256": "cfa65926c66a27acfeea8236007694f64f8aac06ac149a6d7ac5f5ee9beef7da",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_012.ply",
+      "source_sha256": "cfa65926c66a27acfeea8236007694f64f8aac06ac149a6d7ac5f5ee9beef7da"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_013.ply",
+      "published_sha256": "9b32cf593d296b6f3e07b26a018df09d630fc480b214dc5861a52a81ce43f049",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_013.ply",
+      "source_sha256": "9b32cf593d296b6f3e07b26a018df09d630fc480b214dc5861a52a81ce43f049"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_014.ply",
+      "published_sha256": "7c901b6f46b5ff8fe914c567a3fa3480b923589d8df7ba4e5890645a6f7b2e03",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_014.ply",
+      "source_sha256": "7c901b6f46b5ff8fe914c567a3fa3480b923589d8df7ba4e5890645a6f7b2e03"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_015.ply",
+      "published_sha256": "5747b68030895b26025fc785e7da5a7cb2906dca0e010e1f9dcbff7d5c7c57d0",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_015.ply",
+      "source_sha256": "5747b68030895b26025fc785e7da5a7cb2906dca0e010e1f9dcbff7d5c7c57d0"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_016.ply",
+      "published_sha256": "8182239e98006b6b40e7780f63dee6feffd331bbdb778312e010ce4a3d026b34",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_016.ply",
+      "source_sha256": "8182239e98006b6b40e7780f63dee6feffd331bbdb778312e010ce4a3d026b34"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_017.ply",
+      "published_sha256": "990ee41a4cb171bd6cfc9b8e2199c15c8499dc7bcb8c4cc825eb2d31eb1e1e98",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_017.ply",
+      "source_sha256": "990ee41a4cb171bd6cfc9b8e2199c15c8499dc7bcb8c4cc825eb2d31eb1e1e98"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_018.ply",
+      "published_sha256": "6a6dc26b083b439c97f3fbf046a11ac0f94109f6f066b3eb2b2da8b17b1b1183",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_018.ply",
+      "source_sha256": "6a6dc26b083b439c97f3fbf046a11ac0f94109f6f066b3eb2b2da8b17b1b1183"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2899,
+      "published_path": "assets/sionna/meshes/SM_ColumnA_019.ply",
+      "published_sha256": "23fcc1d1fa3de28c9adab964b2eeae0f12c3e7a80237cb9896a4c3447dc2275d",
+      "source_bytes": 2899,
+      "source_relative_path": "meshes/SM_ColumnA_019.ply",
+      "source_sha256": "23fcc1d1fa3de28c9adab964b2eeae0f12c3e7a80237cb9896a4c3447dc2275d"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 3647,
+      "published_path": "assets/sionna/meshes/SM_DoorB_Door_003.ply",
+      "published_sha256": "58c6a4e24d25d5e0056ceeaef9ee53342bf6a9e6ea0d1a4d6801234c663dff3c",
+      "source_bytes": 3647,
+      "source_relative_path": "meshes/SM_DoorB_Door_003.ply",
+      "source_sha256": "58c6a4e24d25d5e0056ceeaef9ee53342bf6a9e6ea0d1a4d6801234c663dff3c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 3647,
+      "published_path": "assets/sionna/meshes/SM_DoorB_Door_004.ply",
+      "published_sha256": "65878516df53394e894e6fff48e231e5c08f31a783540be07ba792ce461bb70c",
+      "source_bytes": 3647,
+      "source_relative_path": "meshes/SM_DoorB_Door_004.ply",
+      "source_sha256": "65878516df53394e894e6fff48e231e5c08f31a783540be07ba792ce461bb70c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 3647,
+      "published_path": "assets/sionna/meshes/SM_DoorB_Door_005.ply",
+      "published_sha256": "99c450d1a9cbf4d6321f8f0971b7fce5382589144a79fb464c5993e41faa5ed9",
+      "source_bytes": 3647,
+      "source_relative_path": "meshes/SM_DoorB_Door_005.ply",
+      "source_sha256": "99c450d1a9cbf4d6321f8f0971b7fce5382589144a79fb464c5993e41faa5ed9"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 3647,
+      "published_path": "assets/sionna/meshes/SM_DoorB_Door_008.ply",
+      "published_sha256": "df51b45e7ea27a181ecbd444ed1b60657523e41ed10a9d4ffb08dd3c4503e8ca",
+      "source_bytes": 3647,
+      "source_relative_path": "meshes/SM_DoorB_Door_008.ply",
+      "source_sha256": "df51b45e7ea27a181ecbd444ed1b60657523e41ed10a9d4ffb08dd3c4503e8ca"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 3647,
+      "published_path": "assets/sionna/meshes/SM_DoorB_Door_009.ply",
+      "published_sha256": "9e2639aa604cd3733fd902c2bf38194a04a28fb04ca8b5228e17854edd582d0b",
+      "source_bytes": 3647,
+      "source_relative_path": "meshes/SM_DoorB_Door_009.ply",
+      "source_sha256": "9e2639aa604cd3733fd902c2bf38194a04a28fb04ca8b5228e17854edd582d0b"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 3647,
+      "published_path": "assets/sionna/meshes/SM_DoorB_Door_010.ply",
+      "published_sha256": "0d5bd64267e5fe2d4981f932f2f64e0dd2f52e3d7914ce2efc33de623cae33ee",
+      "source_bytes": 3647,
+      "source_relative_path": "meshes/SM_DoorB_Door_010.ply",
+      "source_sha256": "0d5bd64267e5fe2d4981f932f2f64e0dd2f52e3d7914ce2efc33de623cae33ee"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 3647,
+      "published_path": "assets/sionna/meshes/SM_DoorB_Door_011.ply",
+      "published_sha256": "fd9cbf8d5b8064eea2446f11d503421e4de667ce584f8a2c8202029c2224ab84",
+      "source_bytes": 3647,
+      "source_relative_path": "meshes/SM_DoorB_Door_011.ply",
+      "source_sha256": "fd9cbf8d5b8064eea2446f11d503421e4de667ce584f8a2c8202029c2224ab84"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_003.ply",
+      "published_sha256": "208230d95d850f8aa279f6066e67e8a7e59e3af9f47f3a360e8052f5019ce5b4",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_003.ply",
+      "source_sha256": "208230d95d850f8aa279f6066e67e8a7e59e3af9f47f3a360e8052f5019ce5b4"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_004.ply",
+      "published_sha256": "111d56e06bd02c5dd6cefbc83cadfe9d08083709ace16824f8d19a858e90aec0",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_004.ply",
+      "source_sha256": "111d56e06bd02c5dd6cefbc83cadfe9d08083709ace16824f8d19a858e90aec0"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_006.ply",
+      "published_sha256": "8b6d0b1f6eacafa842d948a1998967b7266ecb38c74a5b4653afd23884d819a3",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_006.ply",
+      "source_sha256": "8b6d0b1f6eacafa842d948a1998967b7266ecb38c74a5b4653afd23884d819a3"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_007.ply",
+      "published_sha256": "34b3322dab1d4e49dcb46c9dab6436036f5337e07cd0c42e4b51ac97615270c5",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_007.ply",
+      "source_sha256": "34b3322dab1d4e49dcb46c9dab6436036f5337e07cd0c42e4b51ac97615270c5"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_008.ply",
+      "published_sha256": "55ba026006d267b7e1ffe3a6156b40d6faaba4414b4048f6328c59abc24cf9d3",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_008.ply",
+      "source_sha256": "55ba026006d267b7e1ffe3a6156b40d6faaba4414b4048f6328c59abc24cf9d3"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_011.ply",
+      "published_sha256": "67360526520f5793234a38c9f20cab848f0f78665ead176d7a240bf8c926fe70",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_011.ply",
+      "source_sha256": "67360526520f5793234a38c9f20cab848f0f78665ead176d7a240bf8c926fe70"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_012.ply",
+      "published_sha256": "8d04e5884b0203766605460a0f4be30ad208028cfd2c938aa536c8c5147ac863",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_012.ply",
+      "source_sha256": "8d04e5884b0203766605460a0f4be30ad208028cfd2c938aa536c8c5147ac863"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_014.ply",
+      "published_sha256": "83bf6af5bf108f948f8b83bb3c7423efc6d21fb3fc6ab943a4449f235b1cdfd1",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_014.ply",
+      "source_sha256": "83bf6af5bf108f948f8b83bb3c7423efc6d21fb3fc6ab943a4449f235b1cdfd1"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_015.ply",
+      "published_sha256": "1b389ab15b70ac1b67d57e3ae5d01ccfd22b697ba969b8fb7cfd1305db7ec29f",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_015.ply",
+      "source_sha256": "1b389ab15b70ac1b67d57e3ae5d01ccfd22b697ba969b8fb7cfd1305db7ec29f"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_016.ply",
+      "published_sha256": "b692ecc7012cc2b6453466e04d6f295c391655a3209101702ef9b8b2591a3ed1",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_016.ply",
+      "source_sha256": "b692ecc7012cc2b6453466e04d6f295c391655a3209101702ef9b8b2591a3ed1"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_021.ply",
+      "published_sha256": "81d9bd889b339bbdd0c0c9735542583af61139b098017ab5c02368d97cb9f409",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_021.ply",
+      "source_sha256": "81d9bd889b339bbdd0c0c9735542583af61139b098017ab5c02368d97cb9f409"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_023.ply",
+      "published_sha256": "033a84e2793b6102ec1c00c56bf87634c7a5fa995b8170dd637b3a4eddbc8d69",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_023.ply",
+      "source_sha256": "033a84e2793b6102ec1c00c56bf87634c7a5fa995b8170dd637b3a4eddbc8d69"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_026.ply",
+      "published_sha256": "81ae4d67a314aed2ec707ceabb60b11a37b6ab8d77eab2939303b800239a8e64",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_026.ply",
+      "source_sha256": "81ae4d67a314aed2ec707ceabb60b11a37b6ab8d77eab2939303b800239a8e64"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_027.ply",
+      "published_sha256": "5fd24da94c5aa2b28faf5d235d3d7ddecc7c868b9e25438dfce3c44e5018127c",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_027.ply",
+      "source_sha256": "5fd24da94c5aa2b28faf5d235d3d7ddecc7c868b9e25438dfce3c44e5018127c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_029.ply",
+      "published_sha256": "e70a8432c62fdfdf660595b39a8de209fe84542d237d0a9c671ecc6be1f30fea",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_029.ply",
+      "source_sha256": "e70a8432c62fdfdf660595b39a8de209fe84542d237d0a9c671ecc6be1f30fea"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_030.ply",
+      "published_sha256": "88062e7358838d779736eb37b4e2d5d6c3863b5cbbcac280045780ae2169e9a4",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_030.ply",
+      "source_sha256": "88062e7358838d779736eb37b4e2d5d6c3863b5cbbcac280045780ae2169e9a4"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_031.ply",
+      "published_sha256": "8800b5545210c735ff4ae3e13dbaa560fe2351c88453c338363d0fca4b74f9af",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_031.ply",
+      "source_sha256": "8800b5545210c735ff4ae3e13dbaa560fe2351c88453c338363d0fca4b74f9af"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_034.ply",
+      "published_sha256": "bcfa6251da8839120df0a4031ed88f54e2eb589afe6e1f3dc5b0fc4353a60429",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_034.ply",
+      "source_sha256": "bcfa6251da8839120df0a4031ed88f54e2eb589afe6e1f3dc5b0fc4353a60429"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_036.ply",
+      "published_sha256": "caccdd1e69f6255a9969d35b0e59d82afc9ca14a641960de4a4b5dffcc055817",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_036.ply",
+      "source_sha256": "caccdd1e69f6255a9969d35b0e59d82afc9ca14a641960de4a4b5dffcc055817"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_038.ply",
+      "published_sha256": "f29296fb704a7a4be37b8097dd8f0ac5931e36796ea7f2c1fa1d4d64de467fd8",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_038.ply",
+      "source_sha256": "f29296fb704a7a4be37b8097dd8f0ac5931e36796ea7f2c1fa1d4d64de467fd8"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_040.ply",
+      "published_sha256": "a4f9e06c3b3bc3a5848302ee9c0ce0cb6c6fbe77092c504adffcaf2c9042ecc7",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_040.ply",
+      "source_sha256": "a4f9e06c3b3bc3a5848302ee9c0ce0cb6c6fbe77092c504adffcaf2c9042ecc7"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_043.ply",
+      "published_sha256": "31ca7632921d0b18ad225a1a2e22680fa218e2bd7a91434fadd7ef7fff441854",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_043.ply",
+      "source_sha256": "31ca7632921d0b18ad225a1a2e22680fa218e2bd7a91434fadd7ef7fff441854"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_044.ply",
+      "published_sha256": "bf1ab0faeb14770e8ef59733d7a5b60817a0245e6e250cc6ac359a8fbc39f7d2",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_044.ply",
+      "source_sha256": "bf1ab0faeb14770e8ef59733d7a5b60817a0245e6e250cc6ac359a8fbc39f7d2"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_045.ply",
+      "published_sha256": "883988a848b6f2565901cc2e659fb78f5af1f850ce04388cff4936385744b0fc",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_045.ply",
+      "source_sha256": "883988a848b6f2565901cc2e659fb78f5af1f850ce04388cff4936385744b0fc"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_047.ply",
+      "published_sha256": "bd4026e67024fa11e4890bb5df8d0d464913596930640865e33b0389bfa6aa02",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_047.ply",
+      "source_sha256": "bd4026e67024fa11e4890bb5df8d0d464913596930640865e33b0389bfa6aa02"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_049.ply",
+      "published_sha256": "eba13901dd8b554aa6a5872989b82cfef16364695313617ab8759917ac9b9f03",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_049.ply",
+      "source_sha256": "eba13901dd8b554aa6a5872989b82cfef16364695313617ab8759917ac9b9f03"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_051.ply",
+      "published_sha256": "7d20bdce1c60e330dce5d9cbcdd46552dac744e4024ae387a34c9692b309ec5c",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_051.ply",
+      "source_sha256": "7d20bdce1c60e330dce5d9cbcdd46552dac744e4024ae387a34c9692b309ec5c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_054.ply",
+      "published_sha256": "06b0338d0ec20746ec7f7c45be9b08e0871b5247cbb15288a135fc94a31bd281",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_054.ply",
+      "source_sha256": "06b0338d0ec20746ec7f7c45be9b08e0871b5247cbb15288a135fc94a31bd281"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_056.ply",
+      "published_sha256": "9d49132279dded7bc06332fd4709e49a367bca10c37ae4b5c4d38047dbe1579a",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_056.ply",
+      "source_sha256": "9d49132279dded7bc06332fd4709e49a367bca10c37ae4b5c4d38047dbe1579a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_058.ply",
+      "published_sha256": "66561da1af60aba11865557ca59536b995980628db5ff171c28d4bde4ae477b1",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_058.ply",
+      "source_sha256": "66561da1af60aba11865557ca59536b995980628db5ff171c28d4bde4ae477b1"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_060.ply",
+      "published_sha256": "ddb196ab462c22a07f145dc6d22e5b3ffac70fd2ff6c3a50af990e3a30b0b66a",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_060.ply",
+      "source_sha256": "ddb196ab462c22a07f145dc6d22e5b3ffac70fd2ff6c3a50af990e3a30b0b66a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_061.ply",
+      "published_sha256": "5848b08813ba39c4e7339908186ef0844ac86f25d1b3c45b30fd8a650ec9b393",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_061.ply",
+      "source_sha256": "5848b08813ba39c4e7339908186ef0844ac86f25d1b3c45b30fd8a650ec9b393"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_065.ply",
+      "published_sha256": "3f107409f2653839711bcd1978c2f28fc72b93c5fab00d91b9987b45e97be8a2",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_065.ply",
+      "source_sha256": "3f107409f2653839711bcd1978c2f28fc72b93c5fab00d91b9987b45e97be8a2"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_066.ply",
+      "published_sha256": "8c7c4543ffeedef567cc78f133ded4c50c0d16f0391ca03302d5cb15c7925dc4",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_066.ply",
+      "source_sha256": "8c7c4543ffeedef567cc78f133ded4c50c0d16f0391ca03302d5cb15c7925dc4"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_068.ply",
+      "published_sha256": "05c8b23acc0fa785fa0c66f75515eaca0fe237e8d42d37eb186cf8f8b5626209",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_068.ply",
+      "source_sha256": "05c8b23acc0fa785fa0c66f75515eaca0fe237e8d42d37eb186cf8f8b5626209"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_069.ply",
+      "published_sha256": "34b914fe29bd4f583fddd39f182ab7dd96afaa96e9c7a0c817f8639784b82219",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_069.ply",
+      "source_sha256": "34b914fe29bd4f583fddd39f182ab7dd96afaa96e9c7a0c817f8639784b82219"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_073.ply",
+      "published_sha256": "607c2df227bd9fadf137a4a8ceba19ccd760873382c3d969abdbf8628a485393",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_073.ply",
+      "source_sha256": "607c2df227bd9fadf137a4a8ceba19ccd760873382c3d969abdbf8628a485393"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_075.ply",
+      "published_sha256": "0616202d323ed6cf0b683a3cfa7ca8b033cdc32ea7425115b1141e17e227b25d",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_075.ply",
+      "source_sha256": "0616202d323ed6cf0b683a3cfa7ca8b033cdc32ea7425115b1141e17e227b25d"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 411,
+      "published_path": "assets/sionna/meshes/SM_Floor_3m_076.ply",
+      "published_sha256": "775eabdde6f2bfbc3f4bbe4d9426a92c7b68ad867a7c3599667395b5315245dd",
+      "source_bytes": 411,
+      "source_relative_path": "meshes/SM_Floor_3m_076.ply",
+      "source_sha256": "775eabdde6f2bfbc3f4bbe4d9426a92c7b68ad867a7c3599667395b5315245dd"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 4110,
+      "published_path": "assets/sionna/meshes/SM_PanicDoor_001.ply",
+      "published_sha256": "1ef1b1d6a038db71fdf07842615da66cc77d1f77e187923172b05ad2b7529f1c",
+      "source_bytes": 4110,
+      "source_relative_path": "meshes/SM_PanicDoor_001.ply",
+      "source_sha256": "1ef1b1d6a038db71fdf07842615da66cc77d1f77e187923172b05ad2b7529f1c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 4110,
+      "published_path": "assets/sionna/meshes/SM_PanicDoor_002.ply",
+      "published_sha256": "d2bd76d29950924aefee79fe2cbd838ae0d09f94f56a1a05a11d89a36acde45d",
+      "source_bytes": 4110,
+      "source_relative_path": "meshes/SM_PanicDoor_002.ply",
+      "source_sha256": "d2bd76d29950924aefee79fe2cbd838ae0d09f94f56a1a05a11d89a36acde45d"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 4110,
+      "published_path": "assets/sionna/meshes/SM_PanicDoor_004.ply",
+      "published_sha256": "c59dced3063df30ac8909d4058617cf249cd954662f086830486d2db586faf92",
+      "source_bytes": 4110,
+      "source_relative_path": "meshes/SM_PanicDoor_004.ply",
+      "source_sha256": "c59dced3063df30ac8909d4058617cf249cd954662f086830486d2db586faf92"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 4110,
+      "published_path": "assets/sionna/meshes/SM_PanicDoor_007.ply",
+      "published_sha256": "99677a4f2aa9bf1fc2398cf47fe2bf4e314df33033661978800946a3a38cf1db",
+      "source_bytes": 4110,
+      "source_relative_path": "meshes/SM_PanicDoor_007.ply",
+      "source_sha256": "99677a4f2aa9bf1fc2398cf47fe2bf4e314df33033661978800946a3a38cf1db"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 4110,
+      "published_path": "assets/sionna/meshes/SM_PanicDoor_008.ply",
+      "published_sha256": "7fc995c2ea5adc883cab472bf6391f9f5d839845f7341fa792ace5e1b696d4fd",
+      "source_bytes": 4110,
+      "source_relative_path": "meshes/SM_PanicDoor_008.ply",
+      "source_sha256": "7fc995c2ea5adc883cab472bf6391f9f5d839845f7341fa792ace5e1b696d4fd"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 17449,
+      "published_path": "assets/sionna/meshes/SM_PanicDoor_L.ply",
+      "published_sha256": "de0d6ef6290313dda8708bb35bf360452f359328f5fbcd10544e0f18184eec6d",
+      "source_bytes": 17449,
+      "source_relative_path": "meshes/SM_PanicDoor_L.ply",
+      "source_sha256": "de0d6ef6290313dda8708bb35bf360452f359328f5fbcd10544e0f18184eec6d"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 17449,
+      "published_path": "assets/sionna/meshes/SM_PanicDoor_L_002.ply",
+      "published_sha256": "632c79bbe650ddaf7398dc112290cd8350bc74bb48bd3e4bdb5d51f83a67bfb5",
+      "source_bytes": 17449,
+      "source_relative_path": "meshes/SM_PanicDoor_L_002.ply",
+      "source_sha256": "632c79bbe650ddaf7398dc112290cd8350bc74bb48bd3e4bdb5d51f83a67bfb5"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 17449,
+      "published_path": "assets/sionna/meshes/SM_PanicDoor_L_005.ply",
+      "published_sha256": "585f7889dcfc954804d316fa5599acea24146ac9e5693caa071fa1156c18cada",
+      "source_bytes": 17449,
+      "source_relative_path": "meshes/SM_PanicDoor_L_005.ply",
+      "source_sha256": "585f7889dcfc954804d316fa5599acea24146ac9e5693caa071fa1156c18cada"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 17449,
+      "published_path": "assets/sionna/meshes/SM_PanicDoor_L_006.ply",
+      "published_sha256": "1a637010a8e2d97c936de702343dec2a32d93770455d483dff9dfe0b9ba4a01d",
+      "source_bytes": 17449,
+      "source_relative_path": "meshes/SM_PanicDoor_L_006.ply",
+      "source_sha256": "1a637010a8e2d97c936de702343dec2a32d93770455d483dff9dfe0b9ba4a01d"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 17449,
+      "published_path": "assets/sionna/meshes/SM_PanicDoor_L_008.ply",
+      "published_sha256": "8c1ca463b692ae5f10fd4bcbcb7b5b32ec8be1dace9c4ddbedcb97d7dc55fa87",
+      "source_bytes": 17449,
+      "source_relative_path": "meshes/SM_PanicDoor_L_008.ply",
+      "source_sha256": "8c1ca463b692ae5f10fd4bcbcb7b5b32ec8be1dace9c4ddbedcb97d7dc55fa87"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 17527,
+      "published_path": "assets/sionna/meshes/SM_PanicDoor_R_002.ply",
+      "published_sha256": "ab56abd648b62e4588b41de9a8d1aa335958a08b67a28bfeafa644503d381941",
+      "source_bytes": 17527,
+      "source_relative_path": "meshes/SM_PanicDoor_R_002.ply",
+      "source_sha256": "ab56abd648b62e4588b41de9a8d1aa335958a08b67a28bfeafa644503d381941"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 17527,
+      "published_path": "assets/sionna/meshes/SM_PanicDoor_R_004.ply",
+      "published_sha256": "48998b2db8a53bf3bdf46f57d7a08dac1cb76e809b65f075f5555c870a6c3f8a",
+      "source_bytes": 17527,
+      "source_relative_path": "meshes/SM_PanicDoor_R_004.ply",
+      "source_sha256": "48998b2db8a53bf3bdf46f57d7a08dac1cb76e809b65f075f5555c870a6c3f8a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 17527,
+      "published_path": "assets/sionna/meshes/SM_PanicDoor_R_006.ply",
+      "published_sha256": "807922473e5a21d1c764932dc2df007f7d6ebac63b3c450ba379bfb3a8575691",
+      "source_bytes": 17527,
+      "source_relative_path": "meshes/SM_PanicDoor_R_006.ply",
+      "source_sha256": "807922473e5a21d1c764932dc2df007f7d6ebac63b3c450ba379bfb3a8575691"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 17527,
+      "published_path": "assets/sionna/meshes/SM_PanicDoor_R_008.ply",
+      "published_sha256": "1944373a0bf588c2d4d7507f0c645d6eefb05569fe591feed6ffe7d8fb8930a6",
+      "source_bytes": 17527,
+      "source_relative_path": "meshes/SM_PanicDoor_R_008.ply",
+      "source_sha256": "1944373a0bf588c2d4d7507f0c645d6eefb05569fe591feed6ffe7d8fb8930a6"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 17527,
+      "published_path": "assets/sionna/meshes/SM_PanicDoor_R_009.ply",
+      "published_sha256": "b1d1d439abd99a30a335d2189f0dd64ed1381f1386b9ec3210d96437c961b24c",
+      "source_bytes": 17527,
+      "source_relative_path": "meshes/SM_PanicDoor_R_009.ply",
+      "source_sha256": "b1d1d439abd99a30a335d2189f0dd64ed1381f1386b9ec3210d96437c961b24c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 8423,
+      "published_path": "assets/sionna/meshes/SM_TableWorkSecurity.ply",
+      "published_sha256": "ec99ac68e312b0bd556972a3e468032f98d03a8f56a909e1076715541e3d958f",
+      "source_bytes": 8423,
+      "source_relative_path": "meshes/SM_TableWorkSecurity.ply",
+      "source_sha256": "ec99ac68e312b0bd556972a3e468032f98d03a8f56a909e1076715541e3d958f"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 8423,
+      "published_path": "assets/sionna/meshes/SM_TableWorkSecurity_001.ply",
+      "published_sha256": "9735b20ecfd4195a4395576f32a5cc5a4f1a8db964669be62b8e9a29a6aa5ff3",
+      "source_bytes": 8423,
+      "source_relative_path": "meshes/SM_TableWorkSecurity_001.ply",
+      "source_sha256": "9735b20ecfd4195a4395576f32a5cc5a4f1a8db964669be62b8e9a29a6aa5ff3"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 8423,
+      "published_path": "assets/sionna/meshes/SM_TableWorkSecurity_002.ply",
+      "published_sha256": "1826385029035b10c6532bfdd1784af80e848198a2518ff1337b6680f941b8c0",
+      "source_bytes": 8423,
+      "source_relative_path": "meshes/SM_TableWorkSecurity_002.ply",
+      "source_sha256": "1826385029035b10c6532bfdd1784af80e848198a2518ff1337b6680f941b8c0"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 8423,
+      "published_path": "assets/sionna/meshes/SM_TableWorkSecurity_003.ply",
+      "published_sha256": "931107e36232cb2a3373a085945bcb7f82f39416e9daf92c30aba57a45f7ac0a",
+      "source_bytes": 8423,
+      "source_relative_path": "meshes/SM_TableWorkSecurity_003.ply",
+      "source_sha256": "931107e36232cb2a3373a085945bcb7f82f39416e9daf92c30aba57a45f7ac0a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 8423,
+      "published_path": "assets/sionna/meshes/SM_TableWorkSecurity_004.ply",
+      "published_sha256": "5d7b80a08c1a7207a9cb72eb67d79c02644ee1c018a2184475173bf8eabf1af5",
+      "source_bytes": 8423,
+      "source_relative_path": "meshes/SM_TableWorkSecurity_004.ply",
+      "source_sha256": "5d7b80a08c1a7207a9cb72eb67d79c02644ee1c018a2184475173bf8eabf1af5"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 8423,
+      "published_path": "assets/sionna/meshes/SM_TableWorkSecurity_005.ply",
+      "published_sha256": "c6687a9f62c34c15d7a22695e1b2c8c0570339f81d8806697cdd8345cdec7357",
+      "source_bytes": 8423,
+      "source_relative_path": "meshes/SM_TableWorkSecurity_005.ply",
+      "source_sha256": "c6687a9f62c34c15d7a22695e1b2c8c0570339f81d8806697cdd8345cdec7357"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 8423,
+      "published_path": "assets/sionna/meshes/SM_TableWorkSecurity_006.ply",
+      "published_sha256": "4f1fb7421b7f92671599f1f789ae55bf73385c1a02585430a06492cfb6f8d562",
+      "source_bytes": 8423,
+      "source_relative_path": "meshes/SM_TableWorkSecurity_006.ply",
+      "source_sha256": "4f1fb7421b7f92671599f1f789ae55bf73385c1a02585430a06492cfb6f8d562"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 8423,
+      "published_path": "assets/sionna/meshes/SM_TableWorkSecurity_007.ply",
+      "published_sha256": "1e4b96b1326e2340255060031c27156455566f8736ea64af9ca10696023bf9df",
+      "source_bytes": 8423,
+      "source_relative_path": "meshes/SM_TableWorkSecurity_007.ply",
+      "source_sha256": "1e4b96b1326e2340255060031c27156455566f8736ea64af9ca10696023bf9df"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 8423,
+      "published_path": "assets/sionna/meshes/SM_TableWorkSecurity_008.ply",
+      "published_sha256": "1a0675fc35cab88d22e4b3d53effd93b4f1512bcd90ea11527ee3723a01c8c08",
+      "source_bytes": 8423,
+      "source_relative_path": "meshes/SM_TableWorkSecurity_008.ply",
+      "source_sha256": "1a0675fc35cab88d22e4b3d53effd93b4f1512bcd90ea11527ee3723a01c8c08"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 8423,
+      "published_path": "assets/sionna/meshes/SM_TableWorkSecurity_009.ply",
+      "published_sha256": "726b2a088cc11b2365e4a3de1319a046e86fc292f1c132253ccd746e93d80173",
+      "source_bytes": 8423,
+      "source_relative_path": "meshes/SM_TableWorkSecurity_009.ply",
+      "source_sha256": "726b2a088cc11b2365e4a3de1319a046e86fc292f1c132253ccd746e93d80173"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 8423,
+      "published_path": "assets/sionna/meshes/SM_TableWorkSecurity_010.ply",
+      "published_sha256": "4f0ddf6b1111936ba1cbc6d812fa2af199b65615510d0fb7ec44894c3e359920",
+      "source_bytes": 8423,
+      "source_relative_path": "meshes/SM_TableWorkSecurity_010.ply",
+      "source_sha256": "4f0ddf6b1111936ba1cbc6d812fa2af199b65615510d0fb7ec44894c3e359920"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 8423,
+      "published_path": "assets/sionna/meshes/SM_TableWorkSecurity_011.ply",
+      "published_sha256": "1ad6d8f4588196fbb110a5c3e0569f833f2eb6275f418645a1fd8dd6af8d220f",
+      "source_bytes": 8423,
+      "source_relative_path": "meshes/SM_TableWorkSecurity_011.ply",
+      "source_sha256": "1ad6d8f4588196fbb110a5c3e0569f833f2eb6275f418645a1fd8dd6af8d220f"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 8423,
+      "published_path": "assets/sionna/meshes/SM_TableWorkSecurity_012.ply",
+      "published_sha256": "2e4e728cc2aa1922f93651a19d99baadbe9a9f8287e5060d1de6f13a5288bdb4",
+      "source_bytes": 8423,
+      "source_relative_path": "meshes/SM_TableWorkSecurity_012.ply",
+      "source_sha256": "2e4e728cc2aa1922f93651a19d99baadbe9a9f8287e5060d1de6f13a5288bdb4"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 8423,
+      "published_path": "assets/sionna/meshes/SM_TableWorkSecurity_013.ply",
+      "published_sha256": "c5278d975f3282b81106501fa3988443e63d133cb7c3847387fc8f76690ac5df",
+      "source_bytes": 8423,
+      "source_relative_path": "meshes/SM_TableWorkSecurity_013.ply",
+      "source_sha256": "c5278d975f3282b81106501fa3988443e63d133cb7c3847387fc8f76690ac5df"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 8423,
+      "published_path": "assets/sionna/meshes/SM_TableWorkSecurity_014.ply",
+      "published_sha256": "155374395561311a705b39045da03fa4c0f09907869a83f937083a3d63bdcece",
+      "source_bytes": 8423,
+      "source_relative_path": "meshes/SM_TableWorkSecurity_014.ply",
+      "source_sha256": "155374395561311a705b39045da03fa4c0f09907869a83f937083a3d63bdcece"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 8423,
+      "published_path": "assets/sionna/meshes/SM_TableWorkSecurity_015.ply",
+      "published_sha256": "55097148df5c458394eaab23352d6fec086a07098c1ce22a53c8c5ecdc59b01c",
+      "source_bytes": 8423,
+      "source_relative_path": "meshes/SM_TableWorkSecurity_015.ply",
+      "source_sha256": "55097148df5c458394eaab23352d6fec086a07098c1ce22a53c8c5ecdc59b01c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 13521,
+      "published_path": "assets/sionna/meshes/SM_ToiletDoor_Door.ply",
+      "published_sha256": "684cf72ee19e9d6be2ce6f6d2f7955ab29b8e59ff67c44cb7868df49af783dd3",
+      "source_bytes": 13521,
+      "source_relative_path": "meshes/SM_ToiletDoor_Door.ply",
+      "source_sha256": "684cf72ee19e9d6be2ce6f6d2f7955ab29b8e59ff67c44cb7868df49af783dd3"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 13521,
+      "published_path": "assets/sionna/meshes/SM_ToiletDoor_Door_001.ply",
+      "published_sha256": "84c44e67a9603a785be5b45fd4cc65699812e420d9a17ab1971883190bcd2e7f",
+      "source_bytes": 13521,
+      "source_relative_path": "meshes/SM_ToiletDoor_Door_001.ply",
+      "source_sha256": "84c44e67a9603a785be5b45fd4cc65699812e420d9a17ab1971883190bcd2e7f"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 13521,
+      "published_path": "assets/sionna/meshes/SM_ToiletDoor_Door_004.ply",
+      "published_sha256": "9b715f904de719cf34fa3cd8b42803b37d21a1e84e647ee72f53ac60eaaeae56",
+      "source_bytes": 13521,
+      "source_relative_path": "meshes/SM_ToiletDoor_Door_004.ply",
+      "source_sha256": "9b715f904de719cf34fa3cd8b42803b37d21a1e84e647ee72f53ac60eaaeae56"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 13521,
+      "published_path": "assets/sionna/meshes/SM_ToiletDoor_Door_007.ply",
+      "published_sha256": "5e23a2601d01016f203af77298a729d913644fd7ea3a4c1e7b3019df42f00449",
+      "source_bytes": 13521,
+      "source_relative_path": "meshes/SM_ToiletDoor_Door_007.ply",
+      "source_sha256": "5e23a2601d01016f203af77298a729d913644fd7ea3a4c1e7b3019df42f00449"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 13521,
+      "published_path": "assets/sionna/meshes/SM_ToiletDoor_Door_009.ply",
+      "published_sha256": "6fda503d349d9dfdd251732edf801327c8d0f0de05b0591f018df3f7c48709db",
+      "source_bytes": 13521,
+      "source_relative_path": "meshes/SM_ToiletDoor_Door_009.ply",
+      "source_sha256": "6fda503d349d9dfdd251732edf801327c8d0f0de05b0591f018df3f7c48709db"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 13521,
+      "published_path": "assets/sionna/meshes/SM_ToiletDoor_Door_010.ply",
+      "published_sha256": "8ac4899f53e1da084acfc6cbdef697c58b45297dba6206c16859a55b9ff12f1d",
+      "source_bytes": 13521,
+      "source_relative_path": "meshes/SM_ToiletDoor_Door_010.ply",
+      "source_sha256": "8ac4899f53e1da084acfc6cbdef697c58b45297dba6206c16859a55b9ff12f1d"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 13521,
+      "published_path": "assets/sionna/meshes/SM_ToiletDoor_Door_011.ply",
+      "published_sha256": "2e3122a59643d6e6491a224a0daa44a9af79981958a4c55182bfa805953cafed",
+      "source_bytes": 13521,
+      "source_relative_path": "meshes/SM_ToiletDoor_Door_011.ply",
+      "source_sha256": "2e3122a59643d6e6491a224a0daa44a9af79981958a4c55182bfa805953cafed"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 13521,
+      "published_path": "assets/sionna/meshes/SM_ToiletDoor_Door_014.ply",
+      "published_sha256": "400dd3256ad8a01ef7b79797b1ee64509afe93b03033910d2e8265c1a8905870",
+      "source_bytes": 13521,
+      "source_relative_path": "meshes/SM_ToiletDoor_Door_014.ply",
+      "source_sha256": "400dd3256ad8a01ef7b79797b1ee64509afe93b03033910d2e8265c1a8905870"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 13521,
+      "published_path": "assets/sionna/meshes/SM_ToiletDoor_Door_016.ply",
+      "published_sha256": "8a7d327fd16c87163d7ae2fcd8104e87271981c9b802ba86a25d91e6b9e3258c",
+      "source_bytes": 13521,
+      "source_relative_path": "meshes/SM_ToiletDoor_Door_016.ply",
+      "source_sha256": "8a7d327fd16c87163d7ae2fcd8104e87271981c9b802ba86a25d91e6b9e3258c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 13521,
+      "published_path": "assets/sionna/meshes/SM_ToiletDoor_Door_019.ply",
+      "published_sha256": "90e7a9680bd575d01857bc617eceab60c790f4a74f6741ad42df4dde3147b365",
+      "source_bytes": 13521,
+      "source_relative_path": "meshes/SM_ToiletDoor_Door_019.ply",
+      "source_sha256": "90e7a9680bd575d01857bc617eceab60c790f4a74f6741ad42df4dde3147b365"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_001.ply",
+      "published_sha256": "5f6e28e4884ac14b0624ec2599b776bb40a5f016ada585e1890f7fb8ebd96ed0",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_001.ply",
+      "source_sha256": "5f6e28e4884ac14b0624ec2599b776bb40a5f016ada585e1890f7fb8ebd96ed0"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_003.ply",
+      "published_sha256": "277fbdc9ac54e8c07709862bc0b8fe1c88a21c2e9db1732fdf9c45a21e936fbe",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_003.ply",
+      "source_sha256": "277fbdc9ac54e8c07709862bc0b8fe1c88a21c2e9db1732fdf9c45a21e936fbe"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_004.ply",
+      "published_sha256": "fb41d81c8d286220a553324510c83455933654bd1db32e4d38798548a31215bf",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_004.ply",
+      "source_sha256": "fb41d81c8d286220a553324510c83455933654bd1db32e4d38798548a31215bf"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_005.ply",
+      "published_sha256": "977202f3aaa2384acd804336bede4e025cd24e0bd870ab7dd2124ac394dbbf76",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_005.ply",
+      "source_sha256": "977202f3aaa2384acd804336bede4e025cd24e0bd870ab7dd2124ac394dbbf76"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_007.ply",
+      "published_sha256": "e5112b9f0d9561388ad62907c96e812d7a31b6037405b3141437aac98acc4121",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_007.ply",
+      "source_sha256": "e5112b9f0d9561388ad62907c96e812d7a31b6037405b3141437aac98acc4121"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_010.ply",
+      "published_sha256": "7d39652b8611bc477ae4b2a2ccdfd8183fbf6c56c258c61625692b466806812a",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_010.ply",
+      "source_sha256": "7d39652b8611bc477ae4b2a2ccdfd8183fbf6c56c258c61625692b466806812a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_013.ply",
+      "published_sha256": "1f0778cfa6724c3390f38cbc8cae2b850516102816fe1ef5d770c3f44174e19c",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_013.ply",
+      "source_sha256": "1f0778cfa6724c3390f38cbc8cae2b850516102816fe1ef5d770c3f44174e19c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_014.ply",
+      "published_sha256": "e630902329b3850d40939efda02a693b498ae3e05ad70deb72ff9730fe47f7c3",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_014.ply",
+      "source_sha256": "e630902329b3850d40939efda02a693b498ae3e05ad70deb72ff9730fe47f7c3"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_015.ply",
+      "published_sha256": "d5bc4f86f1133f22c1ce8e6639210823696adfaa833336a4fd7c88520036ed6e",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_015.ply",
+      "source_sha256": "d5bc4f86f1133f22c1ce8e6639210823696adfaa833336a4fd7c88520036ed6e"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_016.ply",
+      "published_sha256": "dccf9ea2ca2524230620941ae792ec806036ce682e25a29dfe2d8f927315199c",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_016.ply",
+      "source_sha256": "dccf9ea2ca2524230620941ae792ec806036ce682e25a29dfe2d8f927315199c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_018.ply",
+      "published_sha256": "1f3be8bd77350d21c95d8f8aecf58ca16b73c4cfda29363177fe3545c59d7919",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_018.ply",
+      "source_sha256": "1f3be8bd77350d21c95d8f8aecf58ca16b73c4cfda29363177fe3545c59d7919"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_021.ply",
+      "published_sha256": "d98511054337fa7e584ab814cec8401edd991b04e4f66e1d03f348ac405bf3c3",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_021.ply",
+      "source_sha256": "d98511054337fa7e584ab814cec8401edd991b04e4f66e1d03f348ac405bf3c3"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_022.ply",
+      "published_sha256": "f8593115c4c6487cd942af193c14d67cce6165b2f48c93a1b6de96eaa0feaa2e",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_022.ply",
+      "source_sha256": "f8593115c4c6487cd942af193c14d67cce6165b2f48c93a1b6de96eaa0feaa2e"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_023.ply",
+      "published_sha256": "82a4a577b0c20c4dfceeb880a66d83ac77d5caec10b07d631963dc6867bd4f7a",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_023.ply",
+      "source_sha256": "82a4a577b0c20c4dfceeb880a66d83ac77d5caec10b07d631963dc6867bd4f7a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_024.ply",
+      "published_sha256": "8f370545a4e27b7684f255293e18b9616bb1ce143ea1d1f6d64b0decf51d3e93",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_024.ply",
+      "source_sha256": "8f370545a4e27b7684f255293e18b9616bb1ce143ea1d1f6d64b0decf51d3e93"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_026.ply",
+      "published_sha256": "f07b00a987d81ed6efb363e9efae7e25b0787a469fbcc8fde3e98977871c74e9",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_026.ply",
+      "source_sha256": "f07b00a987d81ed6efb363e9efae7e25b0787a469fbcc8fde3e98977871c74e9"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_029.ply",
+      "published_sha256": "94bd3353819776f6028b6e0e179978d9e65f2a194475a82ffd22674d3880c168",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_029.ply",
+      "source_sha256": "94bd3353819776f6028b6e0e179978d9e65f2a194475a82ffd22674d3880c168"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_032.ply",
+      "published_sha256": "b9d2164aa3ee8ea36b9bd7ea6d860d220187a91fa6d5637a151d66d449226b2d",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_032.ply",
+      "source_sha256": "b9d2164aa3ee8ea36b9bd7ea6d860d220187a91fa6d5637a151d66d449226b2d"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_034.ply",
+      "published_sha256": "4382dd66aa31d764d2b681fa20eb285f3abcddbd182df914cc222cd50a8c1206",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_034.ply",
+      "source_sha256": "4382dd66aa31d764d2b681fa20eb285f3abcddbd182df914cc222cd50a8c1206"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_036.ply",
+      "published_sha256": "a54df6146926f99e20b1d1379853071bd3519260319cae62f6d9e02faa997b46",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_036.ply",
+      "source_sha256": "a54df6146926f99e20b1d1379853071bd3519260319cae62f6d9e02faa997b46"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_037.ply",
+      "published_sha256": "a0494e6adcb7e3c680e20b97bb4433b5b90754749d06ad1d3fc4f9ba9264e8f5",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_037.ply",
+      "source_sha256": "a0494e6adcb7e3c680e20b97bb4433b5b90754749d06ad1d3fc4f9ba9264e8f5"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_039.ply",
+      "published_sha256": "744dfd40a52fbda7ad023fbedd70714d03860e2f9d937ecbae1a5bc33438d41e",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_039.ply",
+      "source_sha256": "744dfd40a52fbda7ad023fbedd70714d03860e2f9d937ecbae1a5bc33438d41e"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_040.ply",
+      "published_sha256": "cdc9c3431f2307cb3a6f2cf2907babf049b4afe470d2101c7db1f5ed957d6808",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_040.ply",
+      "source_sha256": "cdc9c3431f2307cb3a6f2cf2907babf049b4afe470d2101c7db1f5ed957d6808"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_042.ply",
+      "published_sha256": "39d3a0af6953d80e6777152d9aeac6a668b63e44913b69e9086755bdfe5901f6",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_042.ply",
+      "source_sha256": "39d3a0af6953d80e6777152d9aeac6a668b63e44913b69e9086755bdfe5901f6"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_044.ply",
+      "published_sha256": "6a28e961ab54e7148817581c15c1f2a3ebdc556b3fadb68af379227ea25a4a61",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_044.ply",
+      "source_sha256": "6a28e961ab54e7148817581c15c1f2a3ebdc556b3fadb68af379227ea25a4a61"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_045.ply",
+      "published_sha256": "0a33135039b6bd28abf0fc7af21c0d5ea5a48e8ced5564c72ad23e683a5e408b",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_045.ply",
+      "source_sha256": "0a33135039b6bd28abf0fc7af21c0d5ea5a48e8ced5564c72ad23e683a5e408b"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_046.ply",
+      "published_sha256": "9bedecc6870305dc73d557586812f881113de2853b971f8440cc3db6e4889d3f",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_046.ply",
+      "source_sha256": "9bedecc6870305dc73d557586812f881113de2853b971f8440cc3db6e4889d3f"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_052.ply",
+      "published_sha256": "515673f72fce7e4efdd244f99895e01502950ae670384766cd907dcc364d2709",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_052.ply",
+      "source_sha256": "515673f72fce7e4efdd244f99895e01502950ae670384766cd907dcc364d2709"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_053.ply",
+      "published_sha256": "4e28ec137e84703fdc2bfc4887dcd0ec2069d5e150c9f4be1b1f87b4a6e70948",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_053.ply",
+      "source_sha256": "4e28ec137e84703fdc2bfc4887dcd0ec2069d5e150c9f4be1b1f87b4a6e70948"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_054.ply",
+      "published_sha256": "5f8b0799ef087bbc6f9cf76308be05c5bd0c0d342aa1ec7204af6d3e9d765474",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_054.ply",
+      "source_sha256": "5f8b0799ef087bbc6f9cf76308be05c5bd0c0d342aa1ec7204af6d3e9d765474"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_056.ply",
+      "published_sha256": "ee4c3bcd87b0b72ee85a0f5bbbaa2083a821552728904b2be4ec3ee95de953c9",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_056.ply",
+      "source_sha256": "ee4c3bcd87b0b72ee85a0f5bbbaa2083a821552728904b2be4ec3ee95de953c9"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_059.ply",
+      "published_sha256": "322e6b63023a5db9ac86a2f1ca2c390e04c9cf77c00513517e29e8a5364e427e",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_059.ply",
+      "source_sha256": "322e6b63023a5db9ac86a2f1ca2c390e04c9cf77c00513517e29e8a5364e427e"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_060.ply",
+      "published_sha256": "fcb191b15751ea277073a8a9b977145c58406d46fc7d7dcec5cc0e0d718206e3",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_060.ply",
+      "source_sha256": "fcb191b15751ea277073a8a9b977145c58406d46fc7d7dcec5cc0e0d718206e3"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_063.ply",
+      "published_sha256": "13656d0d440888a0ec1f032f3fd8332f51aafd6f170f45dccd008bf2b5841de9",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_063.ply",
+      "source_sha256": "13656d0d440888a0ec1f032f3fd8332f51aafd6f170f45dccd008bf2b5841de9"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_064.ply",
+      "published_sha256": "628acda54c7eb2c287ea5e630fd156ceffe2812fa409c5eb8090a09375184a23",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_064.ply",
+      "source_sha256": "628acda54c7eb2c287ea5e630fd156ceffe2812fa409c5eb8090a09375184a23"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_068.ply",
+      "published_sha256": "4432745bdef026e9cd775105203cefc735b639958c7def190778db26429b578a",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_068.ply",
+      "source_sha256": "4432745bdef026e9cd775105203cefc735b639958c7def190778db26429b578a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_070.ply",
+      "published_sha256": "c7633d87ded754724380c148a9ff920ef407476703ac616783ed25c8f6ca2dc0",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_070.ply",
+      "source_sha256": "c7633d87ded754724380c148a9ff920ef407476703ac616783ed25c8f6ca2dc0"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_071.ply",
+      "published_sha256": "ff9cd6ff8acb7a4a320b7f3e06287918d1d7df44819739b7dcce4b392b556d5e",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_071.ply",
+      "source_sha256": "ff9cd6ff8acb7a4a320b7f3e06287918d1d7df44819739b7dcce4b392b556d5e"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_075.ply",
+      "published_sha256": "ca305d86af7326340a1dad6b9f9b4d9215039f65e79d317ba5a321b901c3cc28",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_075.ply",
+      "source_sha256": "ca305d86af7326340a1dad6b9f9b4d9215039f65e79d317ba5a321b901c3cc28"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_076.ply",
+      "published_sha256": "31b46ec51c566f0284ca2f19f055c6770c156be9df48d312781c742ad190c6da",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_076.ply",
+      "source_sha256": "31b46ec51c566f0284ca2f19f055c6770c156be9df48d312781c742ad190c6da"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_079.ply",
+      "published_sha256": "81d97e4b115a8488a394708fe01351a659a8b287d0cdcc503fac1b3b41214bb1",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_079.ply",
+      "source_sha256": "81d97e4b115a8488a394708fe01351a659a8b287d0cdcc503fac1b3b41214bb1"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_080.ply",
+      "published_sha256": "e07b0fdbcd398f00bdb8f24b72903d291c87a0b104cbb57012724c240e258f22",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_080.ply",
+      "source_sha256": "e07b0fdbcd398f00bdb8f24b72903d291c87a0b104cbb57012724c240e258f22"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_081.ply",
+      "published_sha256": "3cb7df8e8b6b290bf9b22b5d7aec162add8ce666a69ef4dc53cc68f4a190d020",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_081.ply",
+      "source_sha256": "3cb7df8e8b6b290bf9b22b5d7aec162add8ce666a69ef4dc53cc68f4a190d020"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_083.ply",
+      "published_sha256": "e24e775d008bd0cebbcd707f79e3ac042e09ca82af3bc09451b3699d10fe8929",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_083.ply",
+      "source_sha256": "e24e775d008bd0cebbcd707f79e3ac042e09ca82af3bc09451b3699d10fe8929"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_085.ply",
+      "published_sha256": "4a58cdd84d641746ed00d5a0cb4f8ffb4398235d08010711841a57002319fb6c",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_085.ply",
+      "source_sha256": "4a58cdd84d641746ed00d5a0cb4f8ffb4398235d08010711841a57002319fb6c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_086.ply",
+      "published_sha256": "0559b1b4edc674c28a63a42f3db80592109a9b7f2b663d3408af56b4d1fe0126",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_086.ply",
+      "source_sha256": "0559b1b4edc674c28a63a42f3db80592109a9b7f2b663d3408af56b4d1fe0126"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_089.ply",
+      "published_sha256": "9a34ca04a4ea059d2157f87ecae451d231d34d96ebe34aa47b4450a56fd83a82",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_089.ply",
+      "source_sha256": "9a34ca04a4ea059d2157f87ecae451d231d34d96ebe34aa47b4450a56fd83a82"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_092.ply",
+      "published_sha256": "52aea6bb947326c3307f300c3ffea4054d481badb959d530f581e74ad4b09e2e",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_092.ply",
+      "source_sha256": "52aea6bb947326c3307f300c3ffea4054d481badb959d530f581e74ad4b09e2e"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_094.ply",
+      "published_sha256": "b4319e8b4a52a05c27170c1002b9ea3c343e394fd78fd73e3380dedd39591e21",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_094.ply",
+      "source_sha256": "b4319e8b4a52a05c27170c1002b9ea3c343e394fd78fd73e3380dedd39591e21"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_095.ply",
+      "published_sha256": "040b6467369f2891eb1762e35b58a9e0b4cb23c6282e0354e46e2c46a139204e",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_095.ply",
+      "source_sha256": "040b6467369f2891eb1762e35b58a9e0b4cb23c6282e0354e46e2c46a139204e"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_097.ply",
+      "published_sha256": "22053c48b210a895051662be1d59739141ed6aef5d54bc07f7d313bbb88b1dc3",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_097.ply",
+      "source_sha256": "22053c48b210a895051662be1d59739141ed6aef5d54bc07f7d313bbb88b1dc3"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_100.ply",
+      "published_sha256": "12115a1b24d7c8f6c102d9b6a3f619ed2611deb5ca088c71aec9b4416c73b3b0",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_100.ply",
+      "source_sha256": "12115a1b24d7c8f6c102d9b6a3f619ed2611deb5ca088c71aec9b4416c73b3b0"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_103.ply",
+      "published_sha256": "18acff0e15045b8de902acaca1a22bb9d6b891f93da288b504b1ceeacd85074e",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_103.ply",
+      "source_sha256": "18acff0e15045b8de902acaca1a22bb9d6b891f93da288b504b1ceeacd85074e"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_105.ply",
+      "published_sha256": "1909d73f782162c96be204bee5acf89a04bc14eb0d17126e57aeaefd1a184b44",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_105.ply",
+      "source_sha256": "1909d73f782162c96be204bee5acf89a04bc14eb0d17126e57aeaefd1a184b44"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_106.ply",
+      "published_sha256": "6cf2958360f94f5ecffe5a65bebc9124f5c3d6799cd1a7f27d2d512259c74075",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_106.ply",
+      "source_sha256": "6cf2958360f94f5ecffe5a65bebc9124f5c3d6799cd1a7f27d2d512259c74075"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_109.ply",
+      "published_sha256": "a9bef3708ba8f61c30d7d829d7c902ef2122e36ec2cdc764595fdf71d1c7508c",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_109.ply",
+      "source_sha256": "a9bef3708ba8f61c30d7d829d7c902ef2122e36ec2cdc764595fdf71d1c7508c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_113.ply",
+      "published_sha256": "e7a3a64fadadc4f883e1f7d037ff3818dd0cadc613cfbfaa0111d0e0397c78b4",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_113.ply",
+      "source_sha256": "e7a3a64fadadc4f883e1f7d037ff3818dd0cadc613cfbfaa0111d0e0397c78b4"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_114.ply",
+      "published_sha256": "b614853d5026a1984253e7f851eceacbda11e2af66584cd352f6086098a619b6",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_114.ply",
+      "source_sha256": "b614853d5026a1984253e7f851eceacbda11e2af66584cd352f6086098a619b6"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_118.ply",
+      "published_sha256": "8b1433c9105d89f33276a5df7769608a90cf05832ee98b03408ccbbb3f722db6",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_118.ply",
+      "source_sha256": "8b1433c9105d89f33276a5df7769608a90cf05832ee98b03408ccbbb3f722db6"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_119.ply",
+      "published_sha256": "dc83352c778a2a41aace040d50d24449042e379cd94f153256008bedb164f212",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_119.ply",
+      "source_sha256": "dc83352c778a2a41aace040d50d24449042e379cd94f153256008bedb164f212"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_121.ply",
+      "published_sha256": "2f03d79121cd59a52020012ae18af1f1d0ac52ce7e87cab5dd52db8d8f76ac3d",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_121.ply",
+      "source_sha256": "2f03d79121cd59a52020012ae18af1f1d0ac52ce7e87cab5dd52db8d8f76ac3d"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_122.ply",
+      "published_sha256": "f047fb07d3828a683a3d12a3659e5c3da782b84037431ba0f4d32106a3de5534",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_122.ply",
+      "source_sha256": "f047fb07d3828a683a3d12a3659e5c3da782b84037431ba0f4d32106a3de5534"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2569,
+      "published_path": "assets/sionna/meshes/SM_Wall_2m_125.ply",
+      "published_sha256": "1c6602ec794041c733944760e50b70ad130244a85a7302bfd9624674134d0cd7",
+      "source_bytes": 2569,
+      "source_relative_path": "meshes/SM_Wall_2m_125.ply",
+      "source_sha256": "1c6602ec794041c733944760e50b70ad130244a85a7302bfd9624674134d0cd7"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_002.ply",
+      "published_sha256": "0bc0d18db06c41c324d2d84adaab69ff72d4ad9a294e7ed1f423a620e2d958dd",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_002.ply",
+      "source_sha256": "0bc0d18db06c41c324d2d84adaab69ff72d4ad9a294e7ed1f423a620e2d958dd"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_005.ply",
+      "published_sha256": "172d100fadb253cfa2f5c69b9e4ceba56e20da428f7d00ac8d1540df7d6febb4",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_005.ply",
+      "source_sha256": "172d100fadb253cfa2f5c69b9e4ceba56e20da428f7d00ac8d1540df7d6febb4"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_007.ply",
+      "published_sha256": "fdb4dfeba1fe9087eca712657a2ba45554891cf6f6642ab81581613ac44286d8",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_007.ply",
+      "source_sha256": "fdb4dfeba1fe9087eca712657a2ba45554891cf6f6642ab81581613ac44286d8"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_009.ply",
+      "published_sha256": "15226c7a83087875933a1e2102ad8ce854e198d78abbe5202a94205a1718eda8",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_009.ply",
+      "source_sha256": "15226c7a83087875933a1e2102ad8ce854e198d78abbe5202a94205a1718eda8"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_011.ply",
+      "published_sha256": "07b4face31b9296709a4723bacbb0a22cc37db994b1b6463629671c12168891e",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_011.ply",
+      "source_sha256": "07b4face31b9296709a4723bacbb0a22cc37db994b1b6463629671c12168891e"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_013.ply",
+      "published_sha256": "b6a50d7d107acf3a569bd8491cc955497ab331c78a6c69d1c967262149880a69",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_013.ply",
+      "source_sha256": "b6a50d7d107acf3a569bd8491cc955497ab331c78a6c69d1c967262149880a69"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_014.ply",
+      "published_sha256": "a18d94a0aa04dd40920dbd4f09e06d5c810afb174de9a2c0e4bb461b9db4a7a1",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_014.ply",
+      "source_sha256": "a18d94a0aa04dd40920dbd4f09e06d5c810afb174de9a2c0e4bb461b9db4a7a1"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_016.ply",
+      "published_sha256": "42e460bf4bd33547902e0eaa0429c68ea680e6633740ba3bb803f7f377c8b000",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_016.ply",
+      "source_sha256": "42e460bf4bd33547902e0eaa0429c68ea680e6633740ba3bb803f7f377c8b000"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_020.ply",
+      "published_sha256": "c42759c45b24362d2cd98ade9089ff238fe6563c80b7e7255166ec0c5cd2224a",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_020.ply",
+      "source_sha256": "c42759c45b24362d2cd98ade9089ff238fe6563c80b7e7255166ec0c5cd2224a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_021.ply",
+      "published_sha256": "53b421a14cfc91b5b7db59dc454cdd91a33014b5cd743750e8ab76c3cd9f53c3",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_021.ply",
+      "source_sha256": "53b421a14cfc91b5b7db59dc454cdd91a33014b5cd743750e8ab76c3cd9f53c3"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_022.ply",
+      "published_sha256": "ceaed5ccd388222ba37d2998795645b117dd5c9a69be829f1e186e1b1e1afe7f",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_022.ply",
+      "source_sha256": "ceaed5ccd388222ba37d2998795645b117dd5c9a69be829f1e186e1b1e1afe7f"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_023.ply",
+      "published_sha256": "1b98ad625773f30eb4c24bf85f86d29cdd4abfba3328a11723666546bc357ec9",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_023.ply",
+      "source_sha256": "1b98ad625773f30eb4c24bf85f86d29cdd4abfba3328a11723666546bc357ec9"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_028.ply",
+      "published_sha256": "a67ca7c79e3361cb33b17ef2306e4f26f7b0274b1f22b0019cc65f7bc72df0b3",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_028.ply",
+      "source_sha256": "a67ca7c79e3361cb33b17ef2306e4f26f7b0274b1f22b0019cc65f7bc72df0b3"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_029.ply",
+      "published_sha256": "f2c94b756b6204827702ee78c9412ce3248e5e2714c49d02a15504361954e2db",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_029.ply",
+      "source_sha256": "f2c94b756b6204827702ee78c9412ce3248e5e2714c49d02a15504361954e2db"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_031.ply",
+      "published_sha256": "96b1c5636499259234c72f8d9ebee2c49e837e70f4795155dd4901ef1eb03b70",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_031.ply",
+      "source_sha256": "96b1c5636499259234c72f8d9ebee2c49e837e70f4795155dd4901ef1eb03b70"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_032.ply",
+      "published_sha256": "80045b3d7f3f7c143962b6204aaaadf3c2816a319e5979e9955356582638f061",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_032.ply",
+      "source_sha256": "80045b3d7f3f7c143962b6204aaaadf3c2816a319e5979e9955356582638f061"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_033.ply",
+      "published_sha256": "8c9509430e851abd52a9e3baea4806cb656e472872785a352107e241ae4c62c0",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_033.ply",
+      "source_sha256": "8c9509430e851abd52a9e3baea4806cb656e472872785a352107e241ae4c62c0"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_035.ply",
+      "published_sha256": "97d47658c3ccedab6adf36b1b1b6c3ddc0c51b611af7621c69e98ad2cc138cb8",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_035.ply",
+      "source_sha256": "97d47658c3ccedab6adf36b1b1b6c3ddc0c51b611af7621c69e98ad2cc138cb8"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_036.ply",
+      "published_sha256": "d07257b617689a037e8d3de95e079bba6486e3a26637d4cd215037c99fd7a67b",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_036.ply",
+      "source_sha256": "d07257b617689a037e8d3de95e079bba6486e3a26637d4cd215037c99fd7a67b"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_039.ply",
+      "published_sha256": "4afa639598c8385baf96860fff5b7c6d01415994e97fb16b157aa7f334644b4e",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_039.ply",
+      "source_sha256": "4afa639598c8385baf96860fff5b7c6d01415994e97fb16b157aa7f334644b4e"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_040.ply",
+      "published_sha256": "2f602c1801b4fb0922571a443c42dd138f97439fcbf840067e192a464738fc58",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_040.ply",
+      "source_sha256": "2f602c1801b4fb0922571a443c42dd138f97439fcbf840067e192a464738fc58"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_044.ply",
+      "published_sha256": "693c764f8767c283105419f88046988d86eaeeafe663f265e5119f6ce26f6f71",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_044.ply",
+      "source_sha256": "693c764f8767c283105419f88046988d86eaeeafe663f265e5119f6ce26f6f71"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_045.ply",
+      "published_sha256": "a07aaaf6af5a798fdb2039cf53226dd2fc63babdee5f438c91b693ec6d8b24a0",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_045.ply",
+      "source_sha256": "a07aaaf6af5a798fdb2039cf53226dd2fc63babdee5f438c91b693ec6d8b24a0"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_048.ply",
+      "published_sha256": "2e243fe59ceb72581e8c88ba713350aca2f31cdfa8aad9e3167357482affa54d",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_048.ply",
+      "source_sha256": "2e243fe59ceb72581e8c88ba713350aca2f31cdfa8aad9e3167357482affa54d"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_049.ply",
+      "published_sha256": "8224ce99ab6ab3fc550ee9a2e358ee3024ad53e90d1945d44da39fe1fb28eef3",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_049.ply",
+      "source_sha256": "8224ce99ab6ab3fc550ee9a2e358ee3024ad53e90d1945d44da39fe1fb28eef3"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_052.ply",
+      "published_sha256": "0485c4c43f15d24c65296a673476389aa7a1ef7a92e34fb337a472daa3e05ea9",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_052.ply",
+      "source_sha256": "0485c4c43f15d24c65296a673476389aa7a1ef7a92e34fb337a472daa3e05ea9"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_054.ply",
+      "published_sha256": "c29a07ed853b5962196c5f80d14fccd897955ddc4a5f334758dca128c33bc1ba",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_054.ply",
+      "source_sha256": "c29a07ed853b5962196c5f80d14fccd897955ddc4a5f334758dca128c33bc1ba"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_055.ply",
+      "published_sha256": "42d5c2a07c842e330667390b4947799bd1093a9d30db04894e9c84cefca5236d",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_055.ply",
+      "source_sha256": "42d5c2a07c842e330667390b4947799bd1093a9d30db04894e9c84cefca5236d"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_057.ply",
+      "published_sha256": "3a5ddff6d759550d0119dc28f4e23dc5d4bd61b04d8fb86239d6325ecf7007ce",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_057.ply",
+      "source_sha256": "3a5ddff6d759550d0119dc28f4e23dc5d4bd61b04d8fb86239d6325ecf7007ce"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_058.ply",
+      "published_sha256": "1f1b14a8881f1ba10545b0199324d732eec86340b17941b38db9064d2ae6e917",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_058.ply",
+      "source_sha256": "1f1b14a8881f1ba10545b0199324d732eec86340b17941b38db9064d2ae6e917"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_059.ply",
+      "published_sha256": "fb98bb71b396068272ab72dfddfb9ed8990c3abf6e2df5b499f687906d94c779",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_059.ply",
+      "source_sha256": "fb98bb71b396068272ab72dfddfb9ed8990c3abf6e2df5b499f687906d94c779"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_062.ply",
+      "published_sha256": "fee29734dc14e606df9755df5baa87f377d5fe3a2a5ccdfc524f50ecf181c9aa",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_062.ply",
+      "source_sha256": "fee29734dc14e606df9755df5baa87f377d5fe3a2a5ccdfc524f50ecf181c9aa"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_064.ply",
+      "published_sha256": "00531b19734317264ec75be08485291c8f6aa2b0ad7053106b92b04bc87d3483",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_064.ply",
+      "source_sha256": "00531b19734317264ec75be08485291c8f6aa2b0ad7053106b92b04bc87d3483"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_065.ply",
+      "published_sha256": "a0a7df1e28b81c5e7a71cb85ab0ef8772f388195f749e872495c61e2e705028a",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_065.ply",
+      "source_sha256": "a0a7df1e28b81c5e7a71cb85ab0ef8772f388195f749e872495c61e2e705028a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_068.ply",
+      "published_sha256": "ed4175801f4317131080240bea1096c418a25aed1f0118096d14b150d98a307e",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_068.ply",
+      "source_sha256": "ed4175801f4317131080240bea1096c418a25aed1f0118096d14b150d98a307e"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_069.ply",
+      "published_sha256": "9bc9dbfdbe17e46e026c020c30f616442cc9ab02f660b57724b0fc2935e59edc",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_069.ply",
+      "source_sha256": "9bc9dbfdbe17e46e026c020c30f616442cc9ab02f660b57724b0fc2935e59edc"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_071.ply",
+      "published_sha256": "d5996e50d7274536685725654b7b81467b437392419004f5ffa6cae0c5b7f10b",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_071.ply",
+      "source_sha256": "d5996e50d7274536685725654b7b81467b437392419004f5ffa6cae0c5b7f10b"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_072.ply",
+      "published_sha256": "a868c9da766e628b956f7233a4b9ffb7d3afe53052c1735237860beeab88974b",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_072.ply",
+      "source_sha256": "a868c9da766e628b956f7233a4b9ffb7d3afe53052c1735237860beeab88974b"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_074.ply",
+      "published_sha256": "560d5a8519ae11a5b13522485eeb178f3bd17a26fbbf8af19af019fb115efaaa",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_074.ply",
+      "source_sha256": "560d5a8519ae11a5b13522485eeb178f3bd17a26fbbf8af19af019fb115efaaa"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_075.ply",
+      "published_sha256": "49db45472ed8a1a57b1d2f34232d137d918a7250c047a014070b25c7a4a4a167",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_075.ply",
+      "source_sha256": "49db45472ed8a1a57b1d2f34232d137d918a7250c047a014070b25c7a4a4a167"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_078.ply",
+      "published_sha256": "41002ea9b41b40bf937831e2dd4e9705a65964f9e4099cc0cd330a19883c96ef",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_078.ply",
+      "source_sha256": "41002ea9b41b40bf937831e2dd4e9705a65964f9e4099cc0cd330a19883c96ef"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_080.ply",
+      "published_sha256": "6bf681a8cbbb06beb47ca0adbbbc5a335b602ff41dd9d0ea805c7c43331f4a9f",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_080.ply",
+      "source_sha256": "6bf681a8cbbb06beb47ca0adbbbc5a335b602ff41dd9d0ea805c7c43331f4a9f"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_081.ply",
+      "published_sha256": "35ed30ee3aa0d5a2ac42befc9820a84cc098363afd4717688d30ac12f117040a",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_081.ply",
+      "source_sha256": "35ed30ee3aa0d5a2ac42befc9820a84cc098363afd4717688d30ac12f117040a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_084.ply",
+      "published_sha256": "9d2b2a8cb5a6ea4ba8b79033264137945cf4df8a1182c891945a57db3bedec09",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_084.ply",
+      "source_sha256": "9d2b2a8cb5a6ea4ba8b79033264137945cf4df8a1182c891945a57db3bedec09"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_085.ply",
+      "published_sha256": "a3f4a5389bf1f6e64e737b0407eda1630c240de245ce90c4452626fd5f9c956d",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_085.ply",
+      "source_sha256": "a3f4a5389bf1f6e64e737b0407eda1630c240de245ce90c4452626fd5f9c956d"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_087.ply",
+      "published_sha256": "44535528bee850e694836bdd5756024494325c2b199a677ce23f1e8054493574",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_087.ply",
+      "source_sha256": "44535528bee850e694836bdd5756024494325c2b199a677ce23f1e8054493574"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_089.ply",
+      "published_sha256": "04a5ea5c05e2c344272747f77b66e966a8f0a253f9d1d9411c201b1898a9ca1a",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_089.ply",
+      "source_sha256": "04a5ea5c05e2c344272747f77b66e966a8f0a253f9d1d9411c201b1898a9ca1a"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_091.ply",
+      "published_sha256": "dee999acb41fd59328fe4b76433bd694fb54e765a6c89f7e5731931dfca78270",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_091.ply",
+      "source_sha256": "dee999acb41fd59328fe4b76433bd694fb54e765a6c89f7e5731931dfca78270"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_093.ply",
+      "published_sha256": "2919bbdffee7feb8bb5b917c58522631b9f4067eacea797adb088c947ad584a7",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_093.ply",
+      "source_sha256": "2919bbdffee7feb8bb5b917c58522631b9f4067eacea797adb088c947ad584a7"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_095.ply",
+      "published_sha256": "78370c466d4056326107d545b57effe07dba515061e8a7171493e66463de05b6",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_095.ply",
+      "source_sha256": "78370c466d4056326107d545b57effe07dba515061e8a7171493e66463de05b6"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_096.ply",
+      "published_sha256": "29424f87ef6956e7404f6b249918e4dff4aa14eb2fdadff0c2ae5c1bd7a53748",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_096.ply",
+      "source_sha256": "29424f87ef6956e7404f6b249918e4dff4aa14eb2fdadff0c2ae5c1bd7a53748"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_098.ply",
+      "published_sha256": "ca33e4d35e8fff8df6310ae95f014b6c6af20eeaae2e42e26a9790dbe6834eac",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_098.ply",
+      "source_sha256": "ca33e4d35e8fff8df6310ae95f014b6c6af20eeaae2e42e26a9790dbe6834eac"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_101.ply",
+      "published_sha256": "2190628063c4950f952b090b84a4f3973016531cf11549f202f48c1cccbd9177",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_101.ply",
+      "source_sha256": "2190628063c4950f952b090b84a4f3973016531cf11549f202f48c1cccbd9177"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_102.ply",
+      "published_sha256": "9c73e6bf2ee7f4e6c880575e8b7c3b8bf5160a75cd2d43ad219152d347deaefd",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_102.ply",
+      "source_sha256": "9c73e6bf2ee7f4e6c880575e8b7c3b8bf5160a75cd2d43ad219152d347deaefd"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_104.ply",
+      "published_sha256": "ca8ed73e2eaa7efc1cd3e61683666b9ebc46ca174a2f721fc80459aee994ff66",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_104.ply",
+      "source_sha256": "ca8ed73e2eaa7efc1cd3e61683666b9ebc46ca174a2f721fc80459aee994ff66"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_106.ply",
+      "published_sha256": "e3e7699a7b5d22856348ceb0bff5e56872c5d1b881a504774dfcdc0d35997089",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_106.ply",
+      "source_sha256": "e3e7699a7b5d22856348ceb0bff5e56872c5d1b881a504774dfcdc0d35997089"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_107.ply",
+      "published_sha256": "99b2b293fbdf40eeb58f8135e27478b4c698fbbb67cdaff21bb0fa7f65a67e91",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_107.ply",
+      "source_sha256": "99b2b293fbdf40eeb58f8135e27478b4c698fbbb67cdaff21bb0fa7f65a67e91"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_110.ply",
+      "published_sha256": "3dd62ed69b611aa6fd0a391b0d00fbb6c758c9a9ac8037ddbcb910037ae811da",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_110.ply",
+      "source_sha256": "3dd62ed69b611aa6fd0a391b0d00fbb6c758c9a9ac8037ddbcb910037ae811da"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_111.ply",
+      "published_sha256": "0862fb2eaa6671738fbbf3283847afab1ee3805ac1b8999cf02c443511efdbe8",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_111.ply",
+      "source_sha256": "0862fb2eaa6671738fbbf3283847afab1ee3805ac1b8999cf02c443511efdbe8"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_114.ply",
+      "published_sha256": "646ff76e38666942e20eb6ab6a53364ce7ba64158c34a54b7b7c18b01f8b0935",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_114.ply",
+      "source_sha256": "646ff76e38666942e20eb6ab6a53364ce7ba64158c34a54b7b7c18b01f8b0935"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_116.ply",
+      "published_sha256": "34ab54db10c8d6b6f21d589d639c9535a760768ce0f4cb5eb85337cafcb50683",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_116.ply",
+      "source_sha256": "34ab54db10c8d6b6f21d589d639c9535a760768ce0f4cb5eb85337cafcb50683"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_117.ply",
+      "published_sha256": "81d4a732e2241a51070d357d1df0ef718d39eab0426c0de45c7fac7128d2f9c1",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_117.ply",
+      "source_sha256": "81d4a732e2241a51070d357d1df0ef718d39eab0426c0de45c7fac7128d2f9c1"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_119.ply",
+      "published_sha256": "510bcaaac2f7edcdecec76644220b68e1bdeca516b917eccce2696b166219679",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_119.ply",
+      "source_sha256": "510bcaaac2f7edcdecec76644220b68e1bdeca516b917eccce2696b166219679"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_120.ply",
+      "published_sha256": "ecfc83b06a4d4a7963a107b08568101460248f0c9edbbb04a08bd87acbbff778",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_120.ply",
+      "source_sha256": "ecfc83b06a4d4a7963a107b08568101460248f0c9edbbb04a08bd87acbbff778"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_123.ply",
+      "published_sha256": "3e3c7a02a64e73675f55fe8780c8927b7effd4358f250262bd77cdc7e60cdc6c",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_123.ply",
+      "source_sha256": "3e3c7a02a64e73675f55fe8780c8927b7effd4358f250262bd77cdc7e60cdc6c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_125.ply",
+      "published_sha256": "1cd26c6dbab6569d5f6eb2098ae6cb7b2949e13df81ae566fa65166717e6df8c",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_125.ply",
+      "source_sha256": "1cd26c6dbab6569d5f6eb2098ae6cb7b2949e13df81ae566fa65166717e6df8c"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_127.ply",
+      "published_sha256": "84a9a5c378c9a6acb4c49197ddefd3b9eaeabd27d5ebc81ac819986b902aa8f5",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_127.ply",
+      "source_sha256": "84a9a5c378c9a6acb4c49197ddefd3b9eaeabd27d5ebc81ac819986b902aa8f5"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2171,
+      "published_path": "assets/sionna/meshes/SM_Wall_end_129.ply",
+      "published_sha256": "955b861526b91046ec8d3c11461d804be1fe20e3e9ac68ecf42d211af62361ec",
+      "source_bytes": 2171,
+      "source_relative_path": "meshes/SM_Wall_end_129.ply",
+      "source_sha256": "955b861526b91046ec8d3c11461d804be1fe20e3e9ac68ecf42d211af62361ec"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 54989,
+      "published_path": "assets/sionna/meshes/SM_WaterCooler_001.ply",
+      "published_sha256": "5b127a8101decdb1a935a3f83d777956e346d0c60d86d4e4c52c9a9ef643cc67",
+      "source_bytes": 54989,
+      "source_relative_path": "meshes/SM_WaterCooler_001.ply",
+      "source_sha256": "5b127a8101decdb1a935a3f83d777956e346d0c60d86d4e4c52c9a9ef643cc67"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2107,
+      "published_path": "assets/sionna/meshes/Section0.ply",
+      "published_sha256": "5e536d0fdf624f690c14fe0af07e8c0d07ee4d505498f0a3f669c7bfeffbb9ee",
+      "source_bytes": 2107,
+      "source_relative_path": "meshes/Section0.ply",
+      "source_sha256": "5e536d0fdf624f690c14fe0af07e8c0d07ee4d505498f0a3f669c7bfeffbb9ee"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2107,
+      "published_path": "assets/sionna/meshes/Section0_001.ply",
+      "published_sha256": "4a03a7e4fc39f6f812684ea7a7b3dbe22188b980391ab87ec02a8d04fa824ce8",
+      "source_bytes": 2107,
+      "source_relative_path": "meshes/Section0_001.ply",
+      "source_sha256": "4a03a7e4fc39f6f812684ea7a7b3dbe22188b980391ab87ec02a8d04fa824ce8"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2107,
+      "published_path": "assets/sionna/meshes/Section0_002.ply",
+      "published_sha256": "36875f70963e12108d4175a8115ac6af3f7bbea785daba57d7c5644888f66081",
+      "source_bytes": 2107,
+      "source_relative_path": "meshes/Section0_002.ply",
+      "source_sha256": "36875f70963e12108d4175a8115ac6af3f7bbea785daba57d7c5644888f66081"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2107,
+      "published_path": "assets/sionna/meshes/Section0_003.ply",
+      "published_sha256": "be379cf83d3dc8234fed555490e849f13e852b7c6c94b89813b0607e92b282f4",
+      "source_bytes": 2107,
+      "source_relative_path": "meshes/Section0_003.ply",
+      "source_sha256": "be379cf83d3dc8234fed555490e849f13e852b7c6c94b89813b0607e92b282f4"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2107,
+      "published_path": "assets/sionna/meshes/Section0_004.ply",
+      "published_sha256": "8e00a8ec1466c4ae90f74176505c226317078458935e58b91b647a4808ce2396",
+      "source_bytes": 2107,
+      "source_relative_path": "meshes/Section0_004.ply",
+      "source_sha256": "8e00a8ec1466c4ae90f74176505c226317078458935e58b91b647a4808ce2396"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2107,
+      "published_path": "assets/sionna/meshes/Section0_005.ply",
+      "published_sha256": "76b8dc2b25fec7dac7006f1039bcaa910c86ca8aea6d870df6fda2914ecf1f0e",
+      "source_bytes": 2107,
+      "source_relative_path": "meshes/Section0_005.ply",
+      "source_sha256": "76b8dc2b25fec7dac7006f1039bcaa910c86ca8aea6d870df6fda2914ecf1f0e"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2107,
+      "published_path": "assets/sionna/meshes/Section0_006.ply",
+      "published_sha256": "4f94a00cc970a95a03364a21d0751dd5199f273dd2a496347a871c5cd301db05",
+      "source_bytes": 2107,
+      "source_relative_path": "meshes/Section0_006.ply",
+      "source_sha256": "4f94a00cc970a95a03364a21d0751dd5199f273dd2a496347a871c5cd301db05"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 565,
+      "published_path": "assets/sionna/meshes/Section0_007.ply",
+      "published_sha256": "cd9478ea55bdbc84edf2ec69852debd353f53b9217720ba643bd60a2cb418def",
+      "source_bytes": 565,
+      "source_relative_path": "meshes/Section0_007.ply",
+      "source_sha256": "cd9478ea55bdbc84edf2ec69852debd353f53b9217720ba643bd60a2cb418def"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 2107,
+      "published_path": "assets/sionna/meshes/Section0_008.ply",
+      "published_sha256": "a98cc96c34d1410e5a5ccc9deb1386f4b4011ed8035d77a2e61e6a1bf831c412",
+      "source_bytes": 2107,
+      "source_relative_path": "meshes/Section0_008.ply",
+      "source_sha256": "a98cc96c34d1410e5a5ccc9deb1386f4b4011ed8035d77a2e61e6a1bf831c412"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 565,
+      "published_path": "assets/sionna/meshes/Section1.ply",
+      "published_sha256": "fb222ddf7358be595c5d2505f5dc08d52bcfc503e682da6c92febd417c5b6589",
+      "source_bytes": 565,
+      "source_relative_path": "meshes/Section1.ply",
+      "source_sha256": "fb222ddf7358be595c5d2505f5dc08d52bcfc503e682da6c92febd417c5b6589"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 565,
+      "published_path": "assets/sionna/meshes/Section1_001.ply",
+      "published_sha256": "fff3d68913b50d28e6af0c741747e9ff8fe9b1fd4af59ab1ff32fee61fa48fbc",
+      "source_bytes": 565,
+      "source_relative_path": "meshes/Section1_001.ply",
+      "source_sha256": "fff3d68913b50d28e6af0c741747e9ff8fe9b1fd4af59ab1ff32fee61fa48fbc"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 565,
+      "published_path": "assets/sionna/meshes/Section1_002.ply",
+      "published_sha256": "14aa83242dba76309d2aad5cae1bebe57748a47cbdc1441d4c12837dfd518afe",
+      "source_bytes": 565,
+      "source_relative_path": "meshes/Section1_002.ply",
+      "source_sha256": "14aa83242dba76309d2aad5cae1bebe57748a47cbdc1441d4c12837dfd518afe"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 565,
+      "published_path": "assets/sionna/meshes/Section1_003.ply",
+      "published_sha256": "3cfd6319abeee074a58aaf2fecb4e36c7ab886f72af7ce7e2a9195961f0f18f9",
+      "source_bytes": 565,
+      "source_relative_path": "meshes/Section1_003.ply",
+      "source_sha256": "3cfd6319abeee074a58aaf2fecb4e36c7ab886f72af7ce7e2a9195961f0f18f9"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 565,
+      "published_path": "assets/sionna/meshes/Section1_004.ply",
+      "published_sha256": "6bfb5ddc8fa79b1b467d0f7188d8a94915092e3d95558a69acf366e75b59aaea",
+      "source_bytes": 565,
+      "source_relative_path": "meshes/Section1_004.ply",
+      "source_sha256": "6bfb5ddc8fa79b1b467d0f7188d8a94915092e3d95558a69acf366e75b59aaea"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 1183,
+      "published_path": "assets/sionna/meshes/Section1_005.ply",
+      "published_sha256": "c1e45b36edb32a5398c1af2fc78e5edfea2bbcd0912cf98dedd13da25fffdf02",
+      "source_bytes": 1183,
+      "source_relative_path": "meshes/Section1_005.ply",
+      "source_sha256": "c1e45b36edb32a5398c1af2fc78e5edfea2bbcd0912cf98dedd13da25fffdf02"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 565,
+      "published_path": "assets/sionna/meshes/Section1_006.ply",
+      "published_sha256": "db99e8f38b43273dd6d52aeb18a1152ac41ac42938a4d6af095cd3ceb4f3d1a4",
+      "source_bytes": 565,
+      "source_relative_path": "meshes/Section1_006.ply",
+      "source_sha256": "db99e8f38b43273dd6d52aeb18a1152ac41ac42938a4d6af095cd3ceb4f3d1a4"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 565,
+      "published_path": "assets/sionna/meshes/Section1_007.ply",
+      "published_sha256": "b19b6f4582476826bda0cb92eb16a85eed60a585945ed6518d1404c9ef3d94b5",
+      "source_bytes": 565,
+      "source_relative_path": "meshes/Section1_007.ply",
+      "source_sha256": "b19b6f4582476826bda0cb92eb16a85eed60a585945ed6518d1404c9ef3d94b5"
+    },
+    {
+      "bundle": "sionna",
+      "changes": [],
+      "published_bytes": 565,
+      "published_path": "assets/sionna/meshes/Section1_008.ply",
+      "published_sha256": "b82ec2ab8c50e285236bcdddf6f62ea236a0936bf0d190ae9e706cf0a3fcac6f",
+      "source_bytes": 565,
+      "source_relative_path": "meshes/Section1_008.ply",
+      "source_sha256": "b82ec2ab8c50e285236bcdddf6f62ea236a0936bf0d190ae9e706cf0a3fcac6f"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 32199,
+      "published_path": "assets/isaac/21202_building_full_room_shifted.usd",
+      "published_sha256": "b839011915e291f2fbc7e4338263ba247311ff0a69ad2df8542343c656b4a564",
+      "source_bytes": 32199,
+      "source_relative_path": "21202_building_full_room_shifted.usd",
+      "source_sha256": "b839011915e291f2fbc7e4338263ba247311ff0a69ad2df8542343c656b4a564"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [
+        "Rebased source-directory file: asset paths to relative references."
+      ],
+      "published_bytes": 5633,
+      "published_path": "assets/isaac/21_bldg_environment_and_robot_shifted.usd",
+      "published_sha256": "6613edc3765395d2cb1fc4474cf339c905f25cd7b4b29c4d0386defa607f043e",
+      "source_bytes": 14090,
+      "source_relative_path": "21_bldg_environment_and_robot_shifted.usd",
+      "source_sha256": "837cdb2c74e0dee28b07606ea7b365ff427bb421d4543c84d804bbbf7bc96c62"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 2989,
+      "published_path": "assets/isaac/Materials/MI_DoorA.mdl",
+      "published_sha256": "3ee43ffd27f6e1abb110e3368a40983fed016e9097948d3ea8c5a2a060753818",
+      "source_bytes": 2989,
+      "source_relative_path": "Materials/MI_DoorA.mdl",
+      "source_sha256": "3ee43ffd27f6e1abb110e3368a40983fed016e9097948d3ea8c5a2a060753818"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 2560,
+      "published_path": "assets/isaac/Materials/MI_DoorEntrance_glass.mdl",
+      "published_sha256": "e72b4839ed5d0cddabc9ac180051f6bce171c54290ebed916b0dfe181819f7a5",
+      "source_bytes": 2560,
+      "source_relative_path": "Materials/MI_DoorEntrance_glass.mdl",
+      "source_sha256": "e72b4839ed5d0cddabc9ac180051f6bce171c54290ebed916b0dfe181819f7a5"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 3217,
+      "published_path": "assets/isaac/Materials/MI_PanicDoor.mdl",
+      "published_sha256": "2fb1ffb1da2bbfeedbf8726065c4ed286de3527ae4e095095b0ed2cdd1582742",
+      "source_bytes": 3217,
+      "source_relative_path": "Materials/MI_PanicDoor.mdl",
+      "source_sha256": "2fb1ffb1da2bbfeedbf8726065c4ed286de3527ae4e095095b0ed2cdd1582742"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 2222,
+      "published_path": "assets/isaac/Materials/MI_Props.mdl",
+      "published_sha256": "ffba10ac60b5f5d959d4f9a738b09e0ed68ec2537292163e64f9faa58aa473a4",
+      "source_bytes": 2222,
+      "source_relative_path": "Materials/MI_Props.mdl",
+      "source_sha256": "ffba10ac60b5f5d959d4f9a738b09e0ed68ec2537292163e64f9faa58aa473a4"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 2206,
+      "published_path": "assets/isaac/Materials/MI_TrashCan.mdl",
+      "published_sha256": "953f62c424f9491961331faf7759bd44d94dc94c6b05a709db32c019bae6d29f",
+      "source_bytes": 2206,
+      "source_relative_path": "Materials/MI_TrashCan.mdl",
+      "source_sha256": "953f62c424f9491961331faf7759bd44d94dc94c6b05a709db32c019bae6d29f"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 1856,
+      "published_path": "assets/isaac/Materials/MI_WallOffice_01.mdl",
+      "published_sha256": "65cff8a21e34abf863832d7c6273b833bc19ab439086556de32bce20dd09a8f1",
+      "source_bytes": 1856,
+      "source_relative_path": "Materials/MI_WallOffice_01.mdl",
+      "source_sha256": "65cff8a21e34abf863832d7c6273b833bc19ab439086556de32bce20dd09a8f1"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 8281,
+      "published_path": "assets/isaac/Materials/OmniUe4Base.mdl",
+      "published_sha256": "5ca22bdae198012f2fa285de0c1b6c7041c8c539c76671a19e471f021b99370d",
+      "source_bytes": 8281,
+      "source_relative_path": "Materials/OmniUe4Base.mdl",
+      "source_sha256": "5ca22bdae198012f2fa285de0c1b6c7041c8c539c76671a19e471f021b99370d"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 46073,
+      "published_path": "assets/isaac/Materials/OmniUe4Function.mdl",
+      "published_sha256": "9217e09bfd17109af755e4a1910c8c6fa7fca3f859b9081ff28e75167795bd85",
+      "source_bytes": 46073,
+      "source_relative_path": "Materials/OmniUe4Function.mdl",
+      "source_sha256": "9217e09bfd17109af755e4a1910c8c6fa7fca3f859b9081ff28e75167795bd85"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 7818,
+      "published_path": "assets/isaac/Materials/OmniUe4Translucent.mdl",
+      "published_sha256": "74b07964c117b62d393624cdc968230102b01361e3b173b0c11a19e233826d90",
+      "source_bytes": 7818,
+      "source_relative_path": "Materials/OmniUe4Translucent.mdl",
+      "source_sha256": "74b07964c117b62d393624cdc968230102b01361e3b173b0c11a19e233826d90"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 3249687,
+      "published_path": "assets/isaac/Materials/Textures/T_Bookcase_ao_r_m.png",
+      "published_sha256": "0a57ab8013df3041924d7ccbd58f0f443360c100fd377e1079b824a684e8657e",
+      "source_bytes": 3249687,
+      "source_relative_path": "Materials/Textures/T_Bookcase_ao_r_m.png",
+      "source_sha256": "0a57ab8013df3041924d7ccbd58f0f443360c100fd377e1079b824a684e8657e"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 2620114,
+      "published_path": "assets/isaac/Materials/Textures/T_Bookcase_bc.png",
+      "published_sha256": "03b58eae66065bdd2b7f3ef375d0e696c545cb3e4bcaf4b8151083b20a4b4bd4",
+      "source_bytes": 2620114,
+      "source_relative_path": "Materials/Textures/T_Bookcase_bc.png",
+      "source_sha256": "03b58eae66065bdd2b7f3ef375d0e696c545cb3e4bcaf4b8151083b20a4b4bd4"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 117178,
+      "published_path": "assets/isaac/Materials/Textures/T_Bookcase_n.png",
+      "published_sha256": "1673b324535abb9570f3a5427d0bd3ddc3177ab23189eb035622d73ab280bbca",
+      "source_bytes": 117178,
+      "source_relative_path": "Materials/Textures/T_Bookcase_n.png",
+      "source_sha256": "1673b324535abb9570f3a5427d0bd3ddc3177ab23189eb035622d73ab280bbca"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 1331746,
+      "published_path": "assets/isaac/Materials/Textures/T_Ceiling_ao_r_m.png",
+      "published_sha256": "6bcf572618abbbf28550f16e0b8c93914e30d665ba7b7b2a2ff3de661556f90a",
+      "source_bytes": 1331746,
+      "source_relative_path": "Materials/Textures/T_Ceiling_ao_r_m.png",
+      "source_sha256": "6bcf572618abbbf28550f16e0b8c93914e30d665ba7b7b2a2ff3de661556f90a"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 24335,
+      "published_path": "assets/isaac/Materials/Textures/T_Ceiling_bc.png",
+      "published_sha256": "a9f2191ccdfa7451fa7921827781eb0016f883f6c87371ce93d800f56d317ea9",
+      "source_bytes": 24335,
+      "source_relative_path": "Materials/Textures/T_Ceiling_bc.png",
+      "source_sha256": "a9f2191ccdfa7451fa7921827781eb0016f883f6c87371ce93d800f56d317ea9"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 26545,
+      "published_path": "assets/isaac/Materials/Textures/T_Ceiling_n.png",
+      "published_sha256": "a1f47361822f95b06278a7b96873f001ff6a2f9250bbd7161ddb79aab016d5f1",
+      "source_bytes": 26545,
+      "source_relative_path": "Materials/Textures/T_Ceiling_n.png",
+      "source_sha256": "a1f47361822f95b06278a7b96873f001ff6a2f9250bbd7161ddb79aab016d5f1"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 3823704,
+      "published_path": "assets/isaac/Materials/Textures/T_ChairOffice_ao_r_m.png",
+      "published_sha256": "06900c125fac044067ac9822c549c19ce7c4079ace5f1a23c327fdd8444524a3",
+      "source_bytes": 3823704,
+      "source_relative_path": "Materials/Textures/T_ChairOffice_ao_r_m.png",
+      "source_sha256": "06900c125fac044067ac9822c549c19ce7c4079ace5f1a23c327fdd8444524a3"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 3025458,
+      "published_path": "assets/isaac/Materials/Textures/T_ChairOffice_bc.png",
+      "published_sha256": "ec34181cd4422658289d406f9ea1f9dc83373c034c6b654917ab363f7474340a",
+      "source_bytes": 3025458,
+      "source_relative_path": "Materials/Textures/T_ChairOffice_bc.png",
+      "source_sha256": "ec34181cd4422658289d406f9ea1f9dc83373c034c6b654917ab363f7474340a"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 5086911,
+      "published_path": "assets/isaac/Materials/Textures/T_ChairOffice_n.png",
+      "published_sha256": "c63e2d2549d9d6594a369f08245a3aadb1cdf422df39ebb1a91af1260857e72e",
+      "source_bytes": 5086911,
+      "source_relative_path": "Materials/Textures/T_ChairOffice_n.png",
+      "source_sha256": "c63e2d2549d9d6594a369f08245a3aadb1cdf422df39ebb1a91af1260857e72e"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 2198077,
+      "published_path": "assets/isaac/Materials/Textures/T_Cooler_ao_r_m.png",
+      "published_sha256": "79d4e1f9a0b4cfe177ab110a1752202110686f80e3116c0aef623f613958eade",
+      "source_bytes": 2198077,
+      "source_relative_path": "Materials/Textures/T_Cooler_ao_r_m.png",
+      "source_sha256": "79d4e1f9a0b4cfe177ab110a1752202110686f80e3116c0aef623f613958eade"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 244623,
+      "published_path": "assets/isaac/Materials/Textures/T_Cooler_bc.png",
+      "published_sha256": "90905544275f26601a014376ad7734ca7fba4bd2d68232453efe88977dc32452",
+      "source_bytes": 244623,
+      "source_relative_path": "Materials/Textures/T_Cooler_bc.png",
+      "source_sha256": "90905544275f26601a014376ad7734ca7fba4bd2d68232453efe88977dc32452"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 775734,
+      "published_path": "assets/isaac/Materials/Textures/T_Cooler_n.png",
+      "published_sha256": "f8244e1be90e601bef107c1cc52cb832a6b99b0a5e9937242d92e321648f2e64",
+      "source_bytes": 775734,
+      "source_relative_path": "Materials/Textures/T_Cooler_n.png",
+      "source_sha256": "f8244e1be90e601bef107c1cc52cb832a6b99b0a5e9937242d92e321648f2e64"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 370856,
+      "published_path": "assets/isaac/Materials/Textures/T_DoorB_ao_r_m.png",
+      "published_sha256": "91176cbb2586204e479054bc96ddd90c58db48714dac446b4dd1b690c15acd33",
+      "source_bytes": 370856,
+      "source_relative_path": "Materials/Textures/T_DoorB_ao_r_m.png",
+      "source_sha256": "91176cbb2586204e479054bc96ddd90c58db48714dac446b4dd1b690c15acd33"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 2824835,
+      "published_path": "assets/isaac/Materials/Textures/T_DoorB_bc.png",
+      "published_sha256": "d8fadaf4ef408ea0174ebf97f11305583b6eb25c86eebb2668848e5e4cef4c94",
+      "source_bytes": 2824835,
+      "source_relative_path": "Materials/Textures/T_DoorB_bc.png",
+      "source_sha256": "d8fadaf4ef408ea0174ebf97f11305583b6eb25c86eebb2668848e5e4cef4c94"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 27208,
+      "published_path": "assets/isaac/Materials/Textures/T_DoorB_mask.png",
+      "published_sha256": "7f981758db931488724c3dfb01860f23f26f769187c8f916f0a574fda7116e29",
+      "source_bytes": 27208,
+      "source_relative_path": "Materials/Textures/T_DoorB_mask.png",
+      "source_sha256": "7f981758db931488724c3dfb01860f23f26f769187c8f916f0a574fda7116e29"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 3241570,
+      "published_path": "assets/isaac/Materials/Textures/T_DoorB_n.png",
+      "published_sha256": "d2532124a779496934808a5a19faa1b1a1a71158bf0581c93c1508a9dab1fe67",
+      "source_bytes": 3241570,
+      "source_relative_path": "Materials/Textures/T_DoorB_n.png",
+      "source_sha256": "d2532124a779496934808a5a19faa1b1a1a71158bf0581c93c1508a9dab1fe67"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 3932451,
+      "published_path": "assets/isaac/Materials/Textures/T_FloorConcrete_ao_r_m.png",
+      "published_sha256": "fd8c29f9a9328143a67caf491f4bc0718cedcc9b557354f81ce0bf5da4d44f52",
+      "source_bytes": 3932451,
+      "source_relative_path": "Materials/Textures/T_FloorConcrete_ao_r_m.png",
+      "source_sha256": "fd8c29f9a9328143a67caf491f4bc0718cedcc9b557354f81ce0bf5da4d44f52"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 8760694,
+      "published_path": "assets/isaac/Materials/Textures/T_FloorConcrete_bc.png",
+      "published_sha256": "28a4d74f57bf13b34f335ef3aa514e97b7a5c45caf1975ddd3c631a571438f5f",
+      "source_bytes": 8760694,
+      "source_relative_path": "Materials/Textures/T_FloorConcrete_bc.png",
+      "source_sha256": "28a4d74f57bf13b34f335ef3aa514e97b7a5c45caf1975ddd3c631a571438f5f"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 2999743,
+      "published_path": "assets/isaac/Materials/Textures/T_FloorConcrete_n.png",
+      "published_sha256": "faf97b72de3db15d3b750ca37b03d44ac79d1062bc1c0ca074a1dfd98529582b",
+      "source_bytes": 2999743,
+      "source_relative_path": "Materials/Textures/T_FloorConcrete_n.png",
+      "source_sha256": "faf97b72de3db15d3b750ca37b03d44ac79d1062bc1c0ca074a1dfd98529582b"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 1921328,
+      "published_path": "assets/isaac/Materials/Textures/T_FloorMarbleTiles_01_ao_r_m.png",
+      "published_sha256": "5abb8b8b5dad93f0f389f4541018b741aa96e4a8e51cc9de92e5f1bd79a2bd35",
+      "source_bytes": 1921328,
+      "source_relative_path": "Materials/Textures/T_FloorMarbleTiles_01_ao_r_m.png",
+      "source_sha256": "5abb8b8b5dad93f0f389f4541018b741aa96e4a8e51cc9de92e5f1bd79a2bd35"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 2232907,
+      "published_path": "assets/isaac/Materials/Textures/T_FloorMarbleTiles_01_bc.png",
+      "published_sha256": "5dca47b328bad2c664cd2fd4af038d2bb1cb4c89b321bfaf2c908d5f5a9c094a",
+      "source_bytes": 2232907,
+      "source_relative_path": "Materials/Textures/T_FloorMarbleTiles_01_bc.png",
+      "source_sha256": "5dca47b328bad2c664cd2fd4af038d2bb1cb4c89b321bfaf2c908d5f5a9c094a"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 3886965,
+      "published_path": "assets/isaac/Materials/Textures/T_FloorMarbleTiles_01_n.png",
+      "published_sha256": "24e55b0da66b410cdb730378786802a0a0e1c20702454c327e0e22a3e7a8ff7c",
+      "source_bytes": 3886965,
+      "source_relative_path": "Materials/Textures/T_FloorMarbleTiles_01_n.png",
+      "source_sha256": "24e55b0da66b410cdb730378786802a0a0e1c20702454c327e0e22a3e7a8ff7c"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 2562016,
+      "published_path": "assets/isaac/Materials/Textures/T_PanicDoor_ao_r_m_e.png",
+      "published_sha256": "6f022df269f86f8e2461f8409c00e68319eebd114b26a3cbead7cf9a0b20ae5e",
+      "source_bytes": 2562016,
+      "source_relative_path": "Materials/Textures/T_PanicDoor_ao_r_m_e.png",
+      "source_sha256": "6f022df269f86f8e2461f8409c00e68319eebd114b26a3cbead7cf9a0b20ae5e"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 1141275,
+      "published_path": "assets/isaac/Materials/Textures/T_PanicDoor_bc.png",
+      "published_sha256": "d7c3eb01f118976ed8eda24c34d44c7608297b6d52e1d6c0a322d14be9ca68ab",
+      "source_bytes": 1141275,
+      "source_relative_path": "Materials/Textures/T_PanicDoor_bc.png",
+      "source_sha256": "d7c3eb01f118976ed8eda24c34d44c7608297b6d52e1d6c0a322d14be9ca68ab"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 84004,
+      "published_path": "assets/isaac/Materials/Textures/T_PanicDoor_mask.png",
+      "published_sha256": "82c5c64b9574bb4044c50a5f17f26c4c0728c5d50ce87b8619c6ce9f68008a3d",
+      "source_bytes": 84004,
+      "source_relative_path": "Materials/Textures/T_PanicDoor_mask.png",
+      "source_sha256": "82c5c64b9574bb4044c50a5f17f26c4c0728c5d50ce87b8619c6ce9f68008a3d"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 973113,
+      "published_path": "assets/isaac/Materials/Textures/T_PanicDoor_n.png",
+      "published_sha256": "4c2f83ce7fc6bc4d8de41f7c92219f951913edeadb6a50280a422c7c65b57cea",
+      "source_bytes": 973113,
+      "source_relative_path": "Materials/Textures/T_PanicDoor_n.png",
+      "source_sha256": "4c2f83ce7fc6bc4d8de41f7c92219f951913edeadb6a50280a422c7c65b57cea"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 4874409,
+      "published_path": "assets/isaac/Materials/Textures/T_Rack_ao_r_m.png",
+      "published_sha256": "267ac8eef99a9b0d2e901b66fae9d58164917c3c8f4efd751651388bfcbe9747",
+      "source_bytes": 4874409,
+      "source_relative_path": "Materials/Textures/T_Rack_ao_r_m.png",
+      "source_sha256": "267ac8eef99a9b0d2e901b66fae9d58164917c3c8f4efd751651388bfcbe9747"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 6708788,
+      "published_path": "assets/isaac/Materials/Textures/T_Rack_bc.png",
+      "published_sha256": "df585e3a2d11839d4f24feaaa0fa2498240939a5ec39756339fb8904f90adb56",
+      "source_bytes": 6708788,
+      "source_relative_path": "Materials/Textures/T_Rack_bc.png",
+      "source_sha256": "df585e3a2d11839d4f24feaaa0fa2498240939a5ec39756339fb8904f90adb56"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 4191928,
+      "published_path": "assets/isaac/Materials/Textures/T_Rack_n.png",
+      "published_sha256": "a70184d1f70ee452690b3f387794e5bbc1eb63cb29065f8f5161aa775ca0cce9",
+      "source_bytes": 4191928,
+      "source_relative_path": "Materials/Textures/T_Rack_n.png",
+      "source_sha256": "a70184d1f70ee452690b3f387794e5bbc1eb63cb29065f8f5161aa775ca0cce9"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 3162219,
+      "published_path": "assets/isaac/Materials/Textures/T_TableWork_ao_r_m.png",
+      "published_sha256": "c371fedd29ff506a88e0bad3b2fe423318d43593383845c8cf3a3f75f8347eee",
+      "source_bytes": 3162219,
+      "source_relative_path": "Materials/Textures/T_TableWork_ao_r_m.png",
+      "source_sha256": "c371fedd29ff506a88e0bad3b2fe423318d43593383845c8cf3a3f75f8347eee"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 908329,
+      "published_path": "assets/isaac/Materials/Textures/T_TableWork_bc.png",
+      "published_sha256": "8d7a31ff294379aaa2d40ae3544d83fe39983e4bed1f08897e7566a87ba81f87",
+      "source_bytes": 908329,
+      "source_relative_path": "Materials/Textures/T_TableWork_bc.png",
+      "source_sha256": "8d7a31ff294379aaa2d40ae3544d83fe39983e4bed1f08897e7566a87ba81f87"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 399848,
+      "published_path": "assets/isaac/Materials/Textures/T_TableWork_n.png",
+      "published_sha256": "4eb336a51ec333bea71fe909cd55e9558cf4a3b27152babc7f4d0b49d7c03287",
+      "source_bytes": 399848,
+      "source_relative_path": "Materials/Textures/T_TableWork_n.png",
+      "source_sha256": "4eb336a51ec333bea71fe909cd55e9558cf4a3b27152babc7f4d0b49d7c03287"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 357166,
+      "published_path": "assets/isaac/Materials/Textures/T_ToiletCabin_ao_r_m.png",
+      "published_sha256": "a606feffc83ab729b86503b2e7a4b3ebf95e062fde59dc6443ceccdb2b0eeb81",
+      "source_bytes": 357166,
+      "source_relative_path": "Materials/Textures/T_ToiletCabin_ao_r_m.png",
+      "source_sha256": "a606feffc83ab729b86503b2e7a4b3ebf95e062fde59dc6443ceccdb2b0eeb81"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 2657285,
+      "published_path": "assets/isaac/Materials/Textures/T_ToiletCabin_bc.png",
+      "published_sha256": "e0bf9e5d4070b9dc59c0262fbe94ae54b4caefbfdac1e2328faba357a40ff4c8",
+      "source_bytes": 2657285,
+      "source_relative_path": "Materials/Textures/T_ToiletCabin_bc.png",
+      "source_sha256": "e0bf9e5d4070b9dc59c0262fbe94ae54b4caefbfdac1e2328faba357a40ff4c8"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 83464,
+      "published_path": "assets/isaac/Materials/Textures/T_ToiletCabin_mask.png",
+      "published_sha256": "7657f2b3df05251dcd4aa8732e44d1e0b44defaca37bdf4c2b058fdc449e427d",
+      "source_bytes": 83464,
+      "source_relative_path": "Materials/Textures/T_ToiletCabin_mask.png",
+      "source_sha256": "7657f2b3df05251dcd4aa8732e44d1e0b44defaca37bdf4c2b058fdc449e427d"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 3474975,
+      "published_path": "assets/isaac/Materials/Textures/T_ToiletCabin_n.png",
+      "published_sha256": "1d38e35254ac593058ec79378ee8ee08f66046fc8a1db78065ec5e0ed98924ec",
+      "source_bytes": 3474975,
+      "source_relative_path": "Materials/Textures/T_ToiletCabin_n.png",
+      "source_sha256": "1d38e35254ac593058ec79378ee8ee08f66046fc8a1db78065ec5e0ed98924ec"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 7029110,
+      "published_path": "assets/isaac/Materials/Textures/T_WallOffice_bc.png",
+      "published_sha256": "3d76c3037e1a589dc7737757ebd2b0d4a38728d96670a1790f34f063d6816077",
+      "source_bytes": 7029110,
+      "source_relative_path": "Materials/Textures/T_WallOffice_bc.png",
+      "source_sha256": "3d76c3037e1a589dc7737757ebd2b0d4a38728d96670a1790f34f063d6816077"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 10649737,
+      "published_path": "assets/isaac/Materials/Textures/T_WallOffice_n.png",
+      "published_sha256": "fc43fa50956f290930b294c322f6b372e0f386eaa455ff8c7cd0db10f354048a",
+      "source_bytes": 10649737,
+      "source_relative_path": "Materials/Textures/T_WallOffice_n.png",
+      "source_sha256": "fc43fa50956f290930b294c322f6b372e0f386eaa455ff8c7cd0db10f354048a"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 1875202,
+      "published_path": "assets/isaac/Materials/Textures/T_Window_ao_r_m.png",
+      "published_sha256": "0155b6382a6722a88a70b511c23d7a9b3c4a93105e2054edbe6f119f11f7cca9",
+      "source_bytes": 1875202,
+      "source_relative_path": "Materials/Textures/T_Window_ao_r_m.png",
+      "source_sha256": "0155b6382a6722a88a70b511c23d7a9b3c4a93105e2054edbe6f119f11f7cca9"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 1667463,
+      "published_path": "assets/isaac/Materials/Textures/T_Window_bc.png",
+      "published_sha256": "3017d361e807f62d16b4b9adbf44f3d98551e780a5edbe1d2aa3fbb6bd873a69",
+      "source_bytes": 1667463,
+      "source_relative_path": "Materials/Textures/T_Window_bc.png",
+      "source_sha256": "3017d361e807f62d16b4b9adbf44f3d98551e780a5edbe1d2aa3fbb6bd873a69"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 108190,
+      "published_path": "assets/isaac/Materials/Textures/T_Window_n.png",
+      "published_sha256": "5a4dc7ae546e3adca006273972f0509a4458ab8fde489fee4a6705eaa2d99471",
+      "source_bytes": 108190,
+      "source_relative_path": "Materials/Textures/T_Window_n.png",
+      "source_sha256": "5a4dc7ae546e3adca006273972f0509a4458ab8fde489fee4a6705eaa2d99471"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 4120,
+      "published_path": "assets/isaac/Props/SM_BoxBig.usd",
+      "published_sha256": "8318583601cfc55de3e0737f5ea0fe95b6fd5de79eed3ebe9b4b36eeb0930777",
+      "source_bytes": 4120,
+      "source_relative_path": "Props/SM_BoxBig.usd",
+      "source_sha256": "8318583601cfc55de3e0737f5ea0fe95b6fd5de79eed3ebe9b4b36eeb0930777"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 3131,
+      "published_path": "assets/isaac/Props/SM_Ceiling_3m.usd",
+      "published_sha256": "21238273e911a6409ec5a1d2f70ee94c92349eb53197120fa978f7a610146704",
+      "source_bytes": 3131,
+      "source_relative_path": "Props/SM_Ceiling_3m.usd",
+      "source_sha256": "21238273e911a6409ec5a1d2f70ee94c92349eb53197120fa978f7a610146704"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 119603,
+      "published_path": "assets/isaac/Props/SM_ChairOffice.usd",
+      "published_sha256": "8df588aa8ed11e1c56f3fb99e1d5589492d51fe39da9fe6c26774726bf72e6c8",
+      "source_bytes": 119603,
+      "source_relative_path": "Props/SM_ChairOffice.usd",
+      "source_sha256": "8df588aa8ed11e1c56f3fb99e1d5589492d51fe39da9fe6c26774726bf72e6c8"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 6001,
+      "published_path": "assets/isaac/Props/SM_ColumnA.usd",
+      "published_sha256": "6c6ee4e27d8a77a99927366fb92fe871ca5688fcf84807bd82b25044eaa4c682",
+      "source_bytes": 6001,
+      "source_relative_path": "Props/SM_ColumnA.usd",
+      "source_sha256": "6c6ee4e27d8a77a99927366fb92fe871ca5688fcf84807bd82b25044eaa4c682"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 10910,
+      "published_path": "assets/isaac/Props/SM_DoorB.usd",
+      "published_sha256": "44bf9d4a8b06d310ae244077d1cc32ea6be1531b658f9b8ae5d08ca39cce463e",
+      "source_bytes": 10910,
+      "source_relative_path": "Props/SM_DoorB.usd",
+      "source_sha256": "44bf9d4a8b06d310ae244077d1cc32ea6be1531b658f9b8ae5d08ca39cce463e"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 7307,
+      "published_path": "assets/isaac/Props/SM_DoorB_Door.usd",
+      "published_sha256": "916ca25974e824e0011a2769f63eb4fd1f122ebab0b08a2e58688fb0ba640f00",
+      "source_bytes": 7307,
+      "source_relative_path": "Props/SM_DoorB_Door.usd",
+      "source_sha256": "916ca25974e824e0011a2769f63eb4fd1f122ebab0b08a2e58688fb0ba640f00"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 3146,
+      "published_path": "assets/isaac/Props/SM_Floor_3m.usd",
+      "published_sha256": "0c18601d5f88ce5ef826b5907f22d115dc2930eee0dc047e9601aaee84585ab6",
+      "source_bytes": 3146,
+      "source_relative_path": "Props/SM_Floor_3m.usd",
+      "source_sha256": "0c18601d5f88ce5ef826b5907f22d115dc2930eee0dc047e9601aaee84585ab6"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 2478,
+      "published_path": "assets/isaac/Props/SM_Floor_3m_152.usd",
+      "published_sha256": "fd1ba05a609efa58e733cf9b980e0f884e86da7dd34e653d84c117ebd5497964",
+      "source_bytes": 2478,
+      "source_relative_path": "Props/SM_Floor_3m_152.usd",
+      "source_sha256": "fd1ba05a609efa58e733cf9b980e0f884e86da7dd34e653d84c117ebd5497964"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 7965,
+      "published_path": "assets/isaac/Props/SM_PanicDoor.usd",
+      "published_sha256": "3a8ddcb538847283754a5ffbcdc0abc1f39bc2ddd02bc474517c1e43d5722b85",
+      "source_bytes": 7965,
+      "source_relative_path": "Props/SM_PanicDoor.usd",
+      "source_sha256": "3a8ddcb538847283754a5ffbcdc0abc1f39bc2ddd02bc474517c1e43d5722b85"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 22250,
+      "published_path": "assets/isaac/Props/SM_PanicDoor_L.usd",
+      "published_sha256": "e93efb9f790d2320730f1dd248c26ebeefccff35394f4099651bc3795e7e2173",
+      "source_bytes": 22250,
+      "source_relative_path": "Props/SM_PanicDoor_L.usd",
+      "source_sha256": "e93efb9f790d2320730f1dd248c26ebeefccff35394f4099651bc3795e7e2173"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 22258,
+      "published_path": "assets/isaac/Props/SM_PanicDoor_R.usd",
+      "published_sha256": "b398bb1499dec7f0d02201886d26fa59a72977396502c4a1afb05075ddaa2fbf",
+      "source_bytes": 22258,
+      "source_relative_path": "Props/SM_PanicDoor_R.usd",
+      "source_sha256": "b398bb1499dec7f0d02201886d26fa59a72977396502c4a1afb05075ddaa2fbf"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 13286,
+      "published_path": "assets/isaac/Props/SM_TableWorkSecurity.usd",
+      "published_sha256": "350d280557684b592021081d40de82b6af3dff9ed350e7c1e669df81c4feb967",
+      "source_bytes": 13286,
+      "source_relative_path": "Props/SM_TableWorkSecurity.usd",
+      "source_sha256": "350d280557684b592021081d40de82b6af3dff9ed350e7c1e669df81c4feb967"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 18204,
+      "published_path": "assets/isaac/Props/SM_ToiletDoor_Door.usd",
+      "published_sha256": "75395217083fe4fe49d20c2815e64722b65020b9ac0da2c5acdbb28a18c40912",
+      "source_bytes": 18204,
+      "source_relative_path": "Props/SM_ToiletDoor_Door.usd",
+      "source_sha256": "75395217083fe4fe49d20c2815e64722b65020b9ac0da2c5acdbb28a18c40912"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 2554,
+      "published_path": "assets/isaac/Props/SM_ToiletDoor_Door_144.usd",
+      "published_sha256": "b93cbd44d647188b63d0f5e293cb62e4e0f299e29149e6218aa9916e818cb9ba",
+      "source_bytes": 2554,
+      "source_relative_path": "Props/SM_ToiletDoor_Door_144.usd",
+      "source_sha256": "b93cbd44d647188b63d0f5e293cb62e4e0f299e29149e6218aa9916e818cb9ba"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 5785,
+      "published_path": "assets/isaac/Props/SM_Wall_2m.usd",
+      "published_sha256": "0753c7923b41f507dbfd91608dfa397dac92e42f94a0c0169d7dd627ad99ddc7",
+      "source_bytes": 5785,
+      "source_relative_path": "Props/SM_Wall_2m.usd",
+      "source_sha256": "0753c7923b41f507dbfd91608dfa397dac92e42f94a0c0169d7dd627ad99ddc7"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 5284,
+      "published_path": "assets/isaac/Props/SM_Wall_end.usd",
+      "published_sha256": "8fd6eddf911139aa055d3cf58289645ea307e69037f7c3bf9d8475c00ba70708",
+      "source_bytes": 5284,
+      "source_relative_path": "Props/SM_Wall_end.usd",
+      "source_sha256": "8fd6eddf911139aa055d3cf58289645ea307e69037f7c3bf9d8475c00ba70708"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 63319,
+      "published_path": "assets/isaac/Props/SM_WaterCooler.usd",
+      "published_sha256": "4dc53a489adb37435b7c6b7bfd18cd3443c96ad224963bd444854a9ca8134610",
+      "source_bytes": 63319,
+      "source_relative_path": "Props/SM_WaterCooler.usd",
+      "source_sha256": "4dc53a489adb37435b7c6b7bfd18cd3443c96ad224963bd444854a9ca8134610"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 6416,
+      "published_path": "assets/isaac/Props/SM_Window_3m_A.usd",
+      "published_sha256": "505915da7b0ba6bbbfbe25e2f4d26aa782fbe614a219f9eec4006c7e1af19912",
+      "source_bytes": 6416,
+      "source_relative_path": "Props/SM_Window_3m_A.usd",
+      "source_sha256": "505915da7b0ba6bbbfbe25e2f4d26aa782fbe614a219f9eec4006c7e1af19912"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 5262,
+      "published_path": "assets/isaac/Props/SM_Window_3m_B.usd",
+      "published_sha256": "5f97b5e2689ed6373d319e9dc346e8be35ee650ade36a2d358fd520d9b9fb038",
+      "source_bytes": 5262,
+      "source_relative_path": "Props/SM_Window_3m_B.usd",
+      "source_sha256": "5f97b5e2689ed6373d319e9dc346e8be35ee650ade36a2d358fd520d9b9fb038"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 83642416,
+      "published_path": "assets/isaac/docklands_02_4k.exr",
+      "published_sha256": "a1ef6e8b3eabc993ef0fd37bbe59b425660c96ce0cfd60ae83c48d7fcf55a8b3",
+      "source_bytes": 83642416,
+      "source_relative_path": "docklands_02_4k.exr",
+      "source_sha256": "a1ef6e8b3eabc993ef0fd37bbe59b425660c96ce0cfd60ae83c48d7fcf55a8b3"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 6423,
+      "published_path": "assets/isaac/robot/Ouster OS-1.STEP/Ouster-OS-1-Assembly.usd",
+      "published_sha256": "47e8218ba268b84a89a102fa3ffc5c8c489c1a373b11a381a01b899b7b1effbb",
+      "source_bytes": 6423,
+      "source_relative_path": "robot/Ouster OS-1.STEP/Ouster-OS-1-Assembly.usd",
+      "source_sha256": "47e8218ba268b84a89a102fa3ffc5c8c489c1a373b11a381a01b899b7b1effbb"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 3043,
+      "published_path": "assets/isaac/robot/Ouster OS-1.STEP/materials/materials.usd",
+      "published_sha256": "291001783bec20ddf6c33b5019f8ce4c454b6b2f0c9056da5772c74d464bf71e",
+      "source_bytes": 3043,
+      "source_relative_path": "robot/Ouster OS-1.STEP/materials/materials.usd",
+      "source_sha256": "291001783bec20ddf6c33b5019f8ce4c454b6b2f0c9056da5772c74d464bf71e"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 1844735,
+      "published_path": "assets/isaac/robot/Ouster OS-1.STEP/parts/JFD_JFD.usd",
+      "published_sha256": "07d3f994b094c255f8d457e055ea646096dc68084b45a79b68703e4d6536e781",
+      "source_bytes": 1844735,
+      "source_relative_path": "robot/Ouster OS-1.STEP/parts/JFD_JFD.usd",
+      "source_sha256": "07d3f994b094c255f8d457e055ea646096dc68084b45a79b68703e4d6536e781"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 5078,
+      "published_path": "assets/isaac/robot/Ouster OS-1.STEP/parts/JFH_JFH.usd",
+      "published_sha256": "038d61baddf5771350762d36397488375bee4f2bcb11a453775b5ebc2282318d",
+      "source_bytes": 5078,
+      "source_relative_path": "robot/Ouster OS-1.STEP/parts/JFH_JFH.usd",
+      "source_sha256": "038d61baddf5771350762d36397488375bee4f2bcb11a453775b5ebc2282318d"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 937156,
+      "published_path": "assets/isaac/robot/Ouster OS-1.STEP/parts/JFL_JFL.usd",
+      "published_sha256": "908d6edff94fe452bbb5a231206ec035f1b583d22b137d9da800a04ffaffde9b",
+      "source_bytes": 937156,
+      "source_relative_path": "robot/Ouster OS-1.STEP/parts/JFL_JFL.usd",
+      "source_sha256": "908d6edff94fe452bbb5a231206ec035f1b583d22b137d9da800a04ffaffde9b"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 2037113,
+      "published_path": "assets/isaac/robot/Ouster OS-1.STEP/parts/JFP_JFP.usd",
+      "published_sha256": "94a5cd476fd77038789f499aa538799d51df0d7533b242162a540115e4ba8e0c",
+      "source_bytes": 2037113,
+      "source_relative_path": "robot/Ouster OS-1.STEP/parts/JFP_JFP.usd",
+      "source_sha256": "94a5cd476fd77038789f499aa538799d51df0d7533b242162a540115e4ba8e0c"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 221515,
+      "published_path": "assets/isaac/robot/Ouster OS-1.STEP/parts/JFT_JFT.usd",
+      "published_sha256": "5d680cc0183f25941ffa217f761e7d38c3d6987807798f36a9bdc97aaeee0cfe",
+      "source_bytes": 221515,
+      "source_relative_path": "robot/Ouster OS-1.STEP/parts/JFT_JFT.usd",
+      "source_sha256": "5d680cc0183f25941ffa217f761e7d38c3d6987807798f36a9bdc97aaeee0cfe"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 4453535,
+      "published_path": "assets/isaac/robot/RealSense/rsd455.usd",
+      "published_sha256": "04dc64fe2641cde2232b14f01423aafd2acb11efb844655e5cbdad6216e3b0a3",
+      "source_bytes": 4453535,
+      "source_relative_path": "robot/RealSense/rsd455.usd",
+      "source_sha256": "04dc64fe2641cde2232b14f01423aafd2acb11efb844655e5cbdad6216e3b0a3"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 2100,
+      "published_path": "assets/isaac/robot/tray/materials/materials.usd",
+      "published_sha256": "29f88592e7eaec69d8ee0f1ced9cce568d47a41f6ee6c6e33a4ac903957b30ca",
+      "source_bytes": 2100,
+      "source_relative_path": "robot/tray/materials/materials.usd",
+      "source_sha256": "29f88592e7eaec69d8ee0f1ced9cce568d47a41f6ee6c6e33a4ac903957b30ca"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 76374,
+      "published_path": "assets/isaac/robot/tray/parts/JHD_JHD.usd",
+      "published_sha256": "2c66a4e7b784846acbc5cb4ab855cf978a5e9a1693361d75d270a294dd04c0ef",
+      "source_bytes": 76374,
+      "source_relative_path": "robot/tray/parts/JHD_JHD.usd",
+      "source_sha256": "2c66a4e7b784846acbc5cb4ab855cf978a5e9a1693361d75d270a294dd04c0ef"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [],
+      "published_bytes": 8500,
+      "published_path": "assets/isaac/robot/tray/tray.usd",
+      "published_sha256": "2a932efca8bc3f7ba0377897efad27db05088bcb3a2c02391adc3c51adad3f02",
+      "source_bytes": 8500,
+      "source_relative_path": "robot/tray/tray.usd",
+      "source_sha256": "2a932efca8bc3f7ba0377897efad27db05088bcb3a2c02391adc3c51adad3f02"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [
+        "Replaced the active Nucleus RealSense reference with bundled robot/RealSense/rsd455.usd.",
+        "Removed 8 obsolete deleted reference/payload opinions to historical external assets or the now-active local sensor."
+      ],
+      "published_bytes": 51799,
+      "published_path": "assets/isaac/robot_urdf.usd",
+      "published_sha256": "62f4e8838c45911db33ec42a5eafee0f9a5ae460fae290401236070d03748e1e",
+      "source_bytes": 102250,
+      "source_relative_path": "robot_urdf.usd",
+      "source_sha256": "b3fb08370447a6938f073e4ad2047e76c7862f5f68155a5c1ca3ea3e4c9a4602"
+    },
+    {
+      "bundle": "isaac",
+      "changes": [
+        "Replaced a personal absolute converter-source path in layer documentation with the logical source asset path."
+      ],
+      "published_bytes": 16750393,
+      "published_path": "assets/isaac/scout_mini/scout_mini.usd",
+      "published_sha256": "156e1107dba9739f11562e2525f430f71235a6b95051673d0d26606a51a656d5",
+      "source_bytes": 16750446,
+      "source_relative_path": "scout_mini/scout_mini.usd",
+      "source_sha256": "7fedf20f6a40e594a6602d5f0820cd2121a7e235e888255518187851fb3f0ebf"
+    }
+  ],
+  "isaac_entrypoint": "assets/isaac/21_bldg_environment_and_robot_shifted.usd",
+  "isaac_provided_mdl_modules": [
+    "OmniGlass.mdl",
+    "OmniPBR.mdl"
+  ],
+  "isaac_validation": "USD dependency validation with the locally installed Isaac Sim 4.1.0 USD library only. No new simulation run was performed. This is a matching ROS1 stage candidate, not a verified identification of the exact run-8985 stage.",
+  "schema_version": 1,
+  "sionna_entrypoint": "assets/sionna/21202_building_full_room_shifted.xml",
+  "source_collection": "Eng1Building23Floor5",
+  "source_path_policy": "Original assets are identified relative to the source collection; personal absolute paths are intentionally omitted.",
+  "total_published_bytes": 218895432
+}

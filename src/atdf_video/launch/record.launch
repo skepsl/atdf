@@ -1,0 +1,13 @@
+<launch>
+  <!-- Start before the ATDF run. Parent directory must exist. -->
+  <arg name="output_prefix" default="$(env HOME)/atdf_submission"/>
+  <node pkg="rosbag" type="record" name="atdf_video_record" output="screen"
+        args="--lz4 -o $(arg output_prefix)
+              /clock /tf /tf_static /map /map_metadata /scan
+              /robot_pose_gt /amcl_pose /particlecloud
+              /odom_scout/odom /odometry/filtered /cmd_vel
+              /atdf_video/localization_markers /atdf_video/target_estimate
+              /atdf_video/antenna_pose /atdf_video/particles /atdf_video/next_goal
+              /move_base/status /move_base/goal /move_base/result
+              /move_base/GlobalPlanner/plan /move_base/TebLocalPlannerROS/local_plan"/>
+</launch>

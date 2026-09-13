@@ -1,0 +1,129 @@
+{
+  "created_utc": "2026-09-11T08:14:35.215164+00:00",
+  "metadata": {
+    "antenna_mount": {
+      "x_m": 0.0,
+      "y_m": -0.3,
+      "yaw_rad": -1.57079632679
+    },
+    "checkpoint_path": "checkpoints/epoch_0771.pth",
+    "frame": "map",
+    "measurement_source": "sionna",
+    "model_config": {
+      "dataset": {
+        "P_max": -40.0,
+        "P_min": -120.0,
+        "max_rays": 20,
+        "num_vis_samples": 4,
+        "path": "datasets/rays/my_dataset_01.pkl",
+        "tau_max": 1e-06,
+        "tau_min": 0.0,
+        "val_split_ratio": 0.001
+      },
+      "eval": {
+        "aoa_is_propagation": true,
+        "line_len": 12.0,
+        "p_threshold": 0.5,
+        "thresh_angle": 10.0,
+        "thresh_delay": 5.0,
+        "thresh_gain": 5.0
+      },
+      "loss": {
+        "alpha_fl": 0.25,
+        "aux_weights": [
+          0.1,
+          0.2,
+          0.4
+        ],
+        "gamma_fl": 2.0,
+        "lambda_alpha": 1.0,
+        "lambda_ang": 1.0,
+        "lambda_tau": 1.0
+      },
+      "model": {
+        "d_model": 256,
+        "nhead": 8,
+        "num_layers": 8,
+        "num_queries": 32,
+        "omega_0_first": 30.0,
+        "omega_0_hidden": 1.0
+      },
+      "rf": {
+        "rx_pattern": {
+          "front_only": true,
+          "g_min": "1e-3",
+          "m": 4
+        }
+      },
+      "train": {
+        "batch_size": 8,
+        "epochs": 1000,
+        "lr": 0.0001,
+        "lr_gamma": 0.3,
+        "lr_milestones": [
+          100,
+          200
+        ]
+      },
+      "wandb": {
+        "name": "siren-integrated-pipeline",
+        "project": "neural-ray-predictor"
+      }
+    },
+    "pose_columns": [
+      "x_m",
+      "y_m",
+      "yaw_rad"
+    ],
+    "settings": {
+      "N_p": 1000,
+      "T_max": 100,
+      "cand_num_headings": 5,
+      "cand_num_pos": 16,
+      "cand_step": 0.75,
+      "debug_truth_diagnostics": false,
+      "forward_model": "nrp",
+      "global_rejuvenation_frac": 0.02,
+      "goal_timeout": 300.0,
+      "goal_xy_tolerance": 0.1,
+      "goal_yaw_tolerance": 0.05,
+      "init_bounds": [
+        -4.0,
+        5.0,
+        -1.5,
+        8.0
+      ],
+      "init_x_range": null,
+      "init_y_range": null,
+      "likelihood_mode": "cov",
+      "measurement_source": "sionna",
+      "mi_particle_limit": 96,
+      "planning_mode": "hybrid",
+      "plot_dir": "plots",
+      "plot_every": 1,
+      "plot_format": "pdf",
+      "resample_threshold": 0.5,
+      "roughening_scale": 0.1,
+      "rx_init_pose": [
+        -3.0,
+        3.0,
+        1.5707963705062866
+      ],
+      "rx_init_reference": "base",
+      "show_plots": false,
+      "sigma_init": 2.5,
+      "stop_rx_to_est": 0.6,
+      "stop_uncertainty": 0.45,
+      "success_error": 0.75,
+      "truth_indicator_only": true,
+      "tx_true_xy": [
+        4.0,
+        3.5
+      ],
+      "use_truth_success_stop": false,
+      "verbose": true
+    }
+  },
+  "run_id": "8985",
+  "schema_version": 1
+}

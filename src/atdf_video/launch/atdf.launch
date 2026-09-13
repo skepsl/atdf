@@ -1,0 +1,125 @@
+<launch>
+  <arg name="map_file" default="21202.yaml"/>
+  <arg name="tx_true_x" default="4.0"/>
+  <arg name="tx_true_y" default="6.0"/>
+  <!-- First measurement goal in the map frame; yaw is in degrees. -->
+  <arg name="rx_init_x" default="-3.0"/>
+  <arg name="rx_init_y" default="2.0"/>
+  <arg name="rx_init_yaw_deg" default="0.0"/>
+  <arg name="rx_init_reference" default="base"/>
+  <arg name="gt_pose_topic" default="/robot_pose_gt"/>
+  <!-- Aligned Isaac world / map / Sionna coordinates. Set empty to use the
+       message frame and a TF transform, if the frames are not aligned. -->
+  <arg name="gt_pose_frame" default="map"/>
+  <arg name="sionna_database_dir" default="$(env HOME)/atdf_database"/>
+  <arg name="plot_every" default="1"/>
+  <arg name="plot_dir" default="$(env HOME)/atdf_results"/>
+  <arg name="show_rf_particles" default="true"/>
+  <arg name="show_measurement_headings" default="true"/>
+  <arg name="heading_length_m" default="0.35"/>
+  <!-- ROS seconds follow Isaac /clock; zero disables the travel time limit. -->
+  <arg name="goal_timeout" default="300.0"/>
+  <arg name="goal_timeout_clock" default="ros"/>
+  <arg name="clock_stall_timeout_s" default="120.0"/>
+  <arg name="measurement_settle_timeout_s" default="15.0"/>
+  <!-- Optional source-only PF search rectangle in map coordinates (metres). -->
+  <arg name="use_pf_bounds" default="false"/>
+  <arg name="x_min" default="-13.0"/>
+  <arg name="x_max" default="6.0"/>
+  <arg name="y_min" default="-2.5"/>
+  <arg name="y_max" default="10.0"/>
+  <param name="/use_sim_time" value="true"/>
+
+  <node pkg="atdf_video" type="atdf_video.py" name="atdf_video" output="screen" required="true">
+    <env name="MPLBACKEND" value="Agg"/>
+
+    <param name="config_path" value="$(find atdf_video)/config/config.yaml"/>
+    <param name="map_yaml_path" value="$(find atdf_video)/maps/$(arg map_file)"/>
+    <param name="checkpoint_path" value="$(find atdf_video)/checkpoints/epoch_0771.pth"/>
+
+    <!-- Isaac simulation: NRP inference in ROS, Sionna worker in its own environment. -->
+    <param name="forward_model" value="nrp"/>
+    <param name="measurement_source" value="sionna"/>
+    <param name="sionna_database_dir" value="$(arg sionna_database_dir)"/>
+    <param name="sionna_timeout_s" value="120.0"/>
+    <param name="likelihood_mode" value="cov"/>
+    <param name="planning_mode" value="hybrid"/>
+
+    <!-- Save every measurement by default, independently of RViz visibility. -->
+    <param name="plot_every" value="$(arg plot_every)"/>
+    <param name="plot_format" value="pdf"/>
+    <param name="show_plots" value="false"/>
+    <param name="plot_dir" value="$(arg plot_dir)"/>
+
+    <!-- Physical transmitter coordinates: Sionna measurement and RViz truth marker. -->
+    <param name="truth_indicator_only" value="true"/>
+    <param name="tx_true_x" value="$(arg tx_true_x)"/>
+    <param name="tx_true_y" value="$(arg tx_true_y)"/>
+    <param name="debug_truth_diagnostics" value="false"/>
+    <param name="use_truth_success_stop" value="false"/>
+
+    <!-- AMCL drives navigation; Isaac ground truth locates each RF measurement. -->
+    <param name="robot_pose_source" value="topic"/>
+    <param name="robot_pose_parent_frame" value="map"/>
+    <param name="robot_pose_child_frame" value="base_link"/>
+    <param name="robot_pose_topic" value="$(arg gt_pose_topic)"/>
+    <param name="robot_pose_frame_override" value="$(arg gt_pose_frame)"/>
+    <param name="robot_pose_max_age_s" value="2.0"/>
+    <param name="gt_pose_topic" value="$(arg gt_pose_topic)"/>
+    <param name="allow_goal_pose_fallback" value="false"/>
+
+    <param name="goal_topic" value="/move_base_simple/goal"/>
+    <param name="move_base_action" value="/move_base"/>
+    <param name="use_move_base_action" value="true"/>
+    <param name="goal_frame" value="map"/>
+    <param name="goal_timeout" value="$(arg goal_timeout)" type="double"/>
+    <param name="goal_timeout_clock" value="$(arg goal_timeout_clock)"/>
+    <param name="clock_stall_timeout_s" value="$(arg clock_stall_timeout_s)" type="double"/>
+    <param name="goal_xy_tolerance" value="0.10"/>
+    <param name="goal_yaw_tolerance" value="0.05"/>
+
+    <param name="rx_init/x" value="$(arg rx_init_x)" type="double"/>
+    <param name="rx_init/y" value="$(arg rx_init_y)" type="double"/>
+    <param name="rx_init/yaw_deg" value="$(arg rx_init_yaw_deg)" type="double"/>
+    <param name="rx_init_reference" value="$(arg rx_init_reference)"/>
+
+    <!-- Side-mounted antenna on robot right side. -->
+    <param name="antenna_offset_x_m" value="0.0"/>
+    <param name="antenna_offset_y_m" value="-0.30"/>
+    <param name="antenna_yaw_offset_rad" value="-1.57079632679"/>
+
+    <!-- Fresh, stopped odometry is required before capturing RF poses. -->
+    <param name="motion_odom_topic" value="/odometry/filtered"/>
+    <param name="measurement_settle_s" value="0.4"/>
+    <param name="measurement_settle_timeout_s" value="$(arg measurement_settle_timeout_s)" type="double"/>
+    <param name="stopped_linear_speed" value="0.03"/>
+    <param name="stopped_angular_speed" value="0.04"/>
+    <param name="motion_max_age_s" value="0.5"/>
+
+    <param name="publish_rviz_markers" value="true"/>
+    <param name="rviz_show_particles" value="$(arg show_rf_particles)"/>
+    <param name="rviz_show_orientations" value="$(arg show_measurement_headings)"/>
+    <param name="rviz_heading_length_m" value="$(arg heading_length_m)" type="double"/>
+    <param name="keep_alive_after_finish" value="true"/>
+
+    <!-- Particle filter / planner. -->
+    <param name="use_pf_bounds" value="$(arg use_pf_bounds)"/>
+    <param name="pf_x_min" value="$(arg x_min)" type="double"/>
+    <param name="pf_x_max" value="$(arg x_max)" type="double"/>
+    <param name="pf_y_min" value="$(arg y_min)" type="double"/>
+    <param name="pf_y_max" value="$(arg y_max)" type="double"/>
+    <param name="N_p" value="1000"/>
+    <param name="T_max" value="100"/>
+    <param name="sigma_init" value="2.5"/>
+    <param name="cand_num_pos" value="16"/>
+    <param name="cand_step" value="0.75"/>
+    <param name="cand_num_headings" value="5"/>
+    <param name="mi_particle_limit" value="96"/>
+    <param name="resample_threshold" value="0.50"/>
+    <param name="roughening_scale" value="0.10"/>
+    <param name="global_rejuvenation_frac" value="0.02"/>
+    <param name="stop_uncertainty" value="0.45"/>
+    <param name="stop_rx_to_est" value="0.60"/>
+    <param name="verbose" value="true"/>
+  </node>
+</launch>

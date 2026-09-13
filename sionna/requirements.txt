@@ -1,0 +1,6 @@
+# Separate Sionna environment, Python >=3.10 (local reference environment: 3.12).
+# Versions/API verified against the existing Sionna_1_2_1 environment.
+# sionna-rt brings its required mitsuba==3.7.1 and drjit==1.2.0 dependencies.
+sionna-rt==1.2.1
+einops==0.8.1
+numpy>=1.26,<2.0

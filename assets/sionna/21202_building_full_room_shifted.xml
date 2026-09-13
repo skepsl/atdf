@@ -1,0 +1,1358 @@
+<scene version="2.1.0">
+
+<!-- Defaults, these can be set via the command line: -Darg=value -->
+
+
+<!-- Camera and Rendering Parameters -->
+
+	<integrator type="path" id="elm__0" name="elm__0">
+		<integer name="max_depth" value="12"/>
+	</integrator>
+
+<!-- Materials -->
+
+	<bsdf type="diffuse" id="mat-itu_concrete" name="mat-itu_concrete">
+		<rgb value="0.800000 0.800000 0.800000" name="reflectance"/>
+	</bsdf>
+
+<!-- Emitters -->
+
+	<emitter type="point" id="emit-Point_Light" name="emit-Point_Light">
+		<point name="position" x="0.0" y="0.0" z="60.0"/>
+		<rgb value="79.577469 79.577469 79.577469" name="intensity"/>
+	</emitter>
+
+<!-- Shapes -->
+
+	<shape type="ply" id="mesh-Section0" name="mesh-Section0">
+		<string name="filename" value="meshes/Section0.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section0_001" name="mesh-Section0_001">
+		<string name="filename" value="meshes/Section0_001.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section0_002" name="mesh-Section0_002">
+		<string name="filename" value="meshes/Section0_002.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section0_003" name="mesh-Section0_003">
+		<string name="filename" value="meshes/Section0_003.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section0_004" name="mesh-Section0_004">
+		<string name="filename" value="meshes/Section0_004.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section0_005" name="mesh-Section0_005">
+		<string name="filename" value="meshes/Section0_005.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section0_006" name="mesh-Section0_006">
+		<string name="filename" value="meshes/Section0_006.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section0_007" name="mesh-Section0_007">
+		<string name="filename" value="meshes/Section0_007.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section0_008" name="mesh-Section0_008">
+		<string name="filename" value="meshes/Section0_008.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section1" name="mesh-Section1">
+		<string name="filename" value="meshes/Section1.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section1_001" name="mesh-Section1_001">
+		<string name="filename" value="meshes/Section1_001.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section1_002" name="mesh-Section1_002">
+		<string name="filename" value="meshes/Section1_002.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section1_003" name="mesh-Section1_003">
+		<string name="filename" value="meshes/Section1_003.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section1_004" name="mesh-Section1_004">
+		<string name="filename" value="meshes/Section1_004.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section1_005" name="mesh-Section1_005">
+		<string name="filename" value="meshes/Section1_005.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section1_006" name="mesh-Section1_006">
+		<string name="filename" value="meshes/Section1_006.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section1_007" name="mesh-Section1_007">
+		<string name="filename" value="meshes/Section1_007.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Section1_008" name="mesh-Section1_008">
+		<string name="filename" value="meshes/Section1_008.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig" name="mesh-SM_BoxBig">
+		<string name="filename" value="meshes/SM_BoxBig.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_001" name="mesh-SM_BoxBig_001">
+		<string name="filename" value="meshes/SM_BoxBig_001.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_002" name="mesh-SM_BoxBig_002">
+		<string name="filename" value="meshes/SM_BoxBig_002.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_003" name="mesh-SM_BoxBig_003">
+		<string name="filename" value="meshes/SM_BoxBig_003.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_004" name="mesh-SM_BoxBig_004">
+		<string name="filename" value="meshes/SM_BoxBig_004.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_005" name="mesh-SM_BoxBig_005">
+		<string name="filename" value="meshes/SM_BoxBig_005.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_006" name="mesh-SM_BoxBig_006">
+		<string name="filename" value="meshes/SM_BoxBig_006.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_007" name="mesh-SM_BoxBig_007">
+		<string name="filename" value="meshes/SM_BoxBig_007.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_009" name="mesh-SM_BoxBig_009">
+		<string name="filename" value="meshes/SM_BoxBig_009.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_010" name="mesh-SM_BoxBig_010">
+		<string name="filename" value="meshes/SM_BoxBig_010.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_011" name="mesh-SM_BoxBig_011">
+		<string name="filename" value="meshes/SM_BoxBig_011.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_012" name="mesh-SM_BoxBig_012">
+		<string name="filename" value="meshes/SM_BoxBig_012.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_013" name="mesh-SM_BoxBig_013">
+		<string name="filename" value="meshes/SM_BoxBig_013.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_014" name="mesh-SM_BoxBig_014">
+		<string name="filename" value="meshes/SM_BoxBig_014.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_015" name="mesh-SM_BoxBig_015">
+		<string name="filename" value="meshes/SM_BoxBig_015.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_016" name="mesh-SM_BoxBig_016">
+		<string name="filename" value="meshes/SM_BoxBig_016.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_017" name="mesh-SM_BoxBig_017">
+		<string name="filename" value="meshes/SM_BoxBig_017.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_018" name="mesh-SM_BoxBig_018">
+		<string name="filename" value="meshes/SM_BoxBig_018.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_019" name="mesh-SM_BoxBig_019">
+		<string name="filename" value="meshes/SM_BoxBig_019.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_BoxBig_020" name="mesh-SM_BoxBig_020">
+		<string name="filename" value="meshes/SM_BoxBig_020.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m" name="mesh-SM_Ceiling_3m">
+		<string name="filename" value="meshes/SM_Ceiling_3m.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_001" name="mesh-SM_Ceiling_3m_001">
+		<string name="filename" value="meshes/SM_Ceiling_3m_001.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_002" name="mesh-SM_Ceiling_3m_002">
+		<string name="filename" value="meshes/SM_Ceiling_3m_002.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_003" name="mesh-SM_Ceiling_3m_003">
+		<string name="filename" value="meshes/SM_Ceiling_3m_003.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_004" name="mesh-SM_Ceiling_3m_004">
+		<string name="filename" value="meshes/SM_Ceiling_3m_004.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_005" name="mesh-SM_Ceiling_3m_005">
+		<string name="filename" value="meshes/SM_Ceiling_3m_005.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_006" name="mesh-SM_Ceiling_3m_006">
+		<string name="filename" value="meshes/SM_Ceiling_3m_006.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_007" name="mesh-SM_Ceiling_3m_007">
+		<string name="filename" value="meshes/SM_Ceiling_3m_007.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_008" name="mesh-SM_Ceiling_3m_008">
+		<string name="filename" value="meshes/SM_Ceiling_3m_008.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_009" name="mesh-SM_Ceiling_3m_009">
+		<string name="filename" value="meshes/SM_Ceiling_3m_009.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_010" name="mesh-SM_Ceiling_3m_010">
+		<string name="filename" value="meshes/SM_Ceiling_3m_010.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_011" name="mesh-SM_Ceiling_3m_011">
+		<string name="filename" value="meshes/SM_Ceiling_3m_011.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_012" name="mesh-SM_Ceiling_3m_012">
+		<string name="filename" value="meshes/SM_Ceiling_3m_012.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_013" name="mesh-SM_Ceiling_3m_013">
+		<string name="filename" value="meshes/SM_Ceiling_3m_013.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_014" name="mesh-SM_Ceiling_3m_014">
+		<string name="filename" value="meshes/SM_Ceiling_3m_014.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_015" name="mesh-SM_Ceiling_3m_015">
+		<string name="filename" value="meshes/SM_Ceiling_3m_015.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_016" name="mesh-SM_Ceiling_3m_016">
+		<string name="filename" value="meshes/SM_Ceiling_3m_016.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_017" name="mesh-SM_Ceiling_3m_017">
+		<string name="filename" value="meshes/SM_Ceiling_3m_017.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_018" name="mesh-SM_Ceiling_3m_018">
+		<string name="filename" value="meshes/SM_Ceiling_3m_018.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_019" name="mesh-SM_Ceiling_3m_019">
+		<string name="filename" value="meshes/SM_Ceiling_3m_019.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_020" name="mesh-SM_Ceiling_3m_020">
+		<string name="filename" value="meshes/SM_Ceiling_3m_020.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_021" name="mesh-SM_Ceiling_3m_021">
+		<string name="filename" value="meshes/SM_Ceiling_3m_021.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_022" name="mesh-SM_Ceiling_3m_022">
+		<string name="filename" value="meshes/SM_Ceiling_3m_022.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_023" name="mesh-SM_Ceiling_3m_023">
+		<string name="filename" value="meshes/SM_Ceiling_3m_023.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_024" name="mesh-SM_Ceiling_3m_024">
+		<string name="filename" value="meshes/SM_Ceiling_3m_024.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_025" name="mesh-SM_Ceiling_3m_025">
+		<string name="filename" value="meshes/SM_Ceiling_3m_025.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_027" name="mesh-SM_Ceiling_3m_027">
+		<string name="filename" value="meshes/SM_Ceiling_3m_027.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_028" name="mesh-SM_Ceiling_3m_028">
+		<string name="filename" value="meshes/SM_Ceiling_3m_028.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_029" name="mesh-SM_Ceiling_3m_029">
+		<string name="filename" value="meshes/SM_Ceiling_3m_029.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_030" name="mesh-SM_Ceiling_3m_030">
+		<string name="filename" value="meshes/SM_Ceiling_3m_030.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_031" name="mesh-SM_Ceiling_3m_031">
+		<string name="filename" value="meshes/SM_Ceiling_3m_031.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_032" name="mesh-SM_Ceiling_3m_032">
+		<string name="filename" value="meshes/SM_Ceiling_3m_032.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_033" name="mesh-SM_Ceiling_3m_033">
+		<string name="filename" value="meshes/SM_Ceiling_3m_033.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_034" name="mesh-SM_Ceiling_3m_034">
+		<string name="filename" value="meshes/SM_Ceiling_3m_034.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_035" name="mesh-SM_Ceiling_3m_035">
+		<string name="filename" value="meshes/SM_Ceiling_3m_035.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_036" name="mesh-SM_Ceiling_3m_036">
+		<string name="filename" value="meshes/SM_Ceiling_3m_036.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_037" name="mesh-SM_Ceiling_3m_037">
+		<string name="filename" value="meshes/SM_Ceiling_3m_037.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_038" name="mesh-SM_Ceiling_3m_038">
+		<string name="filename" value="meshes/SM_Ceiling_3m_038.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Ceiling_3m_039" name="mesh-SM_Ceiling_3m_039">
+		<string name="filename" value="meshes/SM_Ceiling_3m_039.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ChairOffice" name="mesh-SM_ChairOffice">
+		<string name="filename" value="meshes/SM_ChairOffice.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ChairOffice_001" name="mesh-SM_ChairOffice_001">
+		<string name="filename" value="meshes/SM_ChairOffice_001.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ChairOffice_003" name="mesh-SM_ChairOffice_003">
+		<string name="filename" value="meshes/SM_ChairOffice_003.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ChairOffice_004" name="mesh-SM_ChairOffice_004">
+		<string name="filename" value="meshes/SM_ChairOffice_004.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ChairOffice_005" name="mesh-SM_ChairOffice_005">
+		<string name="filename" value="meshes/SM_ChairOffice_005.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ChairOffice_006" name="mesh-SM_ChairOffice_006">
+		<string name="filename" value="meshes/SM_ChairOffice_006.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ChairOffice_007" name="mesh-SM_ChairOffice_007">
+		<string name="filename" value="meshes/SM_ChairOffice_007.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ChairOffice_008" name="mesh-SM_ChairOffice_008">
+		<string name="filename" value="meshes/SM_ChairOffice_008.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ChairOffice_009" name="mesh-SM_ChairOffice_009">
+		<string name="filename" value="meshes/SM_ChairOffice_009.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ChairOffice_010" name="mesh-SM_ChairOffice_010">
+		<string name="filename" value="meshes/SM_ChairOffice_010.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ChairOffice_011" name="mesh-SM_ChairOffice_011">
+		<string name="filename" value="meshes/SM_ChairOffice_011.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ChairOffice_012" name="mesh-SM_ChairOffice_012">
+		<string name="filename" value="meshes/SM_ChairOffice_012.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ChairOffice_013" name="mesh-SM_ChairOffice_013">
+		<string name="filename" value="meshes/SM_ChairOffice_013.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ChairOffice_014" name="mesh-SM_ChairOffice_014">
+		<string name="filename" value="meshes/SM_ChairOffice_014.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ChairOffice_015" name="mesh-SM_ChairOffice_015">
+		<string name="filename" value="meshes/SM_ChairOffice_015.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ChairOffice_016" name="mesh-SM_ChairOffice_016">
+		<string name="filename" value="meshes/SM_ChairOffice_016.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA" name="mesh-SM_ColumnA">
+		<string name="filename" value="meshes/SM_ColumnA.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_001" name="mesh-SM_ColumnA_001">
+		<string name="filename" value="meshes/SM_ColumnA_001.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_002" name="mesh-SM_ColumnA_002">
+		<string name="filename" value="meshes/SM_ColumnA_002.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_003" name="mesh-SM_ColumnA_003">
+		<string name="filename" value="meshes/SM_ColumnA_003.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_004" name="mesh-SM_ColumnA_004">
+		<string name="filename" value="meshes/SM_ColumnA_004.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_005" name="mesh-SM_ColumnA_005">
+		<string name="filename" value="meshes/SM_ColumnA_005.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_006" name="mesh-SM_ColumnA_006">
+		<string name="filename" value="meshes/SM_ColumnA_006.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_007" name="mesh-SM_ColumnA_007">
+		<string name="filename" value="meshes/SM_ColumnA_007.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_008" name="mesh-SM_ColumnA_008">
+		<string name="filename" value="meshes/SM_ColumnA_008.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_009" name="mesh-SM_ColumnA_009">
+		<string name="filename" value="meshes/SM_ColumnA_009.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_010" name="mesh-SM_ColumnA_010">
+		<string name="filename" value="meshes/SM_ColumnA_010.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_011" name="mesh-SM_ColumnA_011">
+		<string name="filename" value="meshes/SM_ColumnA_011.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_012" name="mesh-SM_ColumnA_012">
+		<string name="filename" value="meshes/SM_ColumnA_012.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_013" name="mesh-SM_ColumnA_013">
+		<string name="filename" value="meshes/SM_ColumnA_013.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_014" name="mesh-SM_ColumnA_014">
+		<string name="filename" value="meshes/SM_ColumnA_014.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_015" name="mesh-SM_ColumnA_015">
+		<string name="filename" value="meshes/SM_ColumnA_015.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_016" name="mesh-SM_ColumnA_016">
+		<string name="filename" value="meshes/SM_ColumnA_016.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_017" name="mesh-SM_ColumnA_017">
+		<string name="filename" value="meshes/SM_ColumnA_017.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_018" name="mesh-SM_ColumnA_018">
+		<string name="filename" value="meshes/SM_ColumnA_018.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ColumnA_019" name="mesh-SM_ColumnA_019">
+		<string name="filename" value="meshes/SM_ColumnA_019.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_DoorB_Door_003" name="mesh-SM_DoorB_Door_003">
+		<string name="filename" value="meshes/SM_DoorB_Door_003.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_DoorB_Door_004" name="mesh-SM_DoorB_Door_004">
+		<string name="filename" value="meshes/SM_DoorB_Door_004.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_DoorB_Door_005" name="mesh-SM_DoorB_Door_005">
+		<string name="filename" value="meshes/SM_DoorB_Door_005.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_DoorB_Door_008" name="mesh-SM_DoorB_Door_008">
+		<string name="filename" value="meshes/SM_DoorB_Door_008.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_DoorB_Door_009" name="mesh-SM_DoorB_Door_009">
+		<string name="filename" value="meshes/SM_DoorB_Door_009.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_DoorB_Door_010" name="mesh-SM_DoorB_Door_010">
+		<string name="filename" value="meshes/SM_DoorB_Door_010.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_DoorB_Door_011" name="mesh-SM_DoorB_Door_011">
+		<string name="filename" value="meshes/SM_DoorB_Door_011.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_003" name="mesh-SM_Floor_3m_003">
+		<string name="filename" value="meshes/SM_Floor_3m_003.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_004" name="mesh-SM_Floor_3m_004">
+		<string name="filename" value="meshes/SM_Floor_3m_004.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_006" name="mesh-SM_Floor_3m_006">
+		<string name="filename" value="meshes/SM_Floor_3m_006.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_007" name="mesh-SM_Floor_3m_007">
+		<string name="filename" value="meshes/SM_Floor_3m_007.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_008" name="mesh-SM_Floor_3m_008">
+		<string name="filename" value="meshes/SM_Floor_3m_008.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_011" name="mesh-SM_Floor_3m_011">
+		<string name="filename" value="meshes/SM_Floor_3m_011.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_012" name="mesh-SM_Floor_3m_012">
+		<string name="filename" value="meshes/SM_Floor_3m_012.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_014" name="mesh-SM_Floor_3m_014">
+		<string name="filename" value="meshes/SM_Floor_3m_014.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_015" name="mesh-SM_Floor_3m_015">
+		<string name="filename" value="meshes/SM_Floor_3m_015.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_016" name="mesh-SM_Floor_3m_016">
+		<string name="filename" value="meshes/SM_Floor_3m_016.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_021" name="mesh-SM_Floor_3m_021">
+		<string name="filename" value="meshes/SM_Floor_3m_021.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_023" name="mesh-SM_Floor_3m_023">
+		<string name="filename" value="meshes/SM_Floor_3m_023.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_026" name="mesh-SM_Floor_3m_026">
+		<string name="filename" value="meshes/SM_Floor_3m_026.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_027" name="mesh-SM_Floor_3m_027">
+		<string name="filename" value="meshes/SM_Floor_3m_027.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_029" name="mesh-SM_Floor_3m_029">
+		<string name="filename" value="meshes/SM_Floor_3m_029.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_030" name="mesh-SM_Floor_3m_030">
+		<string name="filename" value="meshes/SM_Floor_3m_030.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_031" name="mesh-SM_Floor_3m_031">
+		<string name="filename" value="meshes/SM_Floor_3m_031.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_034" name="mesh-SM_Floor_3m_034">
+		<string name="filename" value="meshes/SM_Floor_3m_034.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_036" name="mesh-SM_Floor_3m_036">
+		<string name="filename" value="meshes/SM_Floor_3m_036.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_038" name="mesh-SM_Floor_3m_038">
+		<string name="filename" value="meshes/SM_Floor_3m_038.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_040" name="mesh-SM_Floor_3m_040">
+		<string name="filename" value="meshes/SM_Floor_3m_040.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_043" name="mesh-SM_Floor_3m_043">
+		<string name="filename" value="meshes/SM_Floor_3m_043.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_044" name="mesh-SM_Floor_3m_044">
+		<string name="filename" value="meshes/SM_Floor_3m_044.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_045" name="mesh-SM_Floor_3m_045">
+		<string name="filename" value="meshes/SM_Floor_3m_045.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_047" name="mesh-SM_Floor_3m_047">
+		<string name="filename" value="meshes/SM_Floor_3m_047.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_049" name="mesh-SM_Floor_3m_049">
+		<string name="filename" value="meshes/SM_Floor_3m_049.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_051" name="mesh-SM_Floor_3m_051">
+		<string name="filename" value="meshes/SM_Floor_3m_051.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_054" name="mesh-SM_Floor_3m_054">
+		<string name="filename" value="meshes/SM_Floor_3m_054.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_056" name="mesh-SM_Floor_3m_056">
+		<string name="filename" value="meshes/SM_Floor_3m_056.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_058" name="mesh-SM_Floor_3m_058">
+		<string name="filename" value="meshes/SM_Floor_3m_058.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_060" name="mesh-SM_Floor_3m_060">
+		<string name="filename" value="meshes/SM_Floor_3m_060.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_061" name="mesh-SM_Floor_3m_061">
+		<string name="filename" value="meshes/SM_Floor_3m_061.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_065" name="mesh-SM_Floor_3m_065">
+		<string name="filename" value="meshes/SM_Floor_3m_065.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_066" name="mesh-SM_Floor_3m_066">
+		<string name="filename" value="meshes/SM_Floor_3m_066.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_068" name="mesh-SM_Floor_3m_068">
+		<string name="filename" value="meshes/SM_Floor_3m_068.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_069" name="mesh-SM_Floor_3m_069">
+		<string name="filename" value="meshes/SM_Floor_3m_069.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_073" name="mesh-SM_Floor_3m_073">
+		<string name="filename" value="meshes/SM_Floor_3m_073.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_075" name="mesh-SM_Floor_3m_075">
+		<string name="filename" value="meshes/SM_Floor_3m_075.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Floor_3m_076" name="mesh-SM_Floor_3m_076">
+		<string name="filename" value="meshes/SM_Floor_3m_076.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_PanicDoor_001" name="mesh-SM_PanicDoor_001">
+		<string name="filename" value="meshes/SM_PanicDoor_001.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_PanicDoor_002" name="mesh-SM_PanicDoor_002">
+		<string name="filename" value="meshes/SM_PanicDoor_002.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_PanicDoor_004" name="mesh-SM_PanicDoor_004">
+		<string name="filename" value="meshes/SM_PanicDoor_004.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_PanicDoor_007" name="mesh-SM_PanicDoor_007">
+		<string name="filename" value="meshes/SM_PanicDoor_007.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_PanicDoor_008" name="mesh-SM_PanicDoor_008">
+		<string name="filename" value="meshes/SM_PanicDoor_008.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_PanicDoor_L" name="mesh-SM_PanicDoor_L">
+		<string name="filename" value="meshes/SM_PanicDoor_L.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_PanicDoor_L_002" name="mesh-SM_PanicDoor_L_002">
+		<string name="filename" value="meshes/SM_PanicDoor_L_002.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_PanicDoor_L_005" name="mesh-SM_PanicDoor_L_005">
+		<string name="filename" value="meshes/SM_PanicDoor_L_005.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_PanicDoor_L_006" name="mesh-SM_PanicDoor_L_006">
+		<string name="filename" value="meshes/SM_PanicDoor_L_006.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_PanicDoor_L_008" name="mesh-SM_PanicDoor_L_008">
+		<string name="filename" value="meshes/SM_PanicDoor_L_008.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_PanicDoor_R_002" name="mesh-SM_PanicDoor_R_002">
+		<string name="filename" value="meshes/SM_PanicDoor_R_002.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_PanicDoor_R_004" name="mesh-SM_PanicDoor_R_004">
+		<string name="filename" value="meshes/SM_PanicDoor_R_004.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_PanicDoor_R_006" name="mesh-SM_PanicDoor_R_006">
+		<string name="filename" value="meshes/SM_PanicDoor_R_006.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_PanicDoor_R_008" name="mesh-SM_PanicDoor_R_008">
+		<string name="filename" value="meshes/SM_PanicDoor_R_008.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_PanicDoor_R_009" name="mesh-SM_PanicDoor_R_009">
+		<string name="filename" value="meshes/SM_PanicDoor_R_009.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_TableWorkSecurity" name="mesh-SM_TableWorkSecurity">
+		<string name="filename" value="meshes/SM_TableWorkSecurity.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_TableWorkSecurity_001" name="mesh-SM_TableWorkSecurity_001">
+		<string name="filename" value="meshes/SM_TableWorkSecurity_001.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_TableWorkSecurity_002" name="mesh-SM_TableWorkSecurity_002">
+		<string name="filename" value="meshes/SM_TableWorkSecurity_002.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_TableWorkSecurity_003" name="mesh-SM_TableWorkSecurity_003">
+		<string name="filename" value="meshes/SM_TableWorkSecurity_003.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_TableWorkSecurity_004" name="mesh-SM_TableWorkSecurity_004">
+		<string name="filename" value="meshes/SM_TableWorkSecurity_004.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_TableWorkSecurity_005" name="mesh-SM_TableWorkSecurity_005">
+		<string name="filename" value="meshes/SM_TableWorkSecurity_005.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_TableWorkSecurity_006" name="mesh-SM_TableWorkSecurity_006">
+		<string name="filename" value="meshes/SM_TableWorkSecurity_006.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_TableWorkSecurity_007" name="mesh-SM_TableWorkSecurity_007">
+		<string name="filename" value="meshes/SM_TableWorkSecurity_007.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_TableWorkSecurity_008" name="mesh-SM_TableWorkSecurity_008">
+		<string name="filename" value="meshes/SM_TableWorkSecurity_008.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_TableWorkSecurity_009" name="mesh-SM_TableWorkSecurity_009">
+		<string name="filename" value="meshes/SM_TableWorkSecurity_009.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_TableWorkSecurity_010" name="mesh-SM_TableWorkSecurity_010">
+		<string name="filename" value="meshes/SM_TableWorkSecurity_010.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_TableWorkSecurity_011" name="mesh-SM_TableWorkSecurity_011">
+		<string name="filename" value="meshes/SM_TableWorkSecurity_011.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_TableWorkSecurity_012" name="mesh-SM_TableWorkSecurity_012">
+		<string name="filename" value="meshes/SM_TableWorkSecurity_012.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_TableWorkSecurity_013" name="mesh-SM_TableWorkSecurity_013">
+		<string name="filename" value="meshes/SM_TableWorkSecurity_013.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_TableWorkSecurity_014" name="mesh-SM_TableWorkSecurity_014">
+		<string name="filename" value="meshes/SM_TableWorkSecurity_014.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_TableWorkSecurity_015" name="mesh-SM_TableWorkSecurity_015">
+		<string name="filename" value="meshes/SM_TableWorkSecurity_015.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ToiletDoor_Door" name="mesh-SM_ToiletDoor_Door">
+		<string name="filename" value="meshes/SM_ToiletDoor_Door.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ToiletDoor_Door_001" name="mesh-SM_ToiletDoor_Door_001">
+		<string name="filename" value="meshes/SM_ToiletDoor_Door_001.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ToiletDoor_Door_004" name="mesh-SM_ToiletDoor_Door_004">
+		<string name="filename" value="meshes/SM_ToiletDoor_Door_004.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ToiletDoor_Door_007" name="mesh-SM_ToiletDoor_Door_007">
+		<string name="filename" value="meshes/SM_ToiletDoor_Door_007.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ToiletDoor_Door_009" name="mesh-SM_ToiletDoor_Door_009">
+		<string name="filename" value="meshes/SM_ToiletDoor_Door_009.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ToiletDoor_Door_010" name="mesh-SM_ToiletDoor_Door_010">
+		<string name="filename" value="meshes/SM_ToiletDoor_Door_010.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ToiletDoor_Door_011" name="mesh-SM_ToiletDoor_Door_011">
+		<string name="filename" value="meshes/SM_ToiletDoor_Door_011.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ToiletDoor_Door_014" name="mesh-SM_ToiletDoor_Door_014">
+		<string name="filename" value="meshes/SM_ToiletDoor_Door_014.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ToiletDoor_Door_016" name="mesh-SM_ToiletDoor_Door_016">
+		<string name="filename" value="meshes/SM_ToiletDoor_Door_016.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_ToiletDoor_Door_019" name="mesh-SM_ToiletDoor_Door_019">
+		<string name="filename" value="meshes/SM_ToiletDoor_Door_019.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_001" name="mesh-SM_Wall_2m_001">
+		<string name="filename" value="meshes/SM_Wall_2m_001.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_003" name="mesh-SM_Wall_2m_003">
+		<string name="filename" value="meshes/SM_Wall_2m_003.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_004" name="mesh-SM_Wall_2m_004">
+		<string name="filename" value="meshes/SM_Wall_2m_004.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_005" name="mesh-SM_Wall_2m_005">
+		<string name="filename" value="meshes/SM_Wall_2m_005.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_007" name="mesh-SM_Wall_2m_007">
+		<string name="filename" value="meshes/SM_Wall_2m_007.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_010" name="mesh-SM_Wall_2m_010">
+		<string name="filename" value="meshes/SM_Wall_2m_010.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_013" name="mesh-SM_Wall_2m_013">
+		<string name="filename" value="meshes/SM_Wall_2m_013.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_014" name="mesh-SM_Wall_2m_014">
+		<string name="filename" value="meshes/SM_Wall_2m_014.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_015" name="mesh-SM_Wall_2m_015">
+		<string name="filename" value="meshes/SM_Wall_2m_015.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_016" name="mesh-SM_Wall_2m_016">
+		<string name="filename" value="meshes/SM_Wall_2m_016.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_018" name="mesh-SM_Wall_2m_018">
+		<string name="filename" value="meshes/SM_Wall_2m_018.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_021" name="mesh-SM_Wall_2m_021">
+		<string name="filename" value="meshes/SM_Wall_2m_021.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_022" name="mesh-SM_Wall_2m_022">
+		<string name="filename" value="meshes/SM_Wall_2m_022.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_023" name="mesh-SM_Wall_2m_023">
+		<string name="filename" value="meshes/SM_Wall_2m_023.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_024" name="mesh-SM_Wall_2m_024">
+		<string name="filename" value="meshes/SM_Wall_2m_024.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_026" name="mesh-SM_Wall_2m_026">
+		<string name="filename" value="meshes/SM_Wall_2m_026.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_029" name="mesh-SM_Wall_2m_029">
+		<string name="filename" value="meshes/SM_Wall_2m_029.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_032" name="mesh-SM_Wall_2m_032">
+		<string name="filename" value="meshes/SM_Wall_2m_032.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_034" name="mesh-SM_Wall_2m_034">
+		<string name="filename" value="meshes/SM_Wall_2m_034.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_036" name="mesh-SM_Wall_2m_036">
+		<string name="filename" value="meshes/SM_Wall_2m_036.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_037" name="mesh-SM_Wall_2m_037">
+		<string name="filename" value="meshes/SM_Wall_2m_037.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_039" name="mesh-SM_Wall_2m_039">
+		<string name="filename" value="meshes/SM_Wall_2m_039.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_040" name="mesh-SM_Wall_2m_040">
+		<string name="filename" value="meshes/SM_Wall_2m_040.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_042" name="mesh-SM_Wall_2m_042">
+		<string name="filename" value="meshes/SM_Wall_2m_042.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_044" name="mesh-SM_Wall_2m_044">
+		<string name="filename" value="meshes/SM_Wall_2m_044.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_045" name="mesh-SM_Wall_2m_045">
+		<string name="filename" value="meshes/SM_Wall_2m_045.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_046" name="mesh-SM_Wall_2m_046">
+		<string name="filename" value="meshes/SM_Wall_2m_046.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_052" name="mesh-SM_Wall_2m_052">
+		<string name="filename" value="meshes/SM_Wall_2m_052.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_053" name="mesh-SM_Wall_2m_053">
+		<string name="filename" value="meshes/SM_Wall_2m_053.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_054" name="mesh-SM_Wall_2m_054">
+		<string name="filename" value="meshes/SM_Wall_2m_054.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_056" name="mesh-SM_Wall_2m_056">
+		<string name="filename" value="meshes/SM_Wall_2m_056.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_059" name="mesh-SM_Wall_2m_059">
+		<string name="filename" value="meshes/SM_Wall_2m_059.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_060" name="mesh-SM_Wall_2m_060">
+		<string name="filename" value="meshes/SM_Wall_2m_060.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_063" name="mesh-SM_Wall_2m_063">
+		<string name="filename" value="meshes/SM_Wall_2m_063.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_064" name="mesh-SM_Wall_2m_064">
+		<string name="filename" value="meshes/SM_Wall_2m_064.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_068" name="mesh-SM_Wall_2m_068">
+		<string name="filename" value="meshes/SM_Wall_2m_068.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_070" name="mesh-SM_Wall_2m_070">
+		<string name="filename" value="meshes/SM_Wall_2m_070.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_071" name="mesh-SM_Wall_2m_071">
+		<string name="filename" value="meshes/SM_Wall_2m_071.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_075" name="mesh-SM_Wall_2m_075">
+		<string name="filename" value="meshes/SM_Wall_2m_075.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_076" name="mesh-SM_Wall_2m_076">
+		<string name="filename" value="meshes/SM_Wall_2m_076.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_079" name="mesh-SM_Wall_2m_079">
+		<string name="filename" value="meshes/SM_Wall_2m_079.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_080" name="mesh-SM_Wall_2m_080">
+		<string name="filename" value="meshes/SM_Wall_2m_080.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_081" name="mesh-SM_Wall_2m_081">
+		<string name="filename" value="meshes/SM_Wall_2m_081.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_083" name="mesh-SM_Wall_2m_083">
+		<string name="filename" value="meshes/SM_Wall_2m_083.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_085" name="mesh-SM_Wall_2m_085">
+		<string name="filename" value="meshes/SM_Wall_2m_085.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_086" name="mesh-SM_Wall_2m_086">
+		<string name="filename" value="meshes/SM_Wall_2m_086.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_089" name="mesh-SM_Wall_2m_089">
+		<string name="filename" value="meshes/SM_Wall_2m_089.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_092" name="mesh-SM_Wall_2m_092">
+		<string name="filename" value="meshes/SM_Wall_2m_092.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_094" name="mesh-SM_Wall_2m_094">
+		<string name="filename" value="meshes/SM_Wall_2m_094.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_095" name="mesh-SM_Wall_2m_095">
+		<string name="filename" value="meshes/SM_Wall_2m_095.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_097" name="mesh-SM_Wall_2m_097">
+		<string name="filename" value="meshes/SM_Wall_2m_097.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_100" name="mesh-SM_Wall_2m_100">
+		<string name="filename" value="meshes/SM_Wall_2m_100.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_103" name="mesh-SM_Wall_2m_103">
+		<string name="filename" value="meshes/SM_Wall_2m_103.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_105" name="mesh-SM_Wall_2m_105">
+		<string name="filename" value="meshes/SM_Wall_2m_105.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_106" name="mesh-SM_Wall_2m_106">
+		<string name="filename" value="meshes/SM_Wall_2m_106.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_109" name="mesh-SM_Wall_2m_109">
+		<string name="filename" value="meshes/SM_Wall_2m_109.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_113" name="mesh-SM_Wall_2m_113">
+		<string name="filename" value="meshes/SM_Wall_2m_113.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_114" name="mesh-SM_Wall_2m_114">
+		<string name="filename" value="meshes/SM_Wall_2m_114.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_118" name="mesh-SM_Wall_2m_118">
+		<string name="filename" value="meshes/SM_Wall_2m_118.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_119" name="mesh-SM_Wall_2m_119">
+		<string name="filename" value="meshes/SM_Wall_2m_119.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_121" name="mesh-SM_Wall_2m_121">
+		<string name="filename" value="meshes/SM_Wall_2m_121.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_122" name="mesh-SM_Wall_2m_122">
+		<string name="filename" value="meshes/SM_Wall_2m_122.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_2m_125" name="mesh-SM_Wall_2m_125">
+		<string name="filename" value="meshes/SM_Wall_2m_125.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_002" name="mesh-SM_Wall_end_002">
+		<string name="filename" value="meshes/SM_Wall_end_002.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_005" name="mesh-SM_Wall_end_005">
+		<string name="filename" value="meshes/SM_Wall_end_005.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_007" name="mesh-SM_Wall_end_007">
+		<string name="filename" value="meshes/SM_Wall_end_007.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_009" name="mesh-SM_Wall_end_009">
+		<string name="filename" value="meshes/SM_Wall_end_009.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_011" name="mesh-SM_Wall_end_011">
+		<string name="filename" value="meshes/SM_Wall_end_011.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_013" name="mesh-SM_Wall_end_013">
+		<string name="filename" value="meshes/SM_Wall_end_013.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_014" name="mesh-SM_Wall_end_014">
+		<string name="filename" value="meshes/SM_Wall_end_014.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_016" name="mesh-SM_Wall_end_016">
+		<string name="filename" value="meshes/SM_Wall_end_016.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_020" name="mesh-SM_Wall_end_020">
+		<string name="filename" value="meshes/SM_Wall_end_020.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_021" name="mesh-SM_Wall_end_021">
+		<string name="filename" value="meshes/SM_Wall_end_021.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_022" name="mesh-SM_Wall_end_022">
+		<string name="filename" value="meshes/SM_Wall_end_022.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_023" name="mesh-SM_Wall_end_023">
+		<string name="filename" value="meshes/SM_Wall_end_023.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_028" name="mesh-SM_Wall_end_028">
+		<string name="filename" value="meshes/SM_Wall_end_028.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_029" name="mesh-SM_Wall_end_029">
+		<string name="filename" value="meshes/SM_Wall_end_029.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_031" name="mesh-SM_Wall_end_031">
+		<string name="filename" value="meshes/SM_Wall_end_031.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_032" name="mesh-SM_Wall_end_032">
+		<string name="filename" value="meshes/SM_Wall_end_032.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_033" name="mesh-SM_Wall_end_033">
+		<string name="filename" value="meshes/SM_Wall_end_033.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_035" name="mesh-SM_Wall_end_035">
+		<string name="filename" value="meshes/SM_Wall_end_035.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_036" name="mesh-SM_Wall_end_036">
+		<string name="filename" value="meshes/SM_Wall_end_036.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_039" name="mesh-SM_Wall_end_039">
+		<string name="filename" value="meshes/SM_Wall_end_039.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_040" name="mesh-SM_Wall_end_040">
+		<string name="filename" value="meshes/SM_Wall_end_040.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_044" name="mesh-SM_Wall_end_044">
+		<string name="filename" value="meshes/SM_Wall_end_044.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_045" name="mesh-SM_Wall_end_045">
+		<string name="filename" value="meshes/SM_Wall_end_045.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_048" name="mesh-SM_Wall_end_048">
+		<string name="filename" value="meshes/SM_Wall_end_048.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_049" name="mesh-SM_Wall_end_049">
+		<string name="filename" value="meshes/SM_Wall_end_049.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_052" name="mesh-SM_Wall_end_052">
+		<string name="filename" value="meshes/SM_Wall_end_052.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_054" name="mesh-SM_Wall_end_054">
+		<string name="filename" value="meshes/SM_Wall_end_054.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_055" name="mesh-SM_Wall_end_055">
+		<string name="filename" value="meshes/SM_Wall_end_055.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_057" name="mesh-SM_Wall_end_057">
+		<string name="filename" value="meshes/SM_Wall_end_057.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_058" name="mesh-SM_Wall_end_058">
+		<string name="filename" value="meshes/SM_Wall_end_058.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_059" name="mesh-SM_Wall_end_059">
+		<string name="filename" value="meshes/SM_Wall_end_059.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_062" name="mesh-SM_Wall_end_062">
+		<string name="filename" value="meshes/SM_Wall_end_062.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_064" name="mesh-SM_Wall_end_064">
+		<string name="filename" value="meshes/SM_Wall_end_064.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_065" name="mesh-SM_Wall_end_065">
+		<string name="filename" value="meshes/SM_Wall_end_065.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_068" name="mesh-SM_Wall_end_068">
+		<string name="filename" value="meshes/SM_Wall_end_068.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_069" name="mesh-SM_Wall_end_069">
+		<string name="filename" value="meshes/SM_Wall_end_069.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_071" name="mesh-SM_Wall_end_071">
+		<string name="filename" value="meshes/SM_Wall_end_071.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_072" name="mesh-SM_Wall_end_072">
+		<string name="filename" value="meshes/SM_Wall_end_072.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_074" name="mesh-SM_Wall_end_074">
+		<string name="filename" value="meshes/SM_Wall_end_074.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_075" name="mesh-SM_Wall_end_075">
+		<string name="filename" value="meshes/SM_Wall_end_075.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_078" name="mesh-SM_Wall_end_078">
+		<string name="filename" value="meshes/SM_Wall_end_078.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_080" name="mesh-SM_Wall_end_080">
+		<string name="filename" value="meshes/SM_Wall_end_080.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_081" name="mesh-SM_Wall_end_081">
+		<string name="filename" value="meshes/SM_Wall_end_081.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_084" name="mesh-SM_Wall_end_084">
+		<string name="filename" value="meshes/SM_Wall_end_084.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_085" name="mesh-SM_Wall_end_085">
+		<string name="filename" value="meshes/SM_Wall_end_085.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_087" name="mesh-SM_Wall_end_087">
+		<string name="filename" value="meshes/SM_Wall_end_087.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_089" name="mesh-SM_Wall_end_089">
+		<string name="filename" value="meshes/SM_Wall_end_089.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_091" name="mesh-SM_Wall_end_091">
+		<string name="filename" value="meshes/SM_Wall_end_091.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_093" name="mesh-SM_Wall_end_093">
+		<string name="filename" value="meshes/SM_Wall_end_093.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_095" name="mesh-SM_Wall_end_095">
+		<string name="filename" value="meshes/SM_Wall_end_095.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_096" name="mesh-SM_Wall_end_096">
+		<string name="filename" value="meshes/SM_Wall_end_096.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_098" name="mesh-SM_Wall_end_098">
+		<string name="filename" value="meshes/SM_Wall_end_098.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_101" name="mesh-SM_Wall_end_101">
+		<string name="filename" value="meshes/SM_Wall_end_101.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_102" name="mesh-SM_Wall_end_102">
+		<string name="filename" value="meshes/SM_Wall_end_102.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_104" name="mesh-SM_Wall_end_104">
+		<string name="filename" value="meshes/SM_Wall_end_104.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_106" name="mesh-SM_Wall_end_106">
+		<string name="filename" value="meshes/SM_Wall_end_106.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_107" name="mesh-SM_Wall_end_107">
+		<string name="filename" value="meshes/SM_Wall_end_107.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_110" name="mesh-SM_Wall_end_110">
+		<string name="filename" value="meshes/SM_Wall_end_110.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_111" name="mesh-SM_Wall_end_111">
+		<string name="filename" value="meshes/SM_Wall_end_111.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_114" name="mesh-SM_Wall_end_114">
+		<string name="filename" value="meshes/SM_Wall_end_114.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_116" name="mesh-SM_Wall_end_116">
+		<string name="filename" value="meshes/SM_Wall_end_116.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_117" name="mesh-SM_Wall_end_117">
+		<string name="filename" value="meshes/SM_Wall_end_117.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_119" name="mesh-SM_Wall_end_119">
+		<string name="filename" value="meshes/SM_Wall_end_119.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_120" name="mesh-SM_Wall_end_120">
+		<string name="filename" value="meshes/SM_Wall_end_120.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_123" name="mesh-SM_Wall_end_123">
+		<string name="filename" value="meshes/SM_Wall_end_123.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_125" name="mesh-SM_Wall_end_125">
+		<string name="filename" value="meshes/SM_Wall_end_125.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_127" name="mesh-SM_Wall_end_127">
+		<string name="filename" value="meshes/SM_Wall_end_127.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_Wall_end_129" name="mesh-SM_Wall_end_129">
+		<string name="filename" value="meshes/SM_Wall_end_129.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-SM_WaterCooler_001" name="mesh-SM_WaterCooler_001">
+		<string name="filename" value="meshes/SM_WaterCooler_001.ply"/>
+		<ref id="mat-itu_concrete" name="bsdf"/>
+	</shape>
+
+<!-- Volumes -->
+
+</scene>

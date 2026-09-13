@@ -1,0 +1,52 @@
+odom0: /odom_scout/odom
+odom0_config: [ true,  true,  false,  # X, Y, Z position
+                  false, false, false,  # Roll, Pitch, Yaw
+                  true,  false,  false,  # X, Y, Z velocity
+                  false, false, true,   # Roll, Pitch, Yaw velocity
+                  false, false, false ]  # X, Y, Z acceleration
+odom0_differential: true
+odom0_relative: false
+odom0_queue_size: 10
+odom0_nodelay: false
+odom0_remove_gravitational_acceleration: false
+
+  # Process noise covariance matrix (optimized for Xsens MTi-100 IMU)
+process_noise_covariance: [
+    0.05, 0,    0,     0,     0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    # X position
+    0,    0.05, 0,     0,     0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    # Y position
+    0,    0,    0.001, 0,     0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    # Z position (2D mode ignores)
+    0,    0,    0,     0.001, 0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    # Roll (disabled in 2D)
+    0,    0,    0,     0,     0.001, 0,   0,    0,    0,    0,    0,    0,    0,    0,    0,    # Pitch (disabled in 2D)
+    0,    0,    0,     0,     0,    0.01, 0,    0,    0,    0,    0,    0,    0,    0,    0,    # Yaw (tuned for Xsens)
+    0,    0,    0,     0,     0,    0,    0.1,  0,    0,    0,    0,    0,    0,    0,    0,    # X velocity
+    0,    0,    0,     0,     0,    0,    0,    0.1,  0,    0,    0,    0,    0,    0,    0,    # Y velocity
+    0,    0,    0,     0,     0,    0,    0,    0,    0.02, 0,    0,    0,    0,    0,    0,    # Z velocity (ignored)
+    0,    0,    0,     0,     0,    0,    0,    0,    0,    0.001, 0,    0,    0,    0,    0,    # Roll rate (disabled)
+    0,    0,    0,     0,     0,    0,    0,    0,    0,    0,    0.001, 0,    0,    0,    0,    # Pitch rate (disabled)
+    0,    0,    0,     0,     0,    0,    0,    0,    0,    0,    0,    0.005, 0,    0,    0,    # Yaw rate (Xsens gyro)
+    0,    0,    0,     0,     0,    0,    0,    0,    0,    0,    0,    0,    0.1,  0,    0,    # X accel (disabled)
+    0,    0,    0,     0,     0,    0,    0,    0,    0,    0,    0,    0,    0,    0.1,  0,    # Y accel (disabled)
+    0,    0,    0,     0,     0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0.1 ]  # Z accel (disabled)
+imu0: /imu/data
+imu0_config: [ false, false, false,  # X, Y, Z position
+               false, false, false,   # Roll, Pitch, Yaw
+               false, false, false, # X, Y, Z velocity
+               false, false, true,   # Roll, Pitch, Yaw velocity
+               true,  false,  false ]  # X, Y, Z acceleration
+imu0_differential: true
+imu0_relative: false
+imu0_queue_size: 10
+imu0_nodelay: false
+imu0_remove_gravitational_acceleration: true
+
+# Initial state (position, orientation, velocity)
+initial_state: [ 0.0, 0.0, 0.0,
+                   0.0, 0.0, 0.0,
+                   0.0, 0.0, 0.0,
+                   0.0, 0.0, 0.0,
+                   0.0, 0.0, 0.0 ]
+
+
+
+
+

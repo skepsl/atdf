@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-09-11T08:18:48.363216+00:00",
+  "metadata": {
+    "antenna_to_estimate_m": 5.041513919830322,
+    "kind": "measurement_posterior",
+    "move_stats": [],
+    "pf_stats": {
+      "ess": 948.897216796875,
+      "ess_before_resample": 947.3363647460938,
+      "ll_max": 51.25802993774414,
+      "ll_min": 46.41947937011719,
+      "ll_std": 0.8285900950431824,
+      "resampled": 0.0,
+      "used_real_iq_cov": 0.0
+    }
+  },
+  "run_id": "8985",
+  "schema_version": 1,
+  "step": 1
+}

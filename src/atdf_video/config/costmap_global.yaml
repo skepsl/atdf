@@ -1,0 +1,48 @@
+# global_costmap.yaml
+global_costmap:
+  global_frame: "map"
+  robot_base_frame: "base_link"
+  update_frequency: 10
+  publish_frequency: 10
+  static_map: true
+  holonomic_robot: false
+  transform_tolerance: 0.5
+#  resolution: 0.005
+#  width: 54  # meters
+#  height: 10.0 # meters
+#  origin_x: -10.0
+#  origin_y: -5.0
+
+  static_layer:
+    map_topic: "map"
+    subscribe_to_updates: true
+
+  inflation_layer:
+    enabled: true
+    inflation_radius: 1.0  # Adjust this value to keep the robot further away from obstacles
+    cost_scaling_factor: 5  # Controls how quickly the inflation decays. Higher = sharper decay
+
+  obstacle_layer:
+    enabled: true
+    obstacle_range: 2.5         # Sensor range within which obstacles are detected
+    raytrace_range: 3.0         # Range within which free space is marked
+    observation_sources: laser_scan
+
+    laser_scan: {
+      data_type: LaserScan,
+      topic: scan,
+      marking: true,
+      clearing: true,
+      max_obstacle_height: 1.5
+    }
+
+  footprint_layer:
+    enabled: true
+
+  footprint: [[-0.275, -0.3], [-0.275, 0.3], [0.275, 0.3], [0.275, -0.3]]  # Width 60 cm, Length 55 cm
+  footprint_padding: 0.05
+
+
+  plugins:
+    - {name: static_layer, type: "costmap_2d::StaticLayer"}
+    - {name: inflation_layer, type: "costmap_2d::InflationLayer"}

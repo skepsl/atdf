@@ -1,0 +1,40 @@
+local_costmap:
+  global_frame: "odom"
+  robot_base_frame: "base_link"
+  # Refresh obstacle observations every 0.1 s at the faster cruise speed.
+  update_frequency: 10.0
+  publish_frequency: 2.0
+  rolling_window: true
+  width: 10.0
+  height: 10.0
+  resolution: 0.02
+  transform_tolerance: 0.5
+
+  plugins:
+    - {name: obstacle_layer, type: "costmap_2d::ObstacleLayer"}
+    - {name: inflation_layer, type: "costmap_2d::InflationLayer"}
+
+  obstacle_layer:
+    enabled: true
+    obstacle_range: 2.5         # Sensor range within which obstacles are detected
+    raytrace_range: 3.0         # Range within which free space is marked
+    observation_sources: laser_scan
+
+    laser_scan: {
+      data_type: LaserScan,
+      topic: scan,
+      marking: true,
+      clearing: true,
+      max_obstacle_height: 1.5
+    }
+
+#  inflation_layer:
+#    enabled: true
+#    inflation_radius: 0..5  # Adjust based on how far you want to keep the robot from obstacles
+#    cost_scaling_factor: 50.0  # Lower than global for smoother local paths near obstacles
+
+  footprint_layer:
+    enabled: true
+
+  footprint: [[-0.275, -0.3], [-0.275, 0.3], [0.275, 0.3], [0.275, -0.3]]  # Width 60 cm, Length 55 cm
+  footprint_padding: 0.01
