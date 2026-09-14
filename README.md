@@ -6,6 +6,9 @@ navigation, and a Sionna RT worker in a separate Python environment.
 [Run commands](#run-commands) · [Installation](#installation) ·
 [Example images and GIF](#recorded-example) · [Simulation assets](docs/ASSETS.md)
 
+## Simulation Platform
+The simulation used in this project is available at [rfdt](https://github.com/skepsl/rfdt)
+
 ## Run commands
 
 Run these commands **from this repository's root**, using a separate terminal
